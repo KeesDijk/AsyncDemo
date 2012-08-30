@@ -3,6 +3,8 @@ AsyncDemo
 
 Demo project for a talk on Asynchronous/prallell technolgies in .net
 
+Currentlt very much a work in progress !
+
 # uses :
 ## Installed on the dev machine 
 	- VS 2010
