@@ -39,6 +39,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TPLDataflow", "TPLDataflow"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousMVCWebApplication", "AsynchronousMVCWebApplication\AsynchronousMVCWebApplication.csproj", "{B53F9EC8-A676-4547-8605-67332E0E2E0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousReactiveExtensions", "AsynchronousReactiveExtensions\AsynchronousReactiveExtensions.csproj", "{CCF93946-5495-45F6-B8EF-0065B4CDA980}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = AsynchronousDemo.vsmdi
@@ -132,6 +134,16 @@ Global
 		{B53F9EC8-A676-4547-8605-67332E0E2E0B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{B53F9EC8-A676-4547-8605-67332E0E2E0B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{B53F9EC8-A676-4547-8605-67332E0E2E0B}.Release|x86.ActiveCfg = Release|Any CPU
+		{CCF93946-5495-45F6-B8EF-0065B4CDA980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF93946-5495-45F6-B8EF-0065B4CDA980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF93946-5495-45F6-B8EF-0065B4CDA980}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CCF93946-5495-45F6-B8EF-0065B4CDA980}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CCF93946-5495-45F6-B8EF-0065B4CDA980}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CCF93946-5495-45F6-B8EF-0065B4CDA980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF93946-5495-45F6-B8EF-0065B4CDA980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF93946-5495-45F6-B8EF-0065B4CDA980}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CCF93946-5495-45F6-B8EF-0065B4CDA980}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CCF93946-5495-45F6-B8EF-0065B4CDA980}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -16,6 +16,7 @@
             menu.Add("Tasks", () => configChoice = DIConfigurationName.Tasks);
             menu.Add("Plinq", () => configChoice = DIConfigurationName.PLinq);
             menu.Add("Tpl DataFlow", () => configChoice = DIConfigurationName.TPLDataflow);
+            menu.Add("Reactive extensions", () => configChoice = DIConfigurationName.Rx);
             menu.Add("Quit", () => configChoice = DIConfigurationName.None);
             menu.Show();
             return configChoice;

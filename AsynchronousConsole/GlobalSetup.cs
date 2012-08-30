@@ -2,6 +2,7 @@
 {
     using System;
     using AsynchronousInterfaces;
+    using AsynchronousReactiveExtensions;
     using AsynchronousTPLDataFlow;
     using AsynchronousThreadAPM;
     using AsynchronousTools;
@@ -33,6 +34,9 @@
                     break;
                 case DIConfigurationName.TPLDataflow:
                     container = ConfigureTPLDataflow();
+                    break;
+                case DIConfigurationName.Rx:
+                    container = ConfigureRx();
                     break;
                 default:
                     throw new ArgumentOutOfRangeException("configName");
@@ -71,6 +75,16 @@
             var builder = new ContainerBuilder();
             builder.RegisterType<ConsoleWriter>().As<IOutputWriter>();
             builder.RegisterType<TPLDataFlowRunner>().As<IRunner>();
+
+            var container = builder.Build();
+            return container;
+        }
+
+        private static IContainer ConfigureRx()
+        {
+            var builder = new ContainerBuilder();
+            builder.RegisterType<ConsoleWriter>().As<IOutputWriter>();
+            builder.RegisterType<ReactiveExtensionsRunner>().As<IRunner>();
 
             var container = builder.Build();
             return container;

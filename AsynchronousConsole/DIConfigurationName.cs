@@ -8,6 +8,7 @@
         None, 
         Playground, 
         Illegal, 
-        TPLDataflow
+        TPLDataflow,
+        Rx
     }
 }
