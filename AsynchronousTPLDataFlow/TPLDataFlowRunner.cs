@@ -11,7 +11,7 @@
         {
             this.output = output;
         }
-        
+
         public void Run()
         {
             var ab = new ActionBlock<int>(i => this.Compute(i));
@@ -19,11 +19,14 @@
             ab.Post(1);
             ab.Post(2);
             ab.Post(3);
+
+            ab.Complete();
+            ab.Completion.Wait();
         }
 
         private void Compute(int i)
         {
-            this.output.Write("TplDataflow: {0}", i);
+            this.output.WriteLine("TplDataflow: {0}", i);
         }
     }
 }

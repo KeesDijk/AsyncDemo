@@ -2,6 +2,7 @@
 {
     using System.Threading.Tasks;
     using AsynchronousInterfaces;
+    using AsynchronousTools;
 
     internal class Program
     {
@@ -27,17 +28,23 @@
             DIConfigurationName configChoice;
             do
             {
-                configChoice = GetMainMenuChoice();
-
-                if (configChoice != DIConfigurationName.None && configChoice != DIConfigurationName.Illegal)
-                {
-                    GlobalSetup.OverRideDIConfiguration(configChoice);
-                    var runner = GlobalSetup.Resolve<IRunner>();
-                    var mainRunningTask = Task.Factory.StartNew(runner.Run);
-                    mainRunningTask.Wait();
-                }
+                configChoice = RunAsync().Result;
             }
             while (configChoice != DIConfigurationName.None);
+        }
+
+        private static async Task<DIConfigurationName> RunAsync()
+        {
+            var configChoice = GetMainMenuChoice();
+
+            if (configChoice != DIConfigurationName.None && configChoice != DIConfigurationName.Illegal)
+            {
+                GlobalSetup.OverRideDIConfiguration(configChoice);
+                var runner = GlobalSetup.Resolve<IRunner>();
+                await Task.Factory.StartNew(runner.Run);
+            }
+
+            return configChoice;
         }
     }
 }

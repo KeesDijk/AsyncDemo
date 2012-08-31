@@ -1,5 +1,6 @@
 ﻿namespace AsynchronousThreadAPM
 {
+    using System.Threading.Tasks;
     using AsynchronousInterfaces;
 
     public class APMThreadRunner : IRunner
@@ -15,7 +16,7 @@
         {
             for (var i = 0; i < 10; i++)
             {
-                this.output.Write("APMThreadRunner: {0}", i);
+                this.output.WriteLine("APMThreadRunner: {0}", i);
             }
         }
     }

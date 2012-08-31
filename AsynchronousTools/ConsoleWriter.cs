@@ -3,11 +3,16 @@
     using System;
     using AsynchronousInterfaces;
 
-    public class ConsoleWriter : IOutputWriter
+    public class SimpleConsoleWriter : IOutputWriter
     {
-        public void Write(string message, params object[] args)
+        public void Write(string format, params object[] args)
         {
-            Console.WriteLine(message, args);
+            Console.Write(format, args);
+        }
+
+        public void WriteLine(string format, params object[] args)
+        {
+            Console.WriteLine(format, args);
         }
     }
 }

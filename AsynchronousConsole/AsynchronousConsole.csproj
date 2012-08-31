@@ -37,6 +37,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AsyncCtpLibrary">
+      <HintPath>..\packages\AsyncCTP.0.3\lib\net40\AsyncCtpLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="Autofac">
       <HintPath>..\packages\Autofac.2.6.3.862\lib\NET40\Autofac.dll</HintPath>
     </Reference>
@@ -52,8 +55,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsoleMenu.cs" />
-    <Compile Include="ConsoleMenuItem.cs" />
     <Compile Include="DIConfigurationName.cs" />
     <Compile Include="GlobalSetup.cs" />
     <Compile Include="Program.cs" />
@@ -67,6 +68,10 @@
     <ProjectReference Include="..\AsynchronousInterfaces\AsynchronousInterfaces.csproj">
       <Project>{B7A4A654-7EDA-41DD-B6C3-818D4CF1026E}</Project>
       <Name>AsynchronousInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AsynchronousPlayground\AsynchronousPlayground.csproj">
+      <Project>{B9AEA137-D407-4043-91A1-51995008DCE7}</Project>
+      <Name>AsynchronousPlayground</Name>
     </ProjectReference>
     <ProjectReference Include="..\AsynchronousReactiveExtensions\AsynchronousReactiveExtensions.csproj">
       <Project>{CCF93946-5495-45F6-B8EF-0065B4CDA980}</Project>

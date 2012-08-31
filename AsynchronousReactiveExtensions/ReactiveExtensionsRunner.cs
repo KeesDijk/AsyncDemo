@@ -15,10 +15,10 @@
 
         public void Run()
         {
-            this.ouput.Write("Rx runner");
+            this.ouput.WriteLine("Rx runner");
 
             var observable = "Simple character test for Rx".ToObservable();
-            observable.Subscribe(x => this.ouput.Write("rx character : {0}", x));
+            observable.Subscribe(x => this.ouput.WriteLine("rx character : {0}", x));
         }
     }
 }

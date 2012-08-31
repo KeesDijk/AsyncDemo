@@ -1,4 +1,4 @@
-﻿namespace AsynchronousConsole
+﻿namespace AsynchronousTools
 {
     public class ConsoleMenuItem
     {

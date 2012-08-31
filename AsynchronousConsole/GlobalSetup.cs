@@ -2,10 +2,11 @@
 {
     using System;
     using AsynchronousInterfaces;
+    using AsynchronousPlayground;
     using AsynchronousReactiveExtensions;
-    using AsynchronousTPLDataFlow;
     using AsynchronousThreadAPM;
     using AsynchronousTools;
+    using AsynchronousTPLDataFlow;
     using Autofac;
 
     public static class GlobalSetup
@@ -38,6 +39,9 @@
                 case DIConfigurationName.Rx:
                     container = ConfigureRx();
                     break;
+                case DIConfigurationName.Playground:
+                    container = ConfigurePlayground();
+                    break;
                 default:
                     throw new ArgumentOutOfRangeException("configName");
             }
@@ -50,31 +54,21 @@
             return containerfield.Resolve<TService>();
         }
 
+        private static IContainer ConfigurePlayground()
+        {
+            var builder = new ContainerBuilder();
+            builder.RegisterType<LockingConsoleWriter>().As<IOutputWriter>();
+            builder.RegisterType<PlaygroundRunner>().As<IRunner>();
+
+            var container = builder.Build();
+            return container;
+        }
+
         private static IContainer ConfigurePlinq()
         {
             var builder = new ContainerBuilder();
-            builder.RegisterType<ConsoleWriter>().As<IOutputWriter>();
+            builder.RegisterType<LockingConsoleWriter>().As<IOutputWriter>();
             builder.RegisterType<APMThreadRunner>().As<IRunner>();
-
-            var container = builder.Build();
-            return container;
-        }
-
-        private static IContainer ConfigureTasks()
-        {
-            var builder = new ContainerBuilder();
-            builder.RegisterType<ConsoleWriter>().As<IOutputWriter>();
-            builder.RegisterType<APMThreadRunner>().As<IRunner>();
-
-            var container = builder.Build();
-            return container;
-        }
-
-        private static IContainer ConfigureTPLDataflow()
-        {
-            var builder = new ContainerBuilder();
-            builder.RegisterType<ConsoleWriter>().As<IOutputWriter>();
-            builder.RegisterType<TPLDataFlowRunner>().As<IRunner>();
 
             var container = builder.Build();
             return container;
@@ -83,8 +77,28 @@
         private static IContainer ConfigureRx()
         {
             var builder = new ContainerBuilder();
-            builder.RegisterType<ConsoleWriter>().As<IOutputWriter>();
+            builder.RegisterType<LockingConsoleWriter>().As<IOutputWriter>();
             builder.RegisterType<ReactiveExtensionsRunner>().As<IRunner>();
+
+            var container = builder.Build();
+            return container;
+        }
+
+        private static IContainer ConfigureTPLDataflow()
+        {
+            var builder = new ContainerBuilder();
+            builder.RegisterType<LockingConsoleWriter>().As<IOutputWriter>();
+            builder.RegisterType<TPLDataFlowRunner>().As<IRunner>();
+
+            var container = builder.Build();
+            return container;
+        }
+
+        private static IContainer ConfigureTasks()
+        {
+            var builder = new ContainerBuilder();
+            builder.RegisterType<LockingConsoleWriter>().As<IOutputWriter>();
+            builder.RegisterType<APMThreadRunner>().As<IRunner>();
 
             var container = builder.Build();
             return container;
@@ -93,7 +107,7 @@
         private static IContainer ConfigureThreads()
         {
             var builder = new ContainerBuilder();
-            builder.RegisterType<ConsoleWriter>().As<IOutputWriter>();
+            builder.RegisterType<LockingConsoleWriter>().As<IOutputWriter>();
             builder.RegisterType<APMThreadRunner>().As<IRunner>();
 
             var container = builder.Build();

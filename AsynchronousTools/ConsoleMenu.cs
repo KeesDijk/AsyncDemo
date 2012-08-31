@@ -1,4 +1,4 @@
-﻿namespace AsynchronousConsole
+﻿namespace AsynchronousTools
 {
     using System;
     using System.Collections;
@@ -16,6 +16,7 @@
 
         public void Show()
         {
+            Console.WriteLine();
             for (var i = 0; i < this.menuItems.Count; ++i)
             {
                 var mi = this.menuItems[i] as ConsoleMenuItem;
