@@ -12,6 +12,7 @@
 
             // illigal menu options will result in illigal configuration selected
             var configChoice = DIConfigurationName.Illegal;
+            menu.Add("Synchronous", () => configChoice = DIConfigurationName.Synchronous);
             menu.Add("Playground", () => configChoice = DIConfigurationName.Playground);
             menu.Add("Threads", () => configChoice = DIConfigurationName.Threads);
             menu.Add("Tasks", () => configChoice = DIConfigurationName.Tasks);

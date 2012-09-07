@@ -38,6 +38,11 @@
             }
         }
 
+        public void WriteLine()
+        {
+            this.WriteLine(string.Empty);
+        }
+
         private static string AppendThreadingInfo(
             string format, ref object[] args, int currentManagedThreadId, int? currentTaskId)
         {

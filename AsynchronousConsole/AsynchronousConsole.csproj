@@ -77,6 +77,10 @@
       <Project>{CCF93946-5495-45F6-B8EF-0065B4CDA980}</Project>
       <Name>AsynchronousReactiveExtensions</Name>
     </ProjectReference>
+    <ProjectReference Include="..\AsynchronousSyncronousStart\AsynchronousSyncronousStart.csproj">
+      <Project>{F29D75F7-F2EE-4B1D-8481-606099B3230C}</Project>
+      <Name>AsynchronousSyncronousStart</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AsynchronousThreadAPM\AsynchronousThreadAPM.csproj">
       <Project>{ECBDDA5E-A29F-4C9A-86A6-374743577628}</Project>
       <Name>AsynchronousThreadAPM</Name>
@@ -89,6 +93,9 @@
       <Project>{EFCBCAF6-7434-43E8-832A-F21198225FE0}</Project>
       <Name>AsynchronousTPLDataFlow</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="smallAvatarlogfile.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />

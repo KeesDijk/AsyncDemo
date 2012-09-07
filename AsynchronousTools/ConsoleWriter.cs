@@ -14,5 +14,10 @@
         {
             Console.WriteLine(format, args);
         }
+
+        public void WriteLine()
+        {
+            Console.WriteLine(string.Empty);
+        }
     }
 }

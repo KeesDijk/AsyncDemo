@@ -9,6 +9,7 @@
         Playground, 
         Illegal, 
         TPLDataflow,
-        Rx
+        Rx,
+        Synchronous
     }
 }

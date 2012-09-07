@@ -1,0 +1,1000 @@
+2012-08-31 15:26:43,304 [15] WARN AirBender - 5 : Toph Beifong practices lightningbending at Iroh's tea shop
+2012-08-31 15:26:43,304 [17] FATAL AirBender - 4 : Toph Beifong is knive-throwing in the southern air temple
+2012-08-31 15:26:43,304 [14] INFO AirBender - 7 : Ty Lee is fighting on a fire nation airship
+2012-08-31 15:26:43,304 [11] FATAL AirBender - 2 : Zuko is imprisoned in the earth kingdom
+2012-08-31 15:26:43,304 [6] FATAL AirBender - 0 : Mai practices metalbending at Iroh's tea shop
+2012-08-31 15:26:43,304 [10] ERROR AirBender - 1 : Ty Lee practices firebending in Ba Sing Se
+2012-08-31 15:26:43,304 [12] INFO AirBender - 3 : Mai practices waterbending in an iceberg
+2012-08-31 15:26:43,304 [13] ERROR AirBender - 6 : Appa is flying in prison
+2012-08-31 15:26:43,314 [15] INFO AirBender - 8 : Appa is flying at Iroh's tea shop
+2012-08-31 15:26:43,314 [17] FATAL AirBender - 9 : Ty Lee practices metalbending on a fire nation airship
+2012-08-31 15:26:43,314 [14] FATAL AirBender - 10 : Azula practices airbending in prison
+2012-08-31 15:26:43,314 [11] INFO AirBender - 11 : Aang is imprisoned in a swamp
+2012-08-31 15:26:43,314 [6] INFO AirBender - 12 : Ty Lee practices earthbending in an iceberg
+2012-08-31 15:26:43,334 [6] ERROR AirBender - 20 : Mai is knive-throwing in a swamp
+2012-08-31 15:26:43,344 [6] FATAL AirBender - 21 : Momo is imprisoned in prison
+2012-08-31 15:26:43,344 [6] WARN AirBender - 22 : Azula is dart-thwrowing in an iceberg
+2012-08-31 15:26:43,324 [10] ERROR AirBender - 13 : Aang is knive-throwing in the earth kingdom
+2012-08-31 15:26:43,344 [10] ERROR AirBender - 25 : Momo is knive-throwing at Iroh's tea shop
+2012-08-31 15:26:43,344 [10] FATAL AirBender - 26 : Suki practices waterbending in the southern air temple
+2012-08-31 15:26:43,334 [15] INFO AirBender - 16 : Katara practices metalbending in the earth kingdom
+2012-08-31 15:26:43,334 [12] ERROR AirBender - 14 : Zuko practices waterbending in Ba Sing Se
+2012-08-31 15:26:43,334 [17] ERROR AirBender - 17 : Aang practices metalbending in prison
+2012-08-31 15:26:43,334 [13] FATAL AirBender - 15 : Zuko practices lightningbending in the southern air temple
+2012-08-31 15:26:43,334 [11] ERROR AirBender - 19 : Zuko practices metalbending in an iceberg
+2012-08-31 15:26:43,334 [14] FATAL AirBender - 18 : Iroh is knive-throwing on a fire nation airship
+2012-08-31 15:26:43,354 [14] INFO AirBender - 36 : Jet is fighting at Iroh's tea shop
+2012-08-31 15:26:43,354 [14] FATAL AirBender - 37 : Appa is knive-throwing in Ba Sing Se
+2012-08-31 15:26:43,344 [6] INFO AirBender - 23 : Mai practices lightningbending in a swamp
+2012-08-31 15:26:43,354 [12] FATAL AirBender - 30 : Suki is knive-throwing in the southern air temple
+2012-08-31 15:26:43,364 [12] ERROR AirBender - 40 : Zuko practices firebending in an iceberg
+2012-08-31 15:26:43,344 [10] ERROR AirBender - 27 : Mai is knive-throwing in the southern air temple
+2012-08-31 15:26:43,344 [15] WARN AirBender - 28 : Azula is knive-throwing in a swamp
+2012-08-31 15:26:43,364 [15] INFO AirBender - 29 : Suki practices lightningbending in the southern air temple
+2012-08-31 15:26:43,354 [17] INFO AirBender - 31 : Toph Beifong practices lightningbending on a fire nation airship
+2012-08-31 15:26:43,354 [13] WARN AirBender - 33 : Ozai practices metalbending in Ba Sing Se
+2012-08-31 15:26:43,354 [11] FATAL AirBender - 34 : Ty Lee practices metalbending in the earth kingdom
+2012-08-31 15:26:43,374 [11] WARN AirBender - 35 : Toph Beifong practices earthbending at Iroh's tea shop
+2012-08-31 15:26:43,364 [12] ERROR AirBender - 41 : Aang is dart-thwrowing on a fire nation airship
+2012-08-31 15:26:43,354 [14] WARN AirBender - 38 : Zuko practices airbending on a fire nation airship
+2012-08-31 15:26:43,354 [6] INFO AirBender - 24 : Zuko is dart-thwrowing in prison
+2012-08-31 15:26:43,374 [6] WARN AirBender - 52 : Appa is fighting in the southern air temple
+2012-08-31 15:26:43,364 [10] ERROR AirBender - 42 : Iroh is knive-throwing in prison
+2012-08-31 15:26:43,364 [15] ERROR AirBender - 44 : Suki is fighting in Ba Sing Se
+2012-08-31 15:26:43,364 [17] FATAL AirBender - 32 : Aang practices lightningbending in prison
+2012-08-31 15:26:43,364 [13] INFO AirBender - 46 : Aang is dart-thwrowing in an iceberg
+2012-08-31 15:26:43,384 [13] ERROR AirBender - 47 : Momo practices metalbending in a swamp
+2012-08-31 15:26:43,374 [11] INFO AirBender - 48 : Appa is imprisoned in prison
+2012-08-31 15:26:43,374 [14] WARN AirBender - 39 : Toph Beifong practices lightningbending in the southern air temple
+2012-08-31 15:26:43,374 [12] INFO AirBender - 50 : Aang practices firebending in the southern air temple
+2012-08-31 15:26:43,394 [12] WARN AirBender - 51 : Zuko is fighting in a swamp
+2012-08-31 15:26:43,374 [6] ERROR AirBender - 53 : Momo is dart-thwrowing in the earth kingdom
+2012-08-31 15:26:43,374 [10] WARN AirBender - 43 : Appa practices firebending on a fire nation airship
+2012-08-31 15:26:43,384 [15] FATAL AirBender - 45 : Toph Beifong practices airbending in an iceberg
+2012-08-31 15:26:43,384 [17] FATAL AirBender - 54 : Ozai practices metalbending in a swamp
+2012-08-31 15:26:43,384 [13] INFO AirBender - 56 : Sokka practices earthbending in the southern air temple
+2012-08-31 15:26:43,404 [13] ERROR AirBender - 57 : Appa is flying in prison
+2012-08-31 15:26:43,404 [13] INFO AirBender - 70 : Katara is dart-thwrowing at Iroh's tea shop
+2012-08-31 15:26:43,384 [11] ERROR AirBender - 49 : Zuko practices firebending at Iroh's tea shop
+2012-08-31 15:26:43,384 [14] FATAL AirBender - 58 : Appa practices earthbending at Iroh's tea shop
+2012-08-31 15:26:43,394 [12] FATAL AirBender - 60 : Ozai practices airbending in a swamp
+2012-08-31 15:26:43,404 [12] WARN AirBender - 61 : Suki practices waterbending in an iceberg
+2012-08-31 15:26:43,394 [6] FATAL AirBender - 62 : Toph Beifong practices earthbending in Ba Sing Se
+2012-08-31 15:26:43,394 [10] WARN AirBender - 66 : Ty Lee is fighting in the earth kingdom
+2012-08-31 15:26:43,394 [15] WARN AirBender - 68 : Katara practices firebending in the earth kingdom
+2012-08-31 15:26:43,394 [17] WARN AirBender - 55 : Toph Beifong is imprisoned in the earth kingdom
+2012-08-31 15:26:43,414 [17] FATAL AirBender - 78 : Azula practices metalbending in a swamp
+2012-08-31 15:26:43,404 [13] ERROR AirBender - 71 : Sokka practices lightningbending in the earth kingdom
+2012-08-31 15:26:43,404 [11] INFO AirBender - 72 : Azula is dart-thwrowing in prison
+2012-08-31 15:26:43,404 [14] INFO AirBender - 59 : Ozai practices metalbending in Ba Sing Se
+2012-08-31 15:26:43,424 [14] FATAL AirBender - 84 : Ty Lee practices lightningbending in a swamp
+2012-08-31 15:26:43,414 [12] WARN AirBender - 74 : Azula is dart-thwrowing on a fire nation airship
+2012-08-31 15:26:43,414 [6] WARN AirBender - 63 : Jet practices earthbending in the earth kingdom
+2012-08-31 15:26:43,414 [10] WARN AirBender - 67 : Katara is imprisoned in prison
+2012-08-31 15:26:43,414 [15] WARN AirBender - 69 : Mai is dart-thwrowing in a swamp
+2012-08-31 15:26:43,434 [15] WARN AirBender - 92 : Sokka practices waterbending in the southern air temple
+2012-08-31 15:26:43,424 [13] FATAL AirBender - 80 : Suki practices earthbending on a fire nation airship
+2012-08-31 15:26:43,414 [17] FATAL AirBender - 79 : Jet practices waterbending at Iroh's tea shop
+2012-08-31 15:26:43,424 [11] ERROR AirBender - 73 : Azula practices metalbending in the southern air temple
+2012-08-31 15:26:43,434 [11] ERROR AirBender - 100 : Jet is flying in prison
+2012-08-31 15:26:43,424 [14] INFO AirBender - 85 : Momo practices lightningbending in a swamp
+2012-08-31 15:26:43,424 [12] FATAL AirBender - 75 : Mai is dart-thwrowing in an iceberg
+2012-08-31 15:26:43,434 [6] ERROR AirBender - 64 : Zuko practices airbending in Ba Sing Se
+2012-08-31 15:26:43,434 [10] WARN AirBender - 88 : Aang practices airbending in prison
+2012-08-31 15:26:43,434 [15] ERROR AirBender - 93 : Katara practices waterbending on a fire nation airship
+2012-08-31 15:26:43,434 [13] ERROR AirBender - 81 : Azula practices waterbending in an iceberg
+2012-08-31 15:26:43,434 [17] INFO AirBender - 96 : Momo is fighting in Ba Sing Se
+2012-08-31 15:26:43,454 [17] WARN AirBender - 97 : Ty Lee is fighting in the earth kingdom
+2012-08-31 15:26:43,444 [11] WARN AirBender - 101 : Appa is flying at Iroh's tea shop
+2012-08-31 15:26:43,454 [11] INFO AirBender - 102 : Zuko practices earthbending in a swamp
+2012-08-31 15:26:43,444 [14] INFO AirBender - 86 : Toph Beifong practices lightningbending in an iceberg
+2012-08-31 15:26:43,454 [17] FATAL AirBender - 98 : Appa is imprisoned in an iceberg
+2012-08-31 15:26:43,444 [6] WARN AirBender - 65 : Zuko practices airbending on a fire nation airship
+2012-08-31 15:26:43,444 [12] INFO AirBender - 76 : Toph Beifong is fighting in a swamp
+2012-08-31 15:26:43,444 [10] FATAL AirBender - 89 : Zuko is dart-thwrowing at Iroh's tea shop
+2012-08-31 15:26:43,454 [15] ERROR AirBender - 94 : Toph Beifong practices airbending in a swamp
+2012-08-31 15:26:43,454 [13] FATAL AirBender - 82 : Appa practices lightningbending in the southern air temple
+2012-08-31 15:26:43,474 [13] INFO AirBender - 83 : Aang is imprisoned in prison
+2012-08-31 15:26:43,474 [13] INFO AirBender - 108 : Iroh practices metalbending in the earth kingdom
+2012-08-31 15:26:43,454 [11] WARN AirBender - 103 : Katara is fighting in prison
+2012-08-31 15:26:43,464 [14] FATAL AirBender - 87 : Iroh is imprisoned in an iceberg
+2012-08-31 15:26:43,464 [17] ERROR AirBender - 99 : Appa practices lightningbending in the earth kingdom
+2012-08-31 15:26:43,464 [6] INFO AirBender - 104 : Iroh practices waterbending on a fire nation airship
+2012-08-31 15:26:43,464 [12] FATAL AirBender - 77 : Ozai practices lightningbending in Ba Sing Se
+2012-08-31 15:26:43,464 [10] INFO AirBender - 90 : Appa practices waterbending in an iceberg
+2012-08-31 15:26:43,464 [15] FATAL AirBender - 95 : Mai practices airbending in a swamp
+2012-08-31 15:26:43,484 [10] INFO AirBender - 91 : Sokka practices waterbending on a fire nation airship
+2012-08-31 15:26:43,474 [13] ERROR AirBender - 109 : Momo is fighting in an iceberg
+2012-08-31 15:26:43,484 [13] INFO AirBender - 110 : Jet practices firebending in Ba Sing Se
+2012-08-31 15:26:43,474 [11] FATAL AirBender - 112 : Katara is dart-thwrowing at Iroh's tea shop
+2012-08-31 15:26:43,474 [14] FATAL AirBender - 116 : Ty Lee practices firebending in prison
+2012-08-31 15:26:43,494 [11] FATAL AirBender - 113 : Aang is knive-throwing in a swamp
+2012-08-31 15:26:43,484 [17] INFO AirBender - 120 : Appa is knive-throwing in Ba Sing Se
+2012-08-31 15:26:43,484 [6] INFO AirBender - 105 : Momo is dart-thwrowing on a fire nation airship
+2012-08-31 15:26:43,484 [12] INFO AirBender - 124 : Suki is fighting in a swamp
+2012-08-31 15:26:43,484 [15] FATAL AirBender - 128 : Zuko practices lightningbending in the southern air temple
+2012-08-31 15:26:43,484 [10] WARN AirBender - 132 : Jet is fighting in an iceberg
+2012-08-31 15:26:43,504 [10] FATAL AirBender - 133 : Ozai practices metalbending in prison
+2012-08-31 15:26:43,494 [13] INFO AirBender - 111 : Katara is fighting in an iceberg
+2012-08-31 15:26:43,504 [13] ERROR AirBender - 136 : Mai practices earthbending in prison
+2012-08-31 15:26:43,504 [13] ERROR AirBender - 137 : Ozai practices earthbending at Iroh's tea shop
+2012-08-31 15:26:43,494 [14] INFO AirBender - 117 : Mai practices earthbending in prison
+2012-08-31 15:26:43,494 [17] FATAL AirBender - 121 : Toph Beifong practices lightningbending in an iceberg
+2012-08-31 15:26:43,494 [11] INFO AirBender - 114 : Suki practices firebending in Ba Sing Se
+2012-08-31 15:26:43,494 [6] ERROR AirBender - 106 : Mai is dart-thwrowing in Ba Sing Se
+2012-08-31 15:26:43,504 [12] INFO AirBender - 125 : Azula practices airbending on a fire nation airship
+2012-08-31 15:26:43,504 [15] INFO AirBender - 129 : Sokka practices firebending in a swamp
+2012-08-31 15:26:43,504 [10] ERROR AirBender - 134 : Aang is dart-thwrowing in Ba Sing Se
+2012-08-31 15:26:43,524 [10] ERROR AirBender - 135 : Aang is flying in a swamp
+2012-08-31 15:26:43,514 [13] ERROR AirBender - 138 : Ty Lee practices waterbending in an iceberg
+2012-08-31 15:26:43,524 [13] WARN AirBender - 139 : Ty Lee practices firebending in the southern air temple
+2012-08-31 15:26:43,514 [14] INFO AirBender - 118 : Toph Beifong practices firebending in Ba Sing Se
+2012-08-31 15:26:43,514 [17] ERROR AirBender - 122 : Sokka is flying in Ba Sing Se
+2012-08-31 15:26:43,514 [6] FATAL AirBender - 107 : Momo is imprisoned in the southern air temple
+2012-08-31 15:26:43,514 [11] WARN AirBender - 115 : Iroh is knive-throwing in the earth kingdom
+2012-08-31 15:26:43,514 [12] ERROR AirBender - 126 : Iroh practices metalbending in Ba Sing Se
+2012-08-31 15:26:43,524 [15] FATAL AirBender - 130 : Appa is dart-thwrowing in Ba Sing Se
+2012-08-31 15:26:43,524 [10] INFO AirBender - 140 : Toph Beifong is flying in the earth kingdom
+2012-08-31 15:26:43,544 [10] WARN AirBender - 141 : Suki practices airbending in prison
+2012-08-31 15:26:43,524 [13] WARN AirBender - 144 : Appa practices metalbending at Iroh's tea shop
+2012-08-31 15:26:43,534 [14] WARN AirBender - 119 : Ty Lee practices earthbending at Iroh's tea shop
+2012-08-31 15:26:43,534 [17] ERROR AirBender - 123 : Jet practices lightningbending in Ba Sing Se
+2012-08-31 15:26:43,554 [17] INFO AirBender - 164 : Ozai is dart-thwrowing in the southern air temple
+2012-08-31 15:26:43,534 [11] ERROR AirBender - 156 : Aang is knive-throwing in the earth kingdom
+2012-08-31 15:26:43,534 [12] FATAL AirBender - 127 : Suki practices airbending on a fire nation airship
+2012-08-31 15:26:43,534 [15] FATAL AirBender - 131 : Mai practices waterbending in prison
+2012-08-31 15:26:43,534 [6] ERROR AirBender - 152 : Azula practices firebending in the southern air temple
+2012-08-31 15:26:43,544 [13] ERROR AirBender - 145 : Ozai practices airbending in an iceberg
+2012-08-31 15:26:43,544 [10] FATAL AirBender - 142 : Iroh is knive-throwing in the southern air temple
+2012-08-31 15:26:43,544 [14] ERROR AirBender - 160 : Appa practices waterbending in a swamp
+2012-08-31 15:26:43,564 [14] FATAL AirBender - 161 : Zuko practices lightningbending in the earth kingdom
+2012-08-31 15:26:43,554 [17] ERROR AirBender - 165 : Momo is imprisoned on a fire nation airship
+2012-08-31 15:26:43,554 [11] WARN AirBender - 157 : Suki is flying in a swamp
+2012-08-31 15:26:43,554 [15] FATAL AirBender - 172 : Jet practices lightningbending at Iroh's tea shop
+2012-08-31 15:26:43,554 [12] WARN AirBender - 168 : Iroh is fighting in prison
+2012-08-31 15:26:43,564 [6] ERROR AirBender - 153 : Momo practices earthbending in Ba Sing Se
+2012-08-31 15:26:43,564 [13] WARN AirBender - 146 : Ty Lee practices waterbending in prison
+2012-08-31 15:26:43,564 [10] FATAL AirBender - 143 : Ty Lee practices lightningbending in a swamp
+2012-08-31 15:26:43,564 [14] FATAL AirBender - 162 : Ty Lee is imprisoned in prison
+2012-08-31 15:26:43,575 [17] ERROR AirBender - 166 : Sokka is dart-thwrowing on a fire nation airship
+2012-08-31 15:26:43,577 [11] WARN AirBender - 158 : Mai practices lightningbending in the southern air temple
+2012-08-31 15:26:43,579 [15] FATAL AirBender - 173 : Aang practices waterbending in the southern air temple
+2012-08-31 15:26:43,581 [12] INFO AirBender - 169 : Ozai is dart-thwrowing in an iceberg
+2012-08-31 15:26:43,582 [6] ERROR AirBender - 154 : Appa practices earthbending on a fire nation airship
+2012-08-31 15:26:43,584 [13] ERROR AirBender - 147 : Azula is dart-thwrowing in an iceberg
+2012-08-31 15:26:43,586 [10] ERROR AirBender - 176 : Aang practices metalbending in the earth kingdom
+2012-08-31 15:26:43,603 [10] ERROR AirBender - 177 : Iroh practices earthbending in Ba Sing Se
+2012-08-31 15:26:43,590 [14] WARN AirBender - 163 : Ty Lee is imprisoned in prison
+2012-08-31 15:26:43,593 [17] ERROR AirBender - 167 : Ty Lee is flying in Ba Sing Se
+2012-08-31 15:26:43,595 [11] INFO AirBender - 159 : Mai practices firebending in Ba Sing Se
+2012-08-31 15:26:43,602 [13] WARN AirBender - 148 : Sokka is flying in the southern air temple
+2012-08-31 15:26:43,596 [15] FATAL AirBender - 174 : Momo is fighting in Ba Sing Se
+2012-08-31 15:26:43,613 [15] ERROR AirBender - 175 : Ty Lee is knive-throwing in the earth kingdom
+2012-08-31 15:26:43,600 [6] ERROR AirBender - 155 : Mai practices lightningbending in prison
+2012-08-31 15:26:43,598 [12] INFO AirBender - 170 : Katara practices metalbending in an iceberg
+2012-08-31 15:26:43,605 [10] ERROR AirBender - 178 : Katara practices earthbending in Ba Sing Se
+2012-08-31 15:26:43,606 [14] WARN AirBender - 184 : Appa practices metalbending in the earth kingdom
+2012-08-31 15:26:43,608 [17] INFO AirBender - 192 : Mai practices metalbending in Ba Sing Se
+2012-08-31 15:26:43,610 [11] INFO AirBender - 200 : Momo practices metalbending in a swamp
+2012-08-31 15:26:43,611 [13] WARN AirBender - 149 : Azula practices firebending in the southern air temple
+2012-08-31 15:26:43,630 [13] INFO AirBender - 150 : Momo practices metalbending in prison
+2012-08-31 15:26:43,618 [6] FATAL AirBender - 216 : Katara practices metalbending on a fire nation airship
+2012-08-31 15:26:43,615 [15] ERROR AirBender - 208 : Katara practices metalbending in Ba Sing Se
+2012-08-31 15:26:43,620 [12] INFO AirBender - 171 : Mai practices airbending in an iceberg
+2012-08-31 15:26:43,622 [10] WARN AirBender - 179 : Sokka practices lightningbending on a fire nation airship
+2012-08-31 15:26:43,624 [14] WARN AirBender - 185 : Ty Lee practices airbending in prison
+2012-08-31 15:26:43,626 [17] INFO AirBender - 193 : Sokka is fighting at Iroh's tea shop
+2012-08-31 15:26:43,642 [17] INFO AirBender - 194 : Momo practices metalbending in an iceberg
+2012-08-31 15:26:43,628 [11] INFO AirBender - 201 : Suki practices airbending in a swamp
+2012-08-31 15:26:43,632 [13] FATAL AirBender - 151 : Appa is imprisoned in a swamp
+2012-08-31 15:26:43,634 [6] ERROR AirBender - 217 : Zuko practices lightningbending in Ba Sing Se
+2012-08-31 15:26:43,636 [15] ERROR AirBender - 209 : Appa practices lightningbending in the earth kingdom
+2012-08-31 15:26:43,638 [12] INFO AirBender - 224 : Mai practices metalbending in the earth kingdom
+2012-08-31 15:26:43,639 [10] WARN AirBender - 180 : Toph Beifong is knive-throwing in the southern air temple
+2012-08-31 15:26:43,641 [14] FATAL AirBender - 186 : Ty Lee is fighting in the earth kingdom
+2012-08-31 15:26:43,644 [17] ERROR AirBender - 195 : Mai is knive-throwing in Ba Sing Se
+2012-08-31 15:26:43,646 [11] WARN AirBender - 202 : Ty Lee practices earthbending in an iceberg
+2012-08-31 15:26:43,659 [14] ERROR AirBender - 187 : Zuko practices metalbending in the southern air temple
+2012-08-31 15:26:43,649 [13] FATAL AirBender - 232 : Iroh is flying in the southern air temple
+2012-08-31 15:26:43,651 [6] WARN AirBender - 218 : Sokka practices metalbending in the earth kingdom
+2012-08-31 15:26:43,654 [15] INFO AirBender - 210 : Sokka is knive-throwing in prison
+2012-08-31 15:26:43,655 [12] INFO AirBender - 225 : Aang is fighting in the southern air temple
+2012-08-31 15:26:43,657 [10] WARN AirBender - 181 : Mai practices airbending in Ba Sing Se
+2012-08-31 15:26:43,673 [10] WARN AirBender - 182 : Suki practices airbending on a fire nation airship
+2012-08-31 15:26:43,661 [17] ERROR AirBender - 196 : Momo practices firebending in an iceberg
+2012-08-31 15:26:43,662 [11] INFO AirBender - 203 : Ozai practices waterbending in the earth kingdom
+2012-08-31 15:26:43,678 [11] WARN AirBender - 204 : Katara is flying in Ba Sing Se
+2012-08-31 15:26:43,666 [13] INFO AirBender - 233 : Momo practices firebending at Iroh's tea shop
+2012-08-31 15:26:43,664 [14] INFO AirBender - 188 : Azula is flying in an iceberg
+2012-08-31 15:26:43,667 [6] ERROR AirBender - 219 : Momo is fighting at Iroh's tea shop
+2012-08-31 15:26:43,669 [15] WARN AirBender - 211 : Ty Lee practices airbending in prison
+2012-08-31 15:26:43,671 [12] WARN AirBender - 226 : Iroh practices waterbending in Ba Sing Se
+2012-08-31 15:26:43,676 [17] ERROR AirBender - 197 : Jet is imprisoned in prison
+2012-08-31 15:26:43,674 [10] ERROR AirBender - 183 : Mai is dart-thwrowing in the earth kingdom
+2012-08-31 15:26:43,695 [10] INFO AirBender - 240 : Toph Beifong is imprisoned in an iceberg
+2012-08-31 15:26:43,680 [11] FATAL AirBender - 205 : Suki is knive-throwing in the earth kingdom
+2012-08-31 15:26:43,682 [13] ERROR AirBender - 234 : Azula is fighting in the earth kingdom
+2012-08-31 15:26:43,685 [6] ERROR AirBender - 220 : Zuko is dart-thwrowing in Ba Sing Se
+2012-08-31 15:26:43,687 [15] WARN AirBender - 212 : Mai is dart-thwrowing in a swamp
+2012-08-31 15:26:43,684 [14] FATAL AirBender - 189 : Katara is flying in the earth kingdom
+2012-08-31 15:26:43,690 [12] WARN AirBender - 227 : Appa is flying in a swamp
+2012-08-31 15:26:43,692 [17] ERROR AirBender - 198 : Ty Lee practices metalbending in the earth kingdom
+2012-08-31 15:26:43,697 [10] FATAL AirBender - 241 : Iroh is fighting in the southern air temple
+2012-08-31 15:26:43,702 [13] INFO AirBender - 235 : Katara practices waterbending in the southern air temple
+2012-08-31 15:26:43,700 [11] WARN AirBender - 206 : Appa practices lightningbending at Iroh's tea shop
+2012-08-31 15:26:43,704 [6] INFO AirBender - 221 : Ty Lee is fighting in an iceberg
+2012-08-31 15:26:43,706 [15] WARN AirBender - 213 : Toph Beifong practices earthbending in a swamp
+2012-08-31 15:26:43,708 [14] WARN AirBender - 190 : Jet is knive-throwing in the southern air temple
+2012-08-31 15:26:43,709 [12] WARN AirBender - 228 : Ozai practices firebending in a swamp
+2012-08-31 15:26:43,711 [17] FATAL AirBender - 199 : Aang is knive-throwing in Ba Sing Se
+2012-08-31 15:26:43,730 [17] WARN AirBender - 248 : Katara is dart-thwrowing in an iceberg
+2012-08-31 15:26:43,716 [10] FATAL AirBender - 242 : Zuko practices waterbending in the earth kingdom
+2012-08-31 15:26:43,718 [13] INFO AirBender - 236 : Appa practices airbending in the southern air temple
+2012-08-31 15:26:43,721 [11] FATAL AirBender - 207 : Zuko practices earthbending at Iroh's tea shop
+2012-08-31 15:26:43,722 [6] INFO AirBender - 222 : Azula is dart-thwrowing in prison
+2012-08-31 15:26:43,727 [14] WARN AirBender - 191 : Toph Beifong practices airbending in the earth kingdom
+2012-08-31 15:26:43,724 [15] ERROR AirBender - 214 : Katara practices lightningbending in a swamp
+2012-08-31 15:26:43,728 [12] INFO AirBender - 229 : Momo practices waterbending at Iroh's tea shop
+2012-08-31 15:26:43,735 [10] INFO AirBender - 243 : Katara is dart-thwrowing in an iceberg
+2012-08-31 15:26:43,732 [17] WARN AirBender - 249 : Azula practices firebending in prison
+2012-08-31 15:26:43,736 [13] FATAL AirBender - 237 : Ty Lee practices earthbending in prison
+2012-08-31 15:26:43,738 [11] WARN AirBender - 256 : Toph Beifong is flying at Iroh's tea shop
+2012-08-31 15:26:43,741 [6] FATAL AirBender - 223 : Azula practices lightningbending in the southern air temple
+2012-08-31 15:26:43,744 [14] WARN AirBender - 264 : Jet practices airbending in a swamp
+2012-08-31 15:26:43,745 [15] INFO AirBender - 215 : Suki practices waterbending at Iroh's tea shop
+2012-08-31 15:26:43,749 [12] FATAL AirBender - 230 : Zuko is knive-throwing in Ba Sing Se
+2012-08-31 15:26:43,751 [10] WARN AirBender - 244 : Toph Beifong practices metalbending in prison
+2012-08-31 15:26:43,753 [17] INFO AirBender - 250 : Ty Lee is flying on a fire nation airship
+2012-08-31 15:26:43,755 [13] FATAL AirBender - 238 : Momo practices waterbending on a fire nation airship
+2012-08-31 15:26:43,757 [11] ERROR AirBender - 257 : Jet practices earthbending in the earth kingdom
+2012-08-31 15:26:43,763 [14] ERROR AirBender - 265 : Suki is imprisoned in an iceberg
+2012-08-31 15:26:43,760 [6] ERROR AirBender - 272 : Sokka is imprisoned at Iroh's tea shop
+2012-08-31 15:26:43,765 [15] WARN AirBender - 280 : Mai practices firebending in a swamp
+2012-08-31 15:26:43,767 [12] FATAL AirBender - 231 : Jet practices firebending in the southern air temple
+2012-08-31 15:26:43,785 [12] ERROR AirBender - 288 : Iroh practices lightningbending in Ba Sing Se
+2012-08-31 15:26:43,770 [10] ERROR AirBender - 245 : Aang is knive-throwing in the earth kingdom
+2012-08-31 15:26:43,772 [17] FATAL AirBender - 251 : Aang is flying in a swamp
+2012-08-31 15:26:43,774 [13] ERROR AirBender - 239 : Momo is fighting at Iroh's tea shop
+2012-08-31 15:26:43,776 [11] INFO AirBender - 258 : Appa practices earthbending at Iroh's tea shop
+2012-08-31 15:26:43,779 [14] ERROR AirBender - 266 : Momo practices airbending on a fire nation airship
+2012-08-31 15:26:43,781 [6] INFO AirBender - 273 : Aang is dart-thwrowing at Iroh's tea shop
+2012-08-31 15:26:43,783 [15] FATAL AirBender - 281 : Mai practices firebending on a fire nation airship
+2012-08-31 15:26:43,788 [12] INFO AirBender - 289 : Ty Lee is imprisoned in Ba Sing Se
+2012-08-31 15:26:43,789 [10] WARN AirBender - 246 : Katara practices waterbending in an iceberg
+2012-08-31 15:26:43,791 [17] ERROR AirBender - 252 : Zuko practices airbending in Ba Sing Se
+2012-08-31 15:26:43,793 [13] WARN AirBender - 296 : Momo practices earthbending in a swamp
+2012-08-31 15:26:43,795 [11] FATAL AirBender - 259 : Ty Lee is flying on a fire nation airship
+2012-08-31 15:26:43,797 [14] ERROR AirBender - 267 : Jet practices lightningbending in Ba Sing Se
+2012-08-31 15:26:43,799 [6] ERROR AirBender - 274 : Aang is imprisoned at Iroh's tea shop
+2012-08-31 15:26:43,803 [15] ERROR AirBender - 282 : Katara practices metalbending in prison
+2012-08-31 15:26:43,806 [12] WARN AirBender - 290 : Mai is dart-thwrowing in prison
+2012-08-31 15:26:43,807 [10] ERROR AirBender - 247 : Ozai practices earthbending in an iceberg
+2012-08-31 15:26:43,809 [17] WARN AirBender - 253 : Sokka practices metalbending in a swamp
+2012-08-31 15:26:43,811 [13] INFO AirBender - 297 : Ozai practices earthbending at Iroh's tea shop
+2012-08-31 15:26:43,815 [14] WARN AirBender - 268 : Sokka practices metalbending in the southern air temple
+2012-08-31 15:26:43,813 [11] WARN AirBender - 260 : Aang practices airbending in the southern air temple
+2012-08-31 15:26:43,817 [6] WARN AirBender - 275 : Mai practices earthbending on a fire nation airship
+2012-08-31 15:26:43,819 [15] WARN AirBender - 283 : Ozai practices waterbending at Iroh's tea shop
+2012-08-31 15:26:43,822 [12] WARN AirBender - 291 : Ozai is dart-thwrowing in prison
+2012-08-31 15:26:43,823 [10] WARN AirBender - 304 : Appa is imprisoned in a swamp
+2012-08-31 15:26:43,825 [17] ERROR AirBender - 254 : Mai practices waterbending in Ba Sing Se
+2012-08-31 15:26:43,830 [13] INFO AirBender - 298 : Azula is knive-throwing at Iroh's tea shop
+2012-08-31 15:26:43,832 [14] ERROR AirBender - 269 : Toph Beifong practices airbending in prison
+2012-08-31 15:26:43,834 [11] FATAL AirBender - 261 : Mai is fighting in prison
+2012-08-31 15:26:43,837 [6] WARN AirBender - 276 : Jet practices metalbending on a fire nation airship
+2012-08-31 15:26:43,839 [15] INFO AirBender - 284 : Sokka practices airbending on a fire nation airship
+2012-08-31 15:26:43,840 [12] ERROR AirBender - 292 : Katara practices metalbending in Ba Sing Se
+2012-08-31 15:26:43,842 [10] INFO AirBender - 305 : Appa practices waterbending in the earth kingdom
+2012-08-31 15:26:43,847 [17] ERROR AirBender - 255 : Toph Beifong is knive-throwing on a fire nation airship
+2012-08-31 15:26:43,850 [13] FATAL AirBender - 299 : Ty Lee practices lightningbending on a fire nation airship
+2012-08-31 15:26:43,851 [14] FATAL AirBender - 270 : Toph Beifong practices waterbending in prison
+2012-08-31 15:26:43,869 [14] FATAL AirBender - 271 : Mai is flying in Ba Sing Se
+2012-08-31 15:26:43,856 [6] ERROR AirBender - 277 : Jet practices firebending in the earth kingdom
+2012-08-31 15:26:43,854 [11] INFO AirBender - 262 : Zuko practices waterbending in Ba Sing Se
+2012-08-31 15:26:43,857 [15] WARN AirBender - 285 : Momo is flying in the earth kingdom
+2012-08-31 15:26:43,859 [12] WARN AirBender - 293 : Azula practices waterbending in a swamp
+2012-08-31 15:26:43,863 [10] WARN AirBender - 306 : Iroh practices earthbending in prison
+2012-08-31 15:26:43,865 [17] INFO AirBender - 312 : Appa practices firebending in an iceberg
+2012-08-31 15:26:43,867 [13] WARN AirBender - 300 : Ozai practices earthbending in a swamp
+2012-08-31 15:26:43,871 [14] FATAL AirBender - 320 : Toph Beifong is fighting in the southern air temple
+2012-08-31 15:26:43,873 [6] INFO AirBender - 278 : Ty Lee practices waterbending in prison
+2012-08-31 15:26:43,875 [11] FATAL AirBender - 263 : Jet is flying in an iceberg
+2012-08-31 15:26:43,877 [15] WARN AirBender - 286 : Jet practices waterbending in the earth kingdom
+2012-08-31 15:26:43,880 [12] WARN AirBender - 294 : Azula practices waterbending in an iceberg
+2012-08-31 15:26:43,882 [10] INFO AirBender - 307 : Ozai practices firebending at Iroh's tea shop
+2012-08-31 15:26:43,884 [17] FATAL AirBender - 313 : Ozai practices airbending in an iceberg
+2012-08-31 15:26:43,886 [13] WARN AirBender - 301 : Ty Lee practices airbending in the southern air temple
+2012-08-31 15:26:43,888 [14] WARN AirBender - 321 : Appa is dart-thwrowing in Ba Sing Se
+2012-08-31 15:26:43,890 [6] WARN AirBender - 279 : Appa practices firebending on a fire nation airship
+2012-08-31 15:26:43,896 [15] WARN AirBender - 287 : Sokka practices earthbending in the earth kingdom
+2012-08-31 15:26:43,894 [11] WARN AirBender - 328 : Katara practices waterbending on a fire nation airship
+2012-08-31 15:26:43,898 [12] INFO AirBender - 295 : Iroh is knive-throwing at Iroh's tea shop
+2012-08-31 15:26:43,900 [10] FATAL AirBender - 308 : Mai is flying in prison
+2012-08-31 15:26:43,903 [17] INFO AirBender - 314 : Momo is fighting on a fire nation airship
+2012-08-31 15:26:43,905 [13] WARN AirBender - 302 : Ty Lee practices airbending on a fire nation airship
+2012-08-31 15:26:43,906 [14] ERROR AirBender - 322 : Appa practices airbending on a fire nation airship
+2012-08-31 15:26:43,924 [14] FATAL AirBender - 323 : Aang is dart-thwrowing in a swamp
+2012-08-31 15:26:43,911 [15] WARN AirBender - 344 : Zuko practices waterbending in the earth kingdom
+2012-08-31 15:26:43,913 [11] INFO AirBender - 329 : Ty Lee practices earthbending in Ba Sing Se
+2012-08-31 15:26:43,909 [6] INFO AirBender - 336 : Aang is flying in prison
+2012-08-31 15:26:43,916 [12] WARN AirBender - 352 : Sokka is fighting on a fire nation airship
+2012-08-31 15:26:43,918 [10] ERROR AirBender - 309 : Suki is knive-throwing in the earth kingdom
+2012-08-31 15:26:43,920 [17] FATAL AirBender - 315 : Jet practices airbending in Ba Sing Se
+2012-08-31 15:26:43,922 [13] INFO AirBender - 303 : Aang practices firebending in the southern air temple
+2012-08-31 15:26:43,928 [14] ERROR AirBender - 324 : Iroh practices waterbending in a swamp
+2012-08-31 15:26:43,929 [15] WARN AirBender - 345 : Ozai is fighting on a fire nation airship
+2012-08-31 15:26:43,931 [11] FATAL AirBender - 330 : Katara practices waterbending in the southern air temple
+2012-08-31 15:26:43,933 [6] FATAL AirBender - 337 : Toph Beifong practices waterbending in prison
+2012-08-31 15:26:43,935 [12] FATAL AirBender - 353 : Toph Beifong practices metalbending in the southern air temple
+2012-08-31 15:26:43,938 [17] INFO AirBender - 316 : Suki is dart-thwrowing in the earth kingdom
+2012-08-31 15:26:43,936 [10] INFO AirBender - 310 : Katara practices firebending in an iceberg
+2012-08-31 15:26:43,941 [13] FATAL AirBender - 360 : Jet is fighting in the southern air temple
+2012-08-31 15:26:43,944 [14] ERROR AirBender - 325 : Toph Beifong is imprisoned on a fire nation airship
+2012-08-31 15:26:43,946 [15] WARN AirBender - 346 : Toph Beifong practices lightningbending in the earth kingdom
+2012-08-31 15:26:43,949 [11] WARN AirBender - 331 : Zuko practices earthbending on a fire nation airship
+2012-08-31 15:26:43,952 [6] FATAL AirBender - 338 : Aang practices metalbending in an iceberg
+2012-08-31 15:26:43,954 [12] FATAL AirBender - 354 : Zuko is imprisoned in the earth kingdom
+2012-08-31 15:26:43,956 [17] INFO AirBender - 317 : Momo is dart-thwrowing on a fire nation airship
+2012-08-31 15:26:43,958 [10] FATAL AirBender - 311 : Katara practices lightningbending on a fire nation airship
+2012-08-31 15:26:43,960 [13] WARN AirBender - 361 : Jet is knive-throwing at Iroh's tea shop
+2012-08-31 15:26:43,962 [14] ERROR AirBender - 326 : Mai is fighting in the southern air temple
+2012-08-31 15:26:43,965 [15] WARN AirBender - 347 : Katara is fighting in an iceberg
+2012-08-31 15:26:43,969 [11] ERROR AirBender - 332 : Zuko is knive-throwing in an iceberg
+2012-08-31 15:26:43,970 [6] WARN AirBender - 339 : Zuko practices waterbending in prison
+2012-08-31 15:26:43,972 [12] WARN AirBender - 355 : Sokka practices metalbending in the earth kingdom
+2012-08-31 15:26:43,976 [17] FATAL AirBender - 318 : Momo practices metalbending at Iroh's tea shop
+2012-08-31 15:26:43,977 [10] INFO AirBender - 376 : Toph Beifong is fighting in an iceberg
+2012-08-31 15:26:43,979 [13] ERROR AirBender - 362 : Iroh practices airbending in a swamp
+2012-08-31 15:26:43,983 [14] INFO AirBender - 327 : Sokka is dart-thwrowing in an iceberg
+2012-08-31 15:26:43,985 [15] FATAL AirBender - 348 : Momo practices lightningbending at Iroh's tea shop
+2012-08-31 15:26:43,987 [11] INFO AirBender - 333 : Ty Lee practices metalbending in Ba Sing Se
+2012-08-31 15:26:43,989 [6] FATAL AirBender - 340 : Sokka practices waterbending at Iroh's tea shop
+2012-08-31 15:26:43,991 [12] WARN AirBender - 356 : Appa is fighting in the earth kingdom
+2012-08-31 15:26:43,994 [17] WARN AirBender - 319 : Sokka is fighting in Ba Sing Se
+2012-08-31 15:26:43,996 [10] INFO AirBender - 377 : Sokka is flying at Iroh's tea shop
+2012-08-31 15:26:43,999 [13] INFO AirBender - 363 : Momo is knive-throwing in a swamp
+2012-08-31 15:26:44,001 [14] ERROR AirBender - 392 : Katara is fighting in a swamp
+2012-08-31 15:26:44,003 [15] ERROR AirBender - 349 : Katara is fighting in prison
+2012-08-31 15:26:44,021 [15] ERROR AirBender - 350 : Katara is dart-thwrowing in Ba Sing Se
+2012-08-31 15:26:44,007 [11] FATAL AirBender - 334 : Mai practices firebending in a swamp
+2012-08-31 15:26:44,009 [6] FATAL AirBender - 341 : Azula practices lightningbending in Ba Sing Se
+2012-08-31 15:26:44,011 [12] INFO AirBender - 357 : Jet is flying at Iroh's tea shop
+2012-08-31 15:26:44,013 [17] ERROR AirBender - 408 : Suki is fighting in an iceberg
+2012-08-31 15:26:44,017 [13] WARN AirBender - 364 : Ty Lee is fighting in the earth kingdom
+2012-08-31 15:26:44,015 [10] WARN AirBender - 378 : Zuko practices lightningbending on a fire nation airship
+2012-08-31 15:26:44,019 [14] INFO AirBender - 393 : Iroh is knive-throwing in a swamp
+2012-08-31 15:26:44,023 [15] WARN AirBender - 351 : Zuko practices waterbending in the earth kingdom
+2012-08-31 15:26:44,024 [11] WARN AirBender - 335 : Appa is flying in a swamp
+2012-08-31 15:26:44,029 [6] FATAL AirBender - 342 : Aang practices lightningbending in prison
+2012-08-31 15:26:44,031 [12] WARN AirBender - 358 : Appa practices airbending in the earth kingdom
+2012-08-31 15:26:44,033 [17] FATAL AirBender - 409 : Toph Beifong practices earthbending in Ba Sing Se
+2012-08-31 15:26:44,035 [13] INFO AirBender - 365 : Azula practices metalbending in the southern air temple
+2012-08-31 15:26:44,036 [10] WARN AirBender - 379 : Aang practices waterbending in a swamp
+2012-08-31 15:26:44,039 [14] ERROR AirBender - 394 : Suki practices firebending on a fire nation airship
+2012-08-31 15:26:44,041 [15] ERROR AirBender - 424 : Momo is fighting in Ba Sing Se
+2012-08-31 15:26:44,044 [11] WARN AirBender - 440 : Sokka is fighting at Iroh's tea shop
+2012-08-31 15:26:44,047 [6] INFO AirBender - 343 : Momo is dart-thwrowing in the southern air temple
+2012-08-31 15:26:44,050 [12] FATAL AirBender - 359 : Toph Beifong practices lightningbending at Iroh's tea shop
+2012-08-31 15:26:44,052 [17] WARN AirBender - 410 : Jet is dart-thwrowing in a swamp
+2012-08-31 15:26:44,054 [13] FATAL AirBender - 366 : Iroh practices metalbending at Iroh's tea shop
+2012-08-31 15:26:44,056 [10] INFO AirBender - 380 : Sokka is dart-thwrowing in a swamp
+2012-08-31 15:26:44,059 [14] WARN AirBender - 395 : Katara practices lightningbending in an iceberg
+2012-08-31 15:26:44,061 [15] FATAL AirBender - 425 : Mai is fighting in a swamp
+2012-08-31 15:26:44,064 [11] FATAL AirBender - 441 : Katara practices airbending in the southern air temple
+2012-08-31 15:26:44,067 [6] FATAL AirBender - 456 : Azula is fighting in prison
+2012-08-31 15:26:44,069 [12] WARN AirBender - 472 : Ty Lee is fighting in Ba Sing Se
+2012-08-31 15:26:44,071 [17] ERROR AirBender - 411 : Iroh practices firebending in an iceberg
+2012-08-31 15:26:44,075 [10] WARN AirBender - 381 : Jet practices metalbending in prison
+2012-08-31 15:26:44,073 [13] WARN AirBender - 367 : Mai is knive-throwing in an iceberg
+2012-08-31 15:26:44,077 [14] INFO AirBender - 396 : Ty Lee practices waterbending in the southern air temple
+2012-08-31 15:26:44,079 [15] INFO AirBender - 426 : Momo is flying in a swamp
+2012-08-31 15:26:44,081 [11] INFO AirBender - 442 : Ozai practices lightningbending in an iceberg
+2012-08-31 15:26:44,084 [6] WARN AirBender - 457 : Toph Beifong is imprisoned in the southern air temple
+2012-08-31 15:26:44,087 [12] FATAL AirBender - 473 : Jet practices lightningbending in an iceberg
+2012-08-31 15:26:44,089 [17] WARN AirBender - 412 : Momo is knive-throwing in prison
+2012-08-31 15:26:44,091 [10] INFO AirBender - 382 : Momo practices lightningbending in the earth kingdom
+2012-08-31 15:26:44,094 [13] FATAL AirBender - 368 : Suki is fighting in an iceberg
+2012-08-31 15:26:44,096 [14] INFO AirBender - 397 : Suki is flying in the earth kingdom
+2012-08-31 15:26:44,097 [15] INFO AirBender - 427 : Azula is flying in an iceberg
+2012-08-31 15:26:44,116 [15] WARN AirBender - 428 : Katara practices firebending in Ba Sing Se
+2012-08-31 15:26:44,103 [6] WARN AirBender - 458 : Azula is imprisoned in prison
+2012-08-31 15:26:44,105 [12] ERROR AirBender - 474 : Sokka is knive-throwing on a fire nation airship
+2012-08-31 15:26:44,101 [11] FATAL AirBender - 443 : Suki is dart-thwrowing in the southern air temple
+2012-08-31 15:26:44,107 [17] ERROR AirBender - 413 : Toph Beifong is flying in a swamp
+2012-08-31 15:26:44,110 [10] ERROR AirBender - 383 : Ozai practices firebending in the earth kingdom
+2012-08-31 15:26:44,112 [13] INFO AirBender - 369 : Sokka is fighting in prison
+2012-08-31 15:26:44,114 [14] INFO AirBender - 398 : Appa practices firebending at Iroh's tea shop
+2012-08-31 15:26:44,118 [15] ERROR AirBender - 429 : Aang is flying at Iroh's tea shop
+2012-08-31 15:26:44,120 [6] ERROR AirBender - 459 : Sokka is knive-throwing in the earth kingdom
+2012-08-31 15:26:44,122 [12] ERROR AirBender - 475 : Katara is fighting in the southern air temple
+2012-08-31 15:26:44,124 [11] INFO AirBender - 444 : Ty Lee is flying in an iceberg
+2012-08-31 15:26:44,140 [11] WARN AirBender - 445 : Ty Lee is fighting on a fire nation airship
+2012-08-31 15:26:44,143 [11] FATAL AirBender - 446 : Toph Beifong is dart-thwrowing at Iroh's tea shop
+2012-08-31 15:26:44,128 [10] INFO AirBender - 384 : Suki practices lightningbending in the southern air temple
+2012-08-31 15:26:44,131 [13] INFO AirBender - 370 : Zuko practices metalbending in an iceberg
+2012-08-31 15:26:44,133 [14] ERROR AirBender - 399 : Zuko is imprisoned in a swamp
+2012-08-31 15:26:44,126 [17] FATAL AirBender - 414 : Momo practices earthbending in a swamp
+2012-08-31 15:26:44,135 [15] ERROR AirBender - 430 : Appa practices airbending in the earth kingdom
+2012-08-31 15:26:44,139 [12] WARN AirBender - 476 : Momo practices lightningbending on a fire nation airship
+2012-08-31 15:26:44,137 [6] ERROR AirBender - 460 : Katara is fighting at Iroh's tea shop
+2012-08-31 15:26:44,145 [11] FATAL AirBender - 447 : Suki practices metalbending in Ba Sing Se
+2012-08-31 15:26:44,147 [10] INFO AirBender - 385 : Ty Lee is imprisoned in an iceberg
+2012-08-31 15:26:44,149 [13] INFO AirBender - 371 : Suki is knive-throwing at Iroh's tea shop
+2012-08-31 15:26:44,150 [14] FATAL AirBender - 400 : Azula practices airbending in the earth kingdom
+2012-08-31 15:26:44,152 [17] WARN AirBender - 415 : Aang practices metalbending in prison
+2012-08-31 15:26:44,153 [15] ERROR AirBender - 431 : Appa practices airbending in the southern air temple
+2012-08-31 15:26:44,155 [12] FATAL AirBender - 477 : Appa is fighting in an iceberg
+2012-08-31 15:26:44,159 [6] ERROR AirBender - 461 : Sokka is fighting in Ba Sing Se
+2012-08-31 15:26:44,162 [11] WARN AirBender - 448 : Azula practices lightningbending in prison
+2012-08-31 15:26:44,178 [11] FATAL AirBender - 449 : Aang practices firebending in the earth kingdom
+2012-08-31 15:26:44,165 [10] ERROR AirBender - 386 : Aang practices earthbending in the earth kingdom
+2012-08-31 15:26:44,166 [13] WARN AirBender - 372 : Momo is fighting in an iceberg
+2012-08-31 15:26:44,168 [14] INFO AirBender - 401 : Katara is knive-throwing in a swamp
+2012-08-31 15:26:44,185 [14] FATAL AirBender - 402 : Suki practices airbending in Ba Sing Se
+2012-08-31 15:26:44,172 [15] ERROR AirBender - 432 : Azula is dart-thwrowing on a fire nation airship
+2012-08-31 15:26:44,170 [17] ERROR AirBender - 416 : Suki practices firebending in the earth kingdom
+2012-08-31 15:26:44,173 [12] WARN AirBender - 478 : Toph Beifong is knive-throwing in an iceberg
+2012-08-31 15:26:44,176 [6] ERROR AirBender - 462 : Toph Beifong is fighting on a fire nation airship
+2012-08-31 15:26:44,180 [11] WARN AirBender - 450 : Katara is fighting in prison
+2012-08-31 15:26:44,182 [10] FATAL AirBender - 387 : Momo practices airbending in prison
+2012-08-31 15:26:44,183 [13] FATAL AirBender - 373 : Jet practices earthbending in the earth kingdom
+2012-08-31 15:26:44,187 [14] FATAL AirBender - 403 : Katara practices earthbending in the southern air temple
+2012-08-31 15:26:44,189 [15] ERROR AirBender - 433 : Mai practices airbending on a fire nation airship
+2012-08-31 15:26:44,191 [17] ERROR AirBender - 417 : Momo is dart-thwrowing in prison
+2012-08-31 15:26:44,219 [17] WARN AirBender - 418 : Ty Lee practices firebending in prison
+2012-08-31 15:26:44,208 [12] INFO AirBender - 479 : Iroh practices firebending on a fire nation airship
+2012-08-31 15:26:44,209 [6] INFO AirBender - 463 : Ozai is imprisoned in an iceberg
+2012-08-31 15:26:44,211 [11] INFO AirBender - 451 : Azula is fighting at Iroh's tea shop
+2012-08-31 15:26:44,212 [10] INFO AirBender - 388 : Zuko practices lightningbending at Iroh's tea shop
+2012-08-31 15:26:44,214 [13] INFO AirBender - 374 : Azula practices lightningbending on a fire nation airship
+2012-08-31 15:26:44,230 [13] FATAL AirBender - 375 : Aang practices airbending in the earth kingdom
+2012-08-31 15:26:44,218 [15] WARN AirBender - 434 : Momo is knive-throwing in an iceberg
+2012-08-31 15:26:44,216 [14] ERROR AirBender - 404 : Ty Lee is dart-thwrowing in an iceberg
+2012-08-31 15:26:44,221 [17] FATAL AirBender - 419 : Toph Beifong practices waterbending in the earth kingdom
+2012-08-31 15:26:44,223 [12] WARN AirBender - 480 : Azula is flying in prison
+2012-08-31 15:26:44,224 [6] FATAL AirBender - 464 : Iroh practices firebending at Iroh's tea shop
+2012-08-31 15:26:44,226 [11] WARN AirBender - 452 : Katara practices airbending in an iceberg
+2012-08-31 15:26:44,228 [10] ERROR AirBender - 389 : Ty Lee is fighting in Ba Sing Se
+2012-08-31 15:26:44,245 [10] FATAL AirBender - 390 : Zuko is imprisoned in prison
+2012-08-31 15:26:44,232 [13] INFO AirBender - 488 : Ozai practices firebending in prison
+2012-08-31 15:26:44,233 [15] ERROR AirBender - 435 : Jet practices lightningbending in an iceberg
+2012-08-31 15:26:44,250 [15] FATAL AirBender - 436 : Azula is flying at Iroh's tea shop
+2012-08-31 15:26:44,235 [14] WARN AirBender - 405 : Iroh practices earthbending at Iroh's tea shop
+2012-08-31 15:26:44,237 [17] FATAL AirBender - 420 : Aang practices waterbending on a fire nation airship
+2012-08-31 15:26:44,239 [12] INFO AirBender - 481 : Appa practices waterbending in a swamp
+2012-08-31 15:26:44,241 [6] INFO AirBender - 465 : Azula practices earthbending in Ba Sing Se
+2012-08-31 15:26:44,242 [11] WARN AirBender - 453 : Aang practices earthbending in a swamp
+2012-08-31 15:26:44,260 [11] FATAL AirBender - 454 : Momo is flying in an iceberg
+2012-08-31 15:26:44,246 [10] WARN AirBender - 391 : Azula practices metalbending in an iceberg
+2012-08-31 15:26:44,248 [13] WARN AirBender - 489 : Zuko practices metalbending at Iroh's tea shop
+2012-08-31 15:26:44,251 [15] INFO AirBender - 437 : Toph Beifong is fighting in an iceberg
+2012-08-31 15:26:44,267 [15] FATAL AirBender - 438 : Sokka is dart-thwrowing in Ba Sing Se
+2012-08-31 15:26:44,254 [17] WARN AirBender - 421 : Suki is knive-throwing in the southern air temple
+2012-08-31 15:26:44,253 [14] FATAL AirBender - 406 : Iroh practices metalbending at Iroh's tea shop
+2012-08-31 15:26:44,256 [12] ERROR AirBender - 482 : Toph Beifong is dart-thwrowing in the earth kingdom
+2012-08-31 15:26:44,257 [6] ERROR AirBender - 466 : Jet is flying in Ba Sing Se
+2012-08-31 15:26:44,262 [11] INFO AirBender - 455 : Ty Lee is knive-throwing in a swamp
+2012-08-31 15:26:44,264 [10] WARN AirBender - 504 : Appa practices waterbending at Iroh's tea shop
+2012-08-31 15:26:44,265 [13] WARN AirBender - 490 : Iroh practices firebending at Iroh's tea shop
+2012-08-31 15:26:44,281 [13] INFO AirBender - 491 : Sokka practices earthbending in the earth kingdom
+2012-08-31 15:26:44,269 [15] INFO AirBender - 439 : Iroh is knive-throwing on a fire nation airship
+2012-08-31 15:26:44,271 [17] WARN AirBender - 422 : Ozai practices waterbending in prison
+2012-08-31 15:26:44,272 [14] ERROR AirBender - 407 : Ozai practices metalbending at Iroh's tea shop
+2012-08-31 15:26:44,274 [12] WARN AirBender - 483 : Mai practices metalbending in Ba Sing Se
+2012-08-31 15:26:44,276 [6] ERROR AirBender - 467 : Appa is imprisoned in prison
+2012-08-31 15:26:44,277 [11] INFO AirBender - 520 : Mai is knive-throwing in prison
+2012-08-31 15:26:44,284 [15] ERROR AirBender - 536 : Ty Lee practices airbending in the southern air temple
+2012-08-31 15:26:44,279 [10] INFO AirBender - 505 : Momo is flying in an iceberg
+2012-08-31 15:26:44,283 [13] INFO AirBender - 492 : Iroh practices earthbending on a fire nation airship
+2012-08-31 15:26:44,299 [13] ERROR AirBender - 493 : Toph Beifong practices firebending on a fire nation airship
+2012-08-31 15:26:44,286 [17] FATAL AirBender - 423 : Zuko is knive-throwing in a swamp
+2012-08-31 15:26:44,288 [14] FATAL AirBender - 552 : Toph Beifong practices airbending in an iceberg
+2012-08-31 15:26:44,304 [14] INFO AirBender - 553 : Ozai is imprisoned at Iroh's tea shop
+2012-08-31 15:26:44,289 [12] INFO AirBender - 484 : Appa practices earthbending on a fire nation airship
+2012-08-31 15:26:44,291 [6] INFO AirBender - 468 : Ozai is imprisoned in Ba Sing Se
+2012-08-31 15:26:44,293 [11] WARN AirBender - 521 : Iroh practices airbending in Ba Sing Se
+2012-08-31 15:26:44,295 [15] ERROR AirBender - 537 : Katara is dart-thwrowing in an iceberg
+2012-08-31 15:26:44,297 [10] INFO AirBender - 506 : Sokka practices lightningbending on a fire nation airship
+2012-08-31 15:26:44,301 [13] ERROR AirBender - 494 : Ty Lee practices waterbending in Ba Sing Se
+2012-08-31 15:26:44,303 [17] WARN AirBender - 568 : Ty Lee practices waterbending in a swamp
+2012-08-31 15:26:44,306 [14] FATAL AirBender - 554 : Appa is dart-thwrowing in a swamp
+2012-08-31 15:26:44,318 [13] FATAL AirBender - 495 : Azula practices waterbending in Ba Sing Se
+2012-08-31 15:26:44,321 [14] ERROR AirBender - 555 : Aang is knive-throwing in a swamp
+2012-08-31 15:26:44,310 [6] WARN AirBender - 469 : Ty Lee is fighting in the earth kingdom
+2012-08-31 15:26:44,308 [12] ERROR AirBender - 485 : Sokka is knive-throwing on a fire nation airship
+2012-08-31 15:26:44,314 [15] FATAL AirBender - 538 : Jet practices airbending at Iroh's tea shop
+2012-08-31 15:26:44,312 [11] FATAL AirBender - 522 : Sokka practices metalbending in the southern air temple
+2012-08-31 15:26:44,316 [10] INFO AirBender - 507 : Ty Lee practices metalbending in the southern air temple
+2012-08-31 15:26:44,320 [17] WARN AirBender - 569 : Suki is fighting in the earth kingdom
+2012-08-31 15:26:44,323 [13] FATAL AirBender - 496 : Sokka practices metalbending in the southern air temple
+2012-08-31 15:26:44,324 [14] INFO AirBender - 556 : Iroh is flying in the earth kingdom
+2012-08-31 15:26:44,326 [6] INFO AirBender - 470 : Katara is knive-throwing in the southern air temple
+2012-08-31 15:26:44,338 [13] WARN AirBender - 497 : Toph Beifong practices waterbending in prison
+2012-08-31 15:26:44,328 [12] INFO AirBender - 486 : Ty Lee practices firebending in a swamp
+2012-08-31 15:26:44,329 [15] INFO AirBender - 539 : Suki practices waterbending in Ba Sing Se
+2012-08-31 15:26:44,332 [11] INFO AirBender - 523 : Ozai practices metalbending at Iroh's tea shop
+2012-08-31 15:26:44,334 [10] ERROR AirBender - 508 : Iroh practices lightningbending at Iroh's tea shop
+2012-08-31 15:26:44,336 [17] WARN AirBender - 570 : Mai is flying in the southern air temple
+2012-08-31 15:26:44,354 [17] FATAL AirBender - 571 : Appa is fighting in an iceberg
+2012-08-31 15:26:44,340 [14] FATAL AirBender - 557 : Momo practices lightningbending in the earth kingdom
+2012-08-31 15:26:44,344 [13] ERROR AirBender - 498 : Azula is fighting at Iroh's tea shop
+2012-08-31 15:26:44,342 [6] INFO AirBender - 471 : Momo practices metalbending at Iroh's tea shop
+2012-08-31 15:26:44,346 [12] WARN AirBender - 487 : Sokka practices metalbending in the southern air temple
+2012-08-31 15:26:44,348 [15] ERROR AirBender - 540 : Iroh is fighting in prison
+2012-08-31 15:26:44,365 [15] ERROR AirBender - 541 : Iroh practices waterbending in prison
+2012-08-31 15:26:44,350 [11] FATAL AirBender - 524 : Iroh is dart-thwrowing in the southern air temple
+2012-08-31 15:26:44,352 [10] WARN AirBender - 509 : Appa is knive-throwing in Ba Sing Se
+2012-08-31 15:26:44,356 [17] WARN AirBender - 572 : Iroh practices metalbending in a swamp
+2012-08-31 15:26:44,371 [17] ERROR AirBender - 573 : Appa is fighting in an iceberg
+2012-08-31 15:26:44,359 [13] FATAL AirBender - 499 : Mai practices earthbending on a fire nation airship
+2012-08-31 15:26:44,357 [14] INFO AirBender - 558 : Zuko is fighting in Ba Sing Se
+2012-08-31 15:26:44,361 [6] ERROR AirBender - 584 : Zuko is dart-thwrowing at Iroh's tea shop
+2012-08-31 15:26:44,378 [6] INFO AirBender - 585 : Suki practices waterbending in an iceberg
+2012-08-31 15:26:44,363 [12] WARN AirBender - 600 : Zuko is knive-throwing on a fire nation airship
+2012-08-31 15:26:44,366 [15] INFO AirBender - 542 : Katara practices firebending in Ba Sing Se
+2012-08-31 15:26:44,383 [15] ERROR AirBender - 543 : Mai practices metalbending in an iceberg
+2012-08-31 15:26:44,368 [11] ERROR AirBender - 525 : Suki is flying in the southern air temple
+2012-08-31 15:26:44,369 [10] INFO AirBender - 510 : Suki is fighting in Ba Sing Se
+2012-08-31 15:26:44,373 [17] INFO AirBender - 574 : Momo practices waterbending in Ba Sing Se
+2012-08-31 15:26:44,375 [13] ERROR AirBender - 500 : Aang is knive-throwing in a swamp
+2012-08-31 15:26:44,392 [13] FATAL AirBender - 501 : Appa practices waterbending at Iroh's tea shop
+2012-08-31 15:26:44,376 [14] FATAL AirBender - 559 : Jet is dart-thwrowing in Ba Sing Se
+2012-08-31 15:26:44,380 [6] INFO AirBender - 586 : Ty Lee is fighting in a swamp
+2012-08-31 15:26:44,381 [12] FATAL AirBender - 601 : Toph Beifong is knive-throwing on a fire nation airship
+2012-08-31 15:26:44,384 [15] FATAL AirBender - 544 : Jet practices airbending on a fire nation airship
+2012-08-31 15:26:44,386 [11] FATAL AirBender - 526 : Suki practices firebending in a swamp
+2012-08-31 15:26:44,388 [10] FATAL AirBender - 511 : Appa is fighting in the southern air temple
+2012-08-31 15:26:44,389 [17] FATAL AirBender - 575 : Sokka practices earthbending on a fire nation airship
+2012-08-31 15:26:44,405 [10] WARN AirBender - 512 : Ozai is fighting in Ba Sing Se
+2012-08-31 15:26:44,394 [13] INFO AirBender - 502 : Aang practices earthbending on a fire nation airship
+2012-08-31 15:26:44,396 [14] FATAL AirBender - 560 : Zuko is knive-throwing in Ba Sing Se
+2012-08-31 15:26:44,399 [12] INFO AirBender - 602 : Azula practices earthbending on a fire nation airship
+2012-08-31 15:26:44,414 [12] INFO AirBender - 603 : Toph Beifong practices earthbending at Iroh's tea shop
+2012-08-31 15:26:44,397 [6] FATAL AirBender - 587 : Iroh is imprisoned in prison
+2012-08-31 15:26:44,400 [15] FATAL AirBender - 545 : Toph Beifong practices firebending in the southern air temple
+2012-08-31 15:26:44,403 [11] INFO AirBender - 527 : Toph Beifong is fighting at Iroh's tea shop
+2012-08-31 15:26:44,421 [11] FATAL AirBender - 528 : Toph Beifong practices earthbending in prison
+2012-08-31 15:26:44,407 [17] ERROR AirBender - 576 : Iroh is imprisoned in the earth kingdom
+2012-08-31 15:26:44,411 [13] ERROR AirBender - 503 : Mai practices lightningbending in a swamp
+2012-08-31 15:26:44,426 [13] FATAL AirBender - 616 : Jet practices earthbending in an iceberg
+2012-08-31 15:26:44,409 [10] FATAL AirBender - 513 : Iroh is fighting on a fire nation airship
+2012-08-31 15:26:44,413 [14] ERROR AirBender - 561 : Aang is fighting in the earth kingdom
+2012-08-31 15:26:44,431 [14] WARN AirBender - 562 : Sokka is imprisoned in prison
+2012-08-31 15:26:44,416 [12] ERROR AirBender - 604 : Iroh is imprisoned in Ba Sing Se
+2012-08-31 15:26:44,418 [6] ERROR AirBender - 588 : Iroh is knive-throwing on a fire nation airship
+2012-08-31 15:26:44,419 [15] WARN AirBender - 546 : Appa practices airbending in Ba Sing Se
+2012-08-31 15:26:44,422 [11] WARN AirBender - 529 : Mai practices firebending in a swamp
+2012-08-31 15:26:44,428 [13] WARN AirBender - 617 : Ozai practices waterbending in a swamp
+2012-08-31 15:26:44,424 [17] WARN AirBender - 577 : Ty Lee practices firebending on a fire nation airship
+2012-08-31 15:26:44,430 [10] FATAL AirBender - 514 : Ty Lee practices airbending in a swamp
+2012-08-31 15:26:44,448 [10] FATAL AirBender - 515 : Katara practices lightningbending in prison
+2012-08-31 15:26:44,433 [14] WARN AirBender - 563 : Mai is imprisoned in Ba Sing Se
+2012-08-31 15:26:44,435 [12] ERROR AirBender - 605 : Azula is dart-thwrowing in Ba Sing Se
+2012-08-31 15:26:44,437 [6] ERROR AirBender - 589 : Mai practices earthbending on a fire nation airship
+2012-08-31 15:26:44,439 [15] ERROR AirBender - 547 : Aang is knive-throwing in an iceberg
+2012-08-31 15:26:44,441 [11] INFO AirBender - 530 : Mai is imprisoned on a fire nation airship
+2012-08-31 15:26:44,444 [13] ERROR AirBender - 618 : Azula practices firebending in the southern air temple
+2012-08-31 15:26:44,445 [17] FATAL AirBender - 578 : Jet practices lightningbending in the southern air temple
+2012-08-31 15:26:44,461 [17] INFO AirBender - 579 : Appa is flying at Iroh's tea shop
+2012-08-31 15:26:44,463 [17] FATAL AirBender - 580 : Azula practices waterbending in prison
+2012-08-31 15:26:44,450 [10] INFO AirBender - 516 : Toph Beifong is flying at Iroh's tea shop
+2012-08-31 15:26:44,451 [14] WARN AirBender - 564 : Ozai is imprisoned in the earth kingdom
+2012-08-31 15:26:44,453 [12] FATAL AirBender - 606 : Ozai is fighting in Ba Sing Se
+2012-08-31 15:26:44,455 [6] ERROR AirBender - 590 : Iroh is imprisoned in a swamp
+2012-08-31 15:26:44,456 [15] INFO AirBender - 548 : Sokka practices lightningbending in an iceberg
+2012-08-31 15:26:44,458 [11] FATAL AirBender - 531 : Suki practices firebending in the earth kingdom
+2012-08-31 15:26:44,460 [13] FATAL AirBender - 619 : Mai practices waterbending in a swamp
+2012-08-31 15:26:44,478 [13] ERROR AirBender - 620 : Momo practices firebending in an iceberg
+2012-08-31 15:26:44,464 [17] INFO AirBender - 581 : Sokka practices metalbending in prison
+2012-08-31 15:26:44,466 [10] WARN AirBender - 517 : Toph Beifong practices earthbending at Iroh's tea shop
+2012-08-31 15:26:44,484 [10] ERROR AirBender - 518 : Katara practices metalbending in a swamp
+2012-08-31 15:26:44,468 [14] ERROR AirBender - 565 : Katara is imprisoned on a fire nation airship
+2012-08-31 15:26:44,470 [12] FATAL AirBender - 607 : Iroh practices airbending in the earth kingdom
+2012-08-31 15:26:44,472 [6] ERROR AirBender - 591 : Katara practices firebending in a swamp
+2012-08-31 15:26:44,474 [15] INFO AirBender - 549 : Jet is knive-throwing in the earth kingdom
+2012-08-31 15:26:44,476 [11] ERROR AirBender - 532 : Mai is flying at Iroh's tea shop
+2012-08-31 15:26:44,479 [13] WARN AirBender - 621 : Aang is flying in prison
+2012-08-31 15:26:44,482 [17] ERROR AirBender - 582 : Sokka is flying on a fire nation airship
+2012-08-31 15:26:44,498 [17] INFO AirBender - 583 : Toph Beifong practices waterbending on a fire nation airship
+2012-08-31 15:26:44,487 [14] WARN AirBender - 566 : Toph Beifong is imprisoned in a swamp
+2012-08-31 15:26:44,485 [10] WARN AirBender - 519 : Iroh practices earthbending in the southern air temple
+2012-08-31 15:26:44,489 [12] FATAL AirBender - 608 : Azula practices waterbending in a swamp
+2012-08-31 15:26:44,504 [12] ERROR AirBender - 609 : Iroh is imprisoned in an iceberg
+2012-08-31 15:26:44,490 [6] ERROR AirBender - 592 : Aang practices lightningbending in an iceberg
+2012-08-31 15:26:44,492 [15] FATAL AirBender - 550 : Appa is knive-throwing on a fire nation airship
+2012-08-31 15:26:44,494 [11] ERROR AirBender - 533 : Mai practices lightningbending in the southern air temple
+2012-08-31 15:26:44,496 [13] WARN AirBender - 622 : Azula is imprisoned in an iceberg
+2012-08-31 15:26:44,499 [17] ERROR AirBender - 632 : Zuko practices lightningbending on a fire nation airship
+2012-08-31 15:26:44,514 [17] INFO AirBender - 633 : Azula is imprisoned in Ba Sing Se
+2012-08-31 15:26:44,501 [14] INFO AirBender - 567 : Katara is knive-throwing at Iroh's tea shop
+2012-08-31 15:26:44,503 [10] INFO AirBender - 648 : Katara is dart-thwrowing in Ba Sing Se
+2012-08-31 15:26:44,520 [10] FATAL AirBender - 649 : Mai is knive-throwing in Ba Sing Se
+2012-08-31 15:26:44,506 [12] FATAL AirBender - 610 : Iroh practices lightningbending in the southern air temple
+2012-08-31 15:26:44,524 [12] ERROR AirBender - 611 : Toph Beifong practices airbending in the southern air temple
+2012-08-31 15:26:44,508 [6] INFO AirBender - 593 : Aang is imprisoned in Ba Sing Se
+2012-08-31 15:26:44,509 [15] WARN AirBender - 551 : Ozai is imprisoned in a swamp
+2012-08-31 15:26:44,513 [13] WARN AirBender - 623 : Jet practices firebending in the earth kingdom
+2012-08-31 15:26:44,511 [11] INFO AirBender - 534 : Iroh practices firebending on a fire nation airship
+2012-08-31 15:26:44,516 [17] ERROR AirBender - 634 : Katara is fighting in Ba Sing Se
+2012-08-31 15:26:44,518 [14] WARN AirBender - 664 : Appa practices airbending in an iceberg
+2012-08-31 15:26:44,522 [10] WARN AirBender - 650 : Toph Beifong is knive-throwing on a fire nation airship
+2012-08-31 15:26:44,538 [10] INFO AirBender - 651 : Azula is flying in a swamp
+2012-08-31 15:26:44,526 [12] FATAL AirBender - 612 : Momo is knive-throwing in Ba Sing Se
+2012-08-31 15:26:44,527 [6] INFO AirBender - 594 : Ozai practices waterbending in Ba Sing Se
+2012-08-31 15:26:44,529 [15] WARN AirBender - 680 : Iroh is flying at Iroh's tea shop
+2012-08-31 15:26:44,531 [13] ERROR AirBender - 624 : Iroh practices lightningbending in an iceberg
+2012-08-31 15:26:44,533 [11] FATAL AirBender - 535 : Momo practices metalbending on a fire nation airship
+2012-08-31 15:26:44,534 [17] ERROR AirBender - 635 : Momo practices waterbending in a swamp
+2012-08-31 15:26:44,536 [14] INFO AirBender - 665 : Appa is flying in Ba Sing Se
+2012-08-31 15:26:44,539 [10] ERROR AirBender - 652 : Zuko is flying at Iroh's tea shop
+2012-08-31 15:26:44,541 [12] INFO AirBender - 613 : Ozai practices waterbending in the earth kingdom
+2012-08-31 15:26:44,543 [6] INFO AirBender - 595 : Jet practices lightningbending on a fire nation airship
+2012-08-31 15:26:44,546 [15] WARN AirBender - 681 : Zuko practices metalbending in Ba Sing Se
+2012-08-31 15:26:44,549 [13] FATAL AirBender - 625 : Aang is flying in Ba Sing Se
+2012-08-31 15:26:44,564 [13] ERROR AirBender - 626 : Momo practices lightningbending in an iceberg
+2012-08-31 15:26:44,551 [11] ERROR AirBender - 696 : Ty Lee is imprisoned in an iceberg
+2012-08-31 15:26:44,553 [17] INFO AirBender - 636 : Aang is knive-throwing on a fire nation airship
+2012-08-31 15:26:44,555 [14] ERROR AirBender - 666 : Ty Lee practices earthbending in the southern air temple
+2012-08-31 15:26:44,557 [10] WARN AirBender - 653 : Ozai is knive-throwing on a fire nation airship
+2012-08-31 15:26:44,558 [12] WARN AirBender - 614 : Momo practices airbending in a swamp
+2012-08-31 15:26:44,575 [12] FATAL AirBender - 615 : Suki is flying in the southern air temple
+2012-08-31 15:26:44,562 [15] ERROR AirBender - 682 : Azula practices airbending in prison
+2012-08-31 15:26:44,560 [6] FATAL AirBender - 596 : Aang practices firebending on a fire nation airship
+2012-08-31 15:26:44,566 [13] FATAL AirBender - 627 : Sokka practices lightningbending in a swamp
+2012-08-31 15:26:44,568 [11] ERROR AirBender - 697 : Ozai practices waterbending in Ba Sing Se
+2012-08-31 15:26:44,569 [17] FATAL AirBender - 637 : Mai practices lightningbending in the earth kingdom
+2012-08-31 15:26:44,571 [14] ERROR AirBender - 667 : Toph Beifong is fighting in Ba Sing Se
+2012-08-31 15:26:44,573 [10] WARN AirBender - 654 : Zuko practices lightningbending in a swamp
+2012-08-31 15:26:44,577 [12] WARN AirBender - 712 : Suki practices waterbending on a fire nation airship
+2012-08-31 15:26:44,579 [15] WARN AirBender - 683 : Sokka practices waterbending in Ba Sing Se
+2012-08-31 15:26:44,581 [6] FATAL AirBender - 597 : Azula is flying in an iceberg
+2012-08-31 15:26:44,583 [13] INFO AirBender - 628 : Momo is fighting in prison
+2012-08-31 15:26:44,599 [13] ERROR AirBender - 629 : Mai practices firebending in an iceberg
+2012-08-31 15:26:44,585 [11] FATAL AirBender - 698 : Katara practices lightningbending in the earth kingdom
+2012-08-31 15:26:44,602 [11] WARN AirBender - 699 : Ozai practices waterbending at Iroh's tea shop
+2012-08-31 15:26:44,587 [17] INFO AirBender - 638 : Ty Lee practices waterbending in a swamp
+2012-08-31 15:26:44,589 [14] ERROR AirBender - 668 : Ty Lee practices earthbending in the southern air temple
+2012-08-31 15:26:44,591 [10] FATAL AirBender - 655 : Katara practices airbending on a fire nation airship
+2012-08-31 15:26:44,593 [12] ERROR AirBender - 713 : Katara practices earthbending in Ba Sing Se
+2012-08-31 15:26:44,595 [15] ERROR AirBender - 684 : Suki is fighting in Ba Sing Se
+2012-08-31 15:26:44,597 [6] FATAL AirBender - 598 : Azula practices lightningbending in a swamp
+2012-08-31 15:26:44,600 [13] ERROR AirBender - 630 : Toph Beifong practices earthbending in Ba Sing Se
+2012-08-31 15:26:44,617 [13] INFO AirBender - 631 : Jet is knive-throwing in Ba Sing Se
+2012-08-31 15:26:44,604 [11] INFO AirBender - 700 : Zuko practices lightningbending in the southern air temple
+2012-08-31 15:26:44,606 [17] WARN AirBender - 639 : Zuko is imprisoned in prison
+2012-08-31 15:26:44,608 [14] WARN AirBender - 669 : Azula is dart-thwrowing in the southern air temple
+2012-08-31 15:26:44,624 [14] INFO AirBender - 670 : Appa is dart-thwrowing in Ba Sing Se
+2012-08-31 15:26:44,611 [12] ERROR AirBender - 714 : Toph Beifong is fighting in a swamp
+2012-08-31 15:26:44,609 [10] FATAL AirBender - 656 : Aang practices earthbending in the earth kingdom
+2012-08-31 15:26:44,614 [6] ERROR AirBender - 599 : Zuko practices earthbending at Iroh's tea shop
+2012-08-31 15:26:44,613 [15] ERROR AirBender - 685 : Momo practices earthbending in an iceberg
+2012-08-31 15:26:44,618 [13] ERROR AirBender - 728 : Suki is knive-throwing in Ba Sing Se
+2012-08-31 15:26:44,620 [11] INFO AirBender - 701 : Zuko practices firebending in Ba Sing Se
+2012-08-31 15:26:44,622 [17] FATAL AirBender - 640 : Iroh practices earthbending in prison
+2012-08-31 15:26:44,627 [14] ERROR AirBender - 671 : Appa is flying at Iroh's tea shop
+2012-08-31 15:26:44,629 [12] INFO AirBender - 715 : Aang is fighting in Ba Sing Se
+2012-08-31 15:26:44,630 [10] FATAL AirBender - 657 : Sokka practices earthbending in the southern air temple
+2012-08-31 15:26:44,646 [10] ERROR AirBender - 658 : Zuko practices earthbending in the earth kingdom
+2012-08-31 15:26:44,633 [6] WARN AirBender - 760 : Jet practices earthbending at Iroh's tea shop
+2012-08-31 15:26:44,635 [15] ERROR AirBender - 686 : Jet practices metalbending in Ba Sing Se
+2012-08-31 15:26:44,636 [13] FATAL AirBender - 729 : Mai practices waterbending at Iroh's tea shop
+2012-08-31 15:26:44,638 [11] ERROR AirBender - 702 : Sokka is dart-thwrowing at Iroh's tea shop
+2012-08-31 15:26:44,640 [17] ERROR AirBender - 641 : Zuko is knive-throwing at Iroh's tea shop
+2012-08-31 15:26:44,656 [17] ERROR AirBender - 642 : Aang practices firebending at Iroh's tea shop
+2012-08-31 15:26:44,642 [14] FATAL AirBender - 672 : Aang practices firebending in a swamp
+2012-08-31 15:26:44,644 [12] ERROR AirBender - 716 : Momo practices airbending in prison
+2012-08-31 15:26:44,648 [10] FATAL AirBender - 659 : Iroh practices metalbending in Ba Sing Se
+2012-08-31 15:26:44,649 [6] WARN AirBender - 761 : Mai is knive-throwing at Iroh's tea shop
+2012-08-31 15:26:44,653 [13] INFO AirBender - 730 : Jet is knive-throwing in an iceberg
+2012-08-31 15:26:44,651 [15] WARN AirBender - 687 : Iroh practices earthbending at Iroh's tea shop
+2012-08-31 15:26:44,654 [11] ERROR AirBender - 703 : Ty Lee is dart-thwrowing in a swamp
+2012-08-31 15:26:44,658 [17] INFO AirBender - 643 : Ty Lee is flying in Ba Sing Se
+2012-08-31 15:26:44,674 [17] INFO AirBender - 644 : Jet practices lightningbending in prison
+2012-08-31 15:26:44,661 [14] ERROR AirBender - 673 : Appa is fighting in an iceberg
+2012-08-31 15:26:44,662 [12] FATAL AirBender - 717 : Toph Beifong is imprisoned in a swamp
+2012-08-31 15:26:44,664 [10] WARN AirBender - 660 : Mai practices airbending in an iceberg
+2012-08-31 15:26:44,668 [13] WARN AirBender - 731 : Ty Lee practices earthbending at Iroh's tea shop
+2012-08-31 15:26:44,666 [6] INFO AirBender - 762 : Ty Lee practices waterbending at Iroh's tea shop
+2012-08-31 15:26:44,669 [15] ERROR AirBender - 688 : Iroh practices waterbending in the southern air temple
+2012-08-31 15:26:44,672 [11] INFO AirBender - 704 : Iroh is knive-throwing in Ba Sing Se
+2012-08-31 15:26:44,690 [11] ERROR AirBender - 705 : Mai is imprisoned on a fire nation airship
+2012-08-31 15:26:44,676 [17] INFO AirBender - 645 : Appa practices earthbending in a swamp
+2012-08-31 15:26:44,678 [14] ERROR AirBender - 674 : Ty Lee practices waterbending in a swamp
+2012-08-31 15:26:44,680 [12] WARN AirBender - 718 : Azula practices firebending at Iroh's tea shop
+2012-08-31 15:26:44,682 [10] INFO AirBender - 661 : Katara is imprisoned on a fire nation airship
+2012-08-31 15:26:44,685 [13] FATAL AirBender - 732 : Ozai practices metalbending at Iroh's tea shop
+2012-08-31 15:26:44,686 [6] FATAL AirBender - 763 : Mai is fighting at Iroh's tea shop
+2012-08-31 15:26:44,688 [15] WARN AirBender - 689 : Iroh practices lightningbending in prison
+2012-08-31 15:26:44,705 [15] FATAL AirBender - 690 : Azula practices airbending in the earth kingdom
+2012-08-31 15:26:44,692 [11] WARN AirBender - 706 : Sokka is dart-thwrowing in Ba Sing Se
+2012-08-31 15:26:44,696 [14] FATAL AirBender - 675 : Katara is fighting at Iroh's tea shop
+2012-08-31 15:26:44,697 [12] INFO AirBender - 719 : Suki practices waterbending in Ba Sing Se
+2012-08-31 15:26:44,694 [17] WARN AirBender - 646 : Ozai practices waterbending in an iceberg
+2012-08-31 15:26:44,699 [10] FATAL AirBender - 662 : Katara is imprisoned in a swamp
+2012-08-31 15:26:44,702 [13] FATAL AirBender - 733 : Toph Beifong practices firebending at Iroh's tea shop
+2012-08-31 15:26:44,703 [6] INFO AirBender - 764 : Aang is imprisoned in a swamp
+2012-08-31 15:26:44,707 [15] ERROR AirBender - 691 : Momo is imprisoned at Iroh's tea shop
+2012-08-31 15:26:44,724 [15] ERROR AirBender - 692 : Appa practices waterbending in prison
+2012-08-31 15:26:44,712 [11] WARN AirBender - 707 : Katara is knive-throwing in prison
+2012-08-31 15:26:44,728 [11] WARN AirBender - 708 : Ozai is imprisoned at Iroh's tea shop
+2012-08-31 15:26:44,716 [12] ERROR AirBender - 720 : Aang practices airbending in prison
+2012-08-31 15:26:44,714 [14] ERROR AirBender - 676 : Sokka is imprisoned in an iceberg
+2012-08-31 15:26:44,717 [17] WARN AirBender - 647 : Azula practices waterbending in prison
+2012-08-31 15:26:44,719 [10] INFO AirBender - 663 : Mai practices airbending at Iroh's tea shop
+2012-08-31 15:26:44,721 [13] WARN AirBender - 734 : Ozai practices firebending in Ba Sing Se
+2012-08-31 15:26:44,723 [6] FATAL AirBender - 765 : Katara is flying at Iroh's tea shop
+2012-08-31 15:26:44,726 [15] WARN AirBender - 693 : Aang practices metalbending in a swamp
+2012-08-31 15:26:44,730 [11] INFO AirBender - 709 : Suki is flying in Ba Sing Se
+2012-08-31 15:26:44,744 [11] FATAL AirBender - 710 : Aang is dart-thwrowing on a fire nation airship
+2012-08-31 15:26:44,731 [12] FATAL AirBender - 721 : Azula practices waterbending in a swamp
+2012-08-31 15:26:44,733 [14] ERROR AirBender - 677 : Mai is dart-thwrowing on a fire nation airship
+2012-08-31 15:26:44,735 [17] FATAL AirBender - 776 : Katara practices lightningbending in the southern air temple
+2012-08-31 15:26:44,752 [17] FATAL AirBender - 777 : Katara practices metalbending in a swamp
+2012-08-31 15:26:44,739 [13] WARN AirBender - 735 : Sokka is flying in Ba Sing Se
+2012-08-31 15:26:44,737 [10] WARN AirBender - 808 : Ozai practices firebending on a fire nation airship
+2012-08-31 15:26:44,742 [15] FATAL AirBender - 694 : Momo practices airbending in the southern air temple
+2012-08-31 15:26:44,741 [6] ERROR AirBender - 766 : Mai is flying in prison
+2012-08-31 15:26:44,746 [11] INFO AirBender - 711 : Ozai practices metalbending in a swamp
+2012-08-31 15:26:44,748 [12] FATAL AirBender - 722 : Appa is knive-throwing in prison
+2012-08-31 15:26:44,767 [12] INFO AirBender - 723 : Mai is dart-thwrowing in prison
+2012-08-31 15:26:44,750 [14] ERROR AirBender - 678 : Suki is flying in the southern air temple
+2012-08-31 15:26:44,755 [13] ERROR AirBender - 736 : Aang is dart-thwrowing in prison
+2012-08-31 15:26:44,753 [17] ERROR AirBender - 778 : Iroh is knive-throwing in prison
+2012-08-31 15:26:44,757 [10] INFO AirBender - 809 : Momo practices earthbending in Ba Sing Se
+2012-08-31 15:26:44,759 [15] FATAL AirBender - 695 : Zuko practices earthbending in the earth kingdom
+2012-08-31 15:26:44,761 [6] ERROR AirBender - 767 : Jet is fighting in an iceberg
+2012-08-31 15:26:44,763 [11] WARN AirBender - 840 : Jet practices earthbending in an iceberg
+2012-08-31 15:26:44,781 [11] ERROR AirBender - 841 : Suki practices earthbending in prison
+2012-08-31 15:26:44,769 [12] ERROR AirBender - 724 : Suki practices metalbending in the southern air temple
+2012-08-31 15:26:44,770 [14] ERROR AirBender - 679 : Appa practices firebending on a fire nation airship
+2012-08-31 15:26:44,772 [13] WARN AirBender - 737 : Aang is flying in a swamp
+2012-08-31 15:26:44,774 [17] ERROR AirBender - 779 : Ozai practices airbending in prison
+2012-08-31 15:26:44,777 [15] FATAL AirBender - 872 : Iroh is dart-thwrowing in prison
+2012-08-31 15:26:44,776 [10] FATAL AirBender - 810 : Zuko is knive-throwing in Ba Sing Se
+2012-08-31 15:26:44,779 [6] ERROR AirBender - 768 : Jet is dart-thwrowing in the southern air temple
+2012-08-31 15:26:44,797 [6] FATAL AirBender - 769 : Ozai practices metalbending in Ba Sing Se
+2012-08-31 15:26:44,783 [11] FATAL AirBender - 842 : Ty Lee is knive-throwing in Ba Sing Se
+2012-08-31 15:26:44,784 [12] INFO AirBender - 725 : Appa practices airbending in the earth kingdom
+2012-08-31 15:26:44,787 [14] ERROR AirBender - 904 : Toph Beifong is fighting in a swamp
+2012-08-31 15:26:44,788 [13] WARN AirBender - 738 : Momo is flying in prison
+2012-08-31 15:26:44,791 [17] WARN AirBender - 780 : Zuko is imprisoned at Iroh's tea shop
+2012-08-31 15:26:44,792 [15] WARN AirBender - 873 : Appa is knive-throwing in the earth kingdom
+2012-08-31 15:26:44,795 [10] INFO AirBender - 811 : Toph Beifong is fighting in prison
+2012-08-31 15:26:44,811 [10] ERROR AirBender - 812 : Iroh practices waterbending at Iroh's tea shop
+2012-08-31 15:26:44,799 [6] FATAL AirBender - 770 : Jet is imprisoned in the southern air temple
+2012-08-31 15:26:44,800 [11] ERROR AirBender - 843 : Katara practices lightningbending in the southern air temple
+2012-08-31 15:26:44,803 [14] FATAL AirBender - 905 : Mai is fighting in the southern air temple
+2012-08-31 15:26:44,802 [12] WARN AirBender - 726 : Zuko practices lightningbending in the earth kingdom
+2012-08-31 15:26:44,805 [13] WARN AirBender - 739 : Sokka practices earthbending in prison
+2012-08-31 15:26:44,807 [17] INFO AirBender - 781 : Sokka practices lightningbending in a swamp
+2012-08-31 15:26:44,808 [15] INFO AirBender - 874 : Sokka is knive-throwing in the southern air temple
+2012-08-31 15:26:44,813 [10] FATAL AirBender - 813 : Zuko practices earthbending in the earth kingdom
+2012-08-31 15:26:44,828 [10] INFO AirBender - 814 : Azula is imprisoned in the southern air temple
+2012-08-31 15:26:44,815 [6] FATAL AirBender - 771 : Appa practices airbending on a fire nation airship
+2012-08-31 15:26:44,817 [11] FATAL AirBender - 844 : Ozai practices earthbending in prison
+2012-08-31 15:26:44,819 [14] FATAL AirBender - 906 : Ozai is knive-throwing on a fire nation airship
+2012-08-31 15:26:44,821 [12] FATAL AirBender - 727 : Aang practices lightningbending in an iceberg
+2012-08-31 15:26:44,822 [13] INFO AirBender - 740 : Aang is fighting in the earth kingdom
+2012-08-31 15:26:44,825 [15] INFO AirBender - 875 : Jet is imprisoned in the earth kingdom
+2012-08-31 15:26:44,824 [17] ERROR AirBender - 782 : Zuko practices firebending on a fire nation airship
+2012-08-31 15:26:44,843 [17] ERROR AirBender - 783 : Suki is dart-thwrowing in an iceberg
+2012-08-31 15:26:44,830 [10] WARN AirBender - 815 : Ozai practices firebending in a swamp
+2012-08-31 15:26:44,832 [6] FATAL AirBender - 772 : Katara practices waterbending in the southern air temple
+2012-08-31 15:26:44,834 [11] WARN AirBender - 845 : Ozai is fighting in the earth kingdom
+2012-08-31 15:26:44,836 [14] WARN AirBender - 907 : Momo practices lightningbending on a fire nation airship
+2012-08-31 15:26:44,838 [12] FATAL AirBender - 936 : Mai practices waterbending in the earth kingdom
+2012-08-31 15:26:44,839 [13] FATAL AirBender - 741 : Appa practices firebending on a fire nation airship
+2012-08-31 15:26:44,841 [15] ERROR AirBender - 876 : Iroh practices airbending at Iroh's tea shop
+2012-08-31 15:26:44,859 [15] ERROR AirBender - 877 : Aang is flying in an iceberg
+2012-08-31 15:26:44,846 [17] FATAL AirBender - 784 : Mai practices lightningbending in Ba Sing Se
+2012-08-31 15:26:44,848 [10] FATAL AirBender - 816 : Appa practices waterbending at Iroh's tea shop
+2012-08-31 15:26:44,850 [6] ERROR AirBender - 773 : Aang practices waterbending in the earth kingdom
+2012-08-31 15:26:44,852 [11] ERROR AirBender - 846 : Ozai practices waterbending on a fire nation airship
+2012-08-31 15:26:44,854 [14] WARN AirBender - 908 : Ozai practices lightningbending at Iroh's tea shop
+2012-08-31 15:26:44,857 [13] WARN AirBender - 742 : Ozai is fighting in the earth kingdom
+2012-08-31 15:26:44,856 [12] INFO AirBender - 937 : Aang practices waterbending on a fire nation airship
+2012-08-31 15:26:44,861 [15] FATAL AirBender - 878 : Azula practices firebending in a swamp
+2012-08-31 15:26:44,863 [17] INFO AirBender - 785 : Jet practices earthbending at Iroh's tea shop
+2012-08-31 15:26:44,875 [12] WARN AirBender - 938 : Momo is knive-throwing in an iceberg
+2012-08-31 15:26:44,873 [13] ERROR AirBender - 743 : Ty Lee is dart-thwrowing at Iroh's tea shop
+2012-08-31 15:26:44,882 [13] FATAL AirBender - 744 : Toph Beifong is knive-throwing in an iceberg
+2012-08-31 15:26:44,866 [10] INFO AirBender - 817 : Momo is knive-throwing in the earth kingdom
+2012-08-31 15:26:44,868 [6] INFO AirBender - 774 : Ty Lee practices earthbending in prison
+2012-08-31 15:26:44,870 [11] ERROR AirBender - 847 : Suki practices earthbending on a fire nation airship
+2012-08-31 15:26:44,871 [14] ERROR AirBender - 909 : Katara practices metalbending in prison
+2012-08-31 15:26:44,893 [14] WARN AirBender - 910 : Ozai is fighting at Iroh's tea shop
+2012-08-31 15:26:44,877 [15] FATAL AirBender - 879 : Sokka practices airbending in the southern air temple
+2012-08-31 15:26:44,880 [12] INFO AirBender - 939 : Iroh practices airbending in the earth kingdom
+2012-08-31 15:26:44,878 [17] ERROR AirBender - 786 : Momo is knive-throwing in the southern air temple
+2012-08-31 15:26:44,883 [13] FATAL AirBender - 745 : Sokka practices airbending at Iroh's tea shop
+2012-08-31 15:26:44,886 [10] FATAL AirBender - 818 : Momo practices earthbending in the earth kingdom
+2012-08-31 15:26:44,888 [6] ERROR AirBender - 775 : Mai is flying in Ba Sing Se
+2012-08-31 15:26:44,891 [11] ERROR AirBender - 848 : Katara practices metalbending in the earth kingdom
+2012-08-31 15:26:44,895 [14] INFO AirBender - 911 : Momo practices lightningbending in an iceberg
+2012-08-31 15:26:44,911 [14] WARN AirBender - 912 : Katara is fighting in a swamp
+2012-08-31 15:26:44,897 [15] INFO AirBender - 880 : Momo is knive-throwing in an iceberg
+2012-08-31 15:26:44,898 [12] ERROR AirBender - 940 : Zuko is fighting at Iroh's tea shop
+2012-08-31 15:26:44,900 [17] ERROR AirBender - 787 : Aang practices waterbending in prison
+2012-08-31 15:26:44,904 [10] FATAL AirBender - 819 : Azula practices firebending in an iceberg
+2012-08-31 15:26:44,902 [13] WARN AirBender - 746 : Aang practices metalbending on a fire nation airship
+2012-08-31 15:26:44,906 [6] ERROR AirBender - 968 : Katara is flying in Ba Sing Se
+2012-08-31 15:26:44,909 [11] FATAL AirBender - 849 : Ty Lee is imprisoned in an iceberg
+2012-08-31 15:26:44,925 [11] WARN AirBender - 850 : Iroh is flying on a fire nation airship
+2012-08-31 15:26:44,913 [14] WARN AirBender - 913 : Appa is fighting in a swamp
+2012-08-31 15:26:44,915 [15] INFO AirBender - 881 : Ozai practices airbending in the earth kingdom
+2012-08-31 15:26:44,917 [12] ERROR AirBender - 941 : Jet is fighting at Iroh's tea shop
+2012-08-31 15:26:44,918 [17] FATAL AirBender - 788 : Momo is knive-throwing at Iroh's tea shop
+2012-08-31 15:26:44,934 [17] ERROR AirBender - 789 : Suki practices firebending in prison
+2012-08-31 15:26:44,921 [13] ERROR AirBender - 747 : Jet is fighting in the earth kingdom
+2012-08-31 15:26:44,920 [10] WARN AirBender - 820 : Mai is dart-thwrowing in an iceberg
+2012-08-31 15:26:44,923 [6] WARN AirBender - 969 : Toph Beifong practices metalbending at Iroh's tea shop
+2012-08-31 15:26:44,942 [6] WARN AirBender - 970 : Katara is knive-throwing at Iroh's tea shop
+2012-08-31 15:26:44,927 [11] FATAL AirBender - 851 : Ozai is imprisoned on a fire nation airship
+2012-08-31 15:26:44,929 [14] FATAL AirBender - 914 : Iroh is flying in a swamp
+2012-08-31 15:26:44,930 [15] WARN AirBender - 882 : Iroh practices earthbending in Ba Sing Se
+2012-08-31 15:26:44,932 [12] FATAL AirBender - 942 : Zuko is fighting in the southern air temple
+2012-08-31 15:26:44,938 [13] WARN AirBender - 748 : Katara is knive-throwing in the earth kingdom
+2012-08-31 15:26:44,936 [17] FATAL AirBender - 790 : Katara practices airbending on a fire nation airship
+2012-08-31 15:26:44,940 [10] INFO AirBender - 821 : Iroh practices firebending on a fire nation airship
+2012-08-31 15:26:44,950 [12] INFO AirBender - 943 : Jet is fighting in the earth kingdom
+2012-08-31 15:26:44,944 [6] INFO AirBender - 971 : Azula is imprisoned in an iceberg
+2012-08-31 15:26:44,945 [11] FATAL AirBender - 852 : Appa practices metalbending in prison
+2012-08-31 15:26:44,947 [14] ERROR AirBender - 915 : Iroh practices airbending in an iceberg
+2012-08-31 15:26:44,948 [15] FATAL AirBender - 883 : Jet is knive-throwing in prison
+2012-08-31 15:26:44,952 [13] INFO AirBender - 749 : Aang practices earthbending at Iroh's tea shop
+2012-08-31 15:26:44,969 [13] WARN AirBender - 750 : Sokka is fighting in the southern air temple
+2012-08-31 15:26:44,954 [17] INFO AirBender - 791 : Aang practices firebending in prison
+2012-08-31 15:26:44,956 [10] INFO AirBender - 822 : Aang practices lightningbending in the earth kingdom
+2012-08-31 15:26:44,958 [12] INFO AirBender - 944 : Mai practices firebending in the southern air temple
+2012-08-31 15:26:44,960 [6] INFO AirBender - 972 : Azula is knive-throwing in prison
+2012-08-31 15:26:44,963 [11] FATAL AirBender - 853 : Zuko practices earthbending in an iceberg
+2012-08-31 15:26:44,967 [15] WARN AirBender - 884 : Ozai practices firebending in an iceberg
+2012-08-31 15:26:44,965 [14] FATAL AirBender - 916 : Sokka practices airbending on a fire nation airship
+2012-08-31 15:26:44,971 [13] WARN AirBender - 751 : Katara practices earthbending in prison
+2012-08-31 15:26:44,973 [17] WARN AirBender - 792 : Toph Beifong is fighting in Ba Sing Se
+2012-08-31 15:26:44,985 [14] WARN AirBender - 917 : Ty Lee practices firebending at Iroh's tea shop
+2012-08-31 15:26:44,975 [10] WARN AirBender - 823 : Appa is flying in prison
+2012-08-31 15:26:44,977 [12] INFO AirBender - 945 : Toph Beifong practices lightningbending at Iroh's tea shop
+2012-08-31 15:26:44,979 [6] WARN AirBender - 973 : Mai is imprisoned in a swamp
+2012-08-31 15:26:44,981 [11] FATAL AirBender - 854 : Suki is imprisoned on a fire nation airship
+2012-08-31 15:26:44,983 [15] FATAL AirBender - 885 : Jet practices firebending in Ba Sing Se
+2012-08-31 15:26:44,987 [13] ERROR AirBender - 752 : Appa practices metalbending in a swamp
+2012-08-31 15:26:44,988 [17] ERROR AirBender - 793 : Katara practices earthbending in a swamp
+2012-08-31 15:26:45,005 [17] INFO AirBender - 794 : Sokka practices lightningbending in prison
+2012-08-31 15:26:44,990 [14] ERROR AirBender - 918 : Zuko is imprisoned on a fire nation airship
+2012-08-31 15:26:44,992 [10] FATAL AirBender - 824 : Ty Lee is dart-thwrowing on a fire nation airship
+2012-08-31 15:26:44,994 [12] FATAL AirBender - 946 : Iroh is knive-throwing in prison
+2012-08-31 15:26:44,996 [6] INFO AirBender - 974 : Iroh is fighting at Iroh's tea shop
+2012-08-31 15:26:44,998 [11] ERROR AirBender - 855 : Momo is imprisoned in the earth kingdom
+2012-08-31 15:26:45,003 [13] WARN AirBender - 753 : Momo practices earthbending in a swamp
+2012-08-31 15:26:45,001 [15] ERROR AirBender - 886 : Appa practices lightningbending on a fire nation airship
+2012-08-31 15:26:45,021 [15] FATAL AirBender - 887 : Zuko practices metalbending on a fire nation airship
+2012-08-31 15:26:45,007 [17] ERROR AirBender - 795 : Sokka practices earthbending in an iceberg
+2012-08-31 15:26:45,008 [14] INFO AirBender - 919 : Suki is dart-thwrowing on a fire nation airship
+2012-08-31 15:26:45,012 [12] FATAL AirBender - 947 : Appa is dart-thwrowing in a swamp
+2012-08-31 15:26:45,010 [10] ERROR AirBender - 825 : Suki practices waterbending in the earth kingdom
+2012-08-31 15:26:45,014 [6] INFO AirBender - 975 : Momo is knive-throwing on a fire nation airship
+2012-08-31 15:26:45,017 [11] WARN AirBender - 856 : Sokka practices waterbending in the southern air temple
+2012-08-31 15:26:45,019 [13] INFO AirBender - 754 : Momo practices firebending in a swamp
+2012-08-31 15:26:45,023 [15] WARN AirBender - 888 : Zuko practices lightningbending on a fire nation airship
+2012-08-31 15:26:45,039 [15] INFO AirBender - 889 : Katara is fighting in an iceberg
+2012-08-31 15:26:45,025 [17] ERROR AirBender - 796 : Sokka is flying at Iroh's tea shop
+2012-08-31 15:26:45,031 [10] WARN AirBender - 826 : Azula is knive-throwing in an iceberg
+2012-08-31 15:26:45,027 [14] WARN AirBender - 920 : Mai is flying in an iceberg
+2012-08-31 15:26:45,032 [6] WARN AirBender - 976 : Momo is imprisoned on a fire nation airship
+2012-08-31 15:26:45,029 [12] WARN AirBender - 948 : Suki practices earthbending in Ba Sing Se
+2012-08-31 15:26:45,034 [11] ERROR AirBender - 857 : Katara is knive-throwing in the earth kingdom
+2012-08-31 15:26:45,037 [13] ERROR AirBender - 755 : Ozai is fighting at Iroh's tea shop
+2012-08-31 15:26:45,041 [15] WARN AirBender - 890 : Toph Beifong practices earthbending in Ba Sing Se
+2012-08-31 15:26:45,045 [17] INFO AirBender - 797 : Jet practices lightningbending in an iceberg
+2012-08-31 15:26:45,048 [10] ERROR AirBender - 827 : Iroh practices airbending in the southern air temple
+2012-08-31 15:26:45,050 [14] FATAL AirBender - 921 : Azula practices metalbending in prison
+2012-08-31 15:26:45,052 [6] INFO AirBender - 977 : Zuko practices waterbending on a fire nation airship
+2012-08-31 15:26:45,055 [12] WARN AirBender - 949 : Katara practices earthbending in a swamp
+2012-08-31 15:26:45,057 [11] FATAL AirBender - 858 : Iroh practices firebending in a swamp
+2012-08-31 15:26:45,059 [13] WARN AirBender - 756 : Ozai practices earthbending in prison
+2012-08-31 15:26:45,062 [15] INFO AirBender - 891 : Appa is knive-throwing in a swamp
+2012-08-31 15:26:45,065 [17] WARN AirBender - 798 : Appa practices waterbending at Iroh's tea shop
+2012-08-31 15:26:45,067 [10] WARN AirBender - 828 : Sokka is imprisoned in a swamp
+2012-08-31 15:26:45,069 [14] WARN AirBender - 922 : Mai is dart-thwrowing in the southern air temple
+2012-08-31 15:26:45,071 [6] INFO AirBender - 978 : Iroh practices earthbending in the earth kingdom
+2012-08-31 15:26:45,075 [11] WARN AirBender - 859 : Suki is flying in Ba Sing Se
+2012-08-31 15:26:45,073 [12] ERROR AirBender - 950 : Iroh practices waterbending on a fire nation airship
+2012-08-31 15:26:45,077 [13] FATAL AirBender - 757 : Ty Lee practices waterbending in Ba Sing Se
+2012-08-31 15:26:45,080 [15] ERROR AirBender - 892 : Zuko practices earthbending in a swamp
+2012-08-31 15:26:45,098 [15] ERROR AirBender - 893 : Ozai practices metalbending on a fire nation airship
+2012-08-31 15:26:45,082 [17] INFO AirBender - 799 : Katara is fighting on a fire nation airship
+2012-08-31 15:26:45,085 [10] WARN AirBender - 829 : Iroh is dart-thwrowing on a fire nation airship
+2012-08-31 15:26:45,105 [10] INFO AirBender - 830 : Toph Beifong is knive-throwing in a swamp
+2012-08-31 15:26:45,089 [6] WARN AirBender - 979 : Toph Beifong is fighting in a swamp
+2012-08-31 15:26:45,094 [12] FATAL AirBender - 951 : Ozai practices waterbending in the earth kingdom
+2012-08-31 15:26:45,087 [14] ERROR AirBender - 923 : Ty Lee is fighting in an iceberg
+2012-08-31 15:26:45,091 [11] WARN AirBender - 860 : Zuko is knive-throwing in the southern air temple
+2012-08-31 15:26:45,096 [13] FATAL AirBender - 758 : Sokka practices airbending in a swamp
+2012-08-31 15:26:45,100 [15] ERROR AirBender - 894 : Iroh is flying in an iceberg
+2012-08-31 15:26:45,117 [15] INFO AirBender - 895 : Katara practices waterbending in the earth kingdom
+2012-08-31 15:26:45,119 [15] ERROR AirBender - 896 : Aang is flying in a swamp
+2012-08-31 15:26:45,108 [6] INFO AirBender - 980 : Katara is flying in the southern air temple
+2012-08-31 15:26:45,102 [17] WARN AirBender - 800 : Sokka is flying in a swamp
+2012-08-31 15:26:45,107 [10] INFO AirBender - 831 : Azula practices metalbending in prison
+2012-08-31 15:26:45,110 [12] INFO AirBender - 952 : Mai practices earthbending in Ba Sing Se
+2012-08-31 15:26:45,113 [11] INFO AirBender - 861 : Ty Lee is flying in Ba Sing Se
+2012-08-31 15:26:45,112 [14] INFO AirBender - 924 : Sokka practices lightningbending in the earth kingdom
+2012-08-31 15:26:45,115 [13] INFO AirBender - 759 : Aang practices firebending in the earth kingdom
+2012-08-31 15:26:45,129 [11] ERROR AirBender - 862 : Mai practices airbending in prison
+2012-08-31 15:26:45,120 [15] ERROR AirBender - 897 : Katara is imprisoned at Iroh's tea shop
+2012-08-31 15:26:45,122 [6] WARN AirBender - 981 : Appa practices earthbending in an iceberg
+2012-08-31 15:26:45,138 [6] WARN AirBender - 982 : Ty Lee practices metalbending on a fire nation airship
+2012-08-31 15:26:45,139 [6] WARN AirBender - 983 : Katara practices lightningbending in the southern air temple
+2012-08-31 15:26:45,124 [17] ERROR AirBender - 801 : Ty Lee practices metalbending in Ba Sing Se
+2012-08-31 15:26:45,126 [10] ERROR AirBender - 832 : Toph Beifong practices airbending on a fire nation airship
+2012-08-31 15:26:45,127 [12] ERROR AirBender - 953 : Azula is dart-thwrowing at Iroh's tea shop
+2012-08-31 15:26:45,131 [14] FATAL AirBender - 925 : Momo is knive-throwing in Ba Sing Se
+2012-08-31 15:26:45,148 [14] INFO AirBender - 926 : Momo practices lightningbending in the earth kingdom
+2012-08-31 15:26:45,134 [11] INFO AirBender - 863 : Sokka practices metalbending in the southern air temple
+2012-08-31 15:26:45,136 [15] FATAL AirBender - 898 : Ty Lee practices waterbending on a fire nation airship
+2012-08-31 15:26:45,152 [15] ERROR AirBender - 899 : Suki is flying at Iroh's tea shop
+2012-08-31 15:26:45,154 [15] INFO AirBender - 900 : Ozai practices lightningbending in prison
+2012-08-31 15:26:45,141 [6] INFO AirBender - 984 : Suki practices airbending on a fire nation airship
+2012-08-31 15:26:45,142 [17] FATAL AirBender - 802 : Azula is fighting in the southern air temple
+2012-08-31 15:26:45,144 [10] ERROR AirBender - 833 : Azula is dart-thwrowing in Ba Sing Se
+2012-08-31 15:26:45,146 [12] ERROR AirBender - 954 : Jet is imprisoned on a fire nation airship
+2012-08-31 15:26:45,162 [12] INFO AirBender - 955 : Aang practices earthbending in a swamp
+2012-08-31 15:26:45,149 [14] WARN AirBender - 927 : Azula is dart-thwrowing on a fire nation airship
+2012-08-31 15:26:45,151 [11] FATAL AirBender - 864 : Ty Lee is flying in a swamp
+2012-08-31 15:26:45,167 [11] INFO AirBender - 865 : Momo practices airbending in prison
+2012-08-31 15:26:45,155 [15] INFO AirBender - 901 : Suki is flying at Iroh's tea shop
+2012-08-31 15:26:45,170 [15] INFO AirBender - 902 : Suki practices metalbending in the earth kingdom
+2012-08-31 15:26:45,157 [6] ERROR AirBender - 985 : Azula practices waterbending in a swamp
+2012-08-31 15:26:45,159 [17] WARN AirBender - 803 : Toph Beifong is fighting at Iroh's tea shop
+2012-08-31 15:26:45,160 [10] ERROR AirBender - 834 : Iroh is knive-throwing in prison
+2012-08-31 15:26:45,163 [12] FATAL AirBender - 956 : Zuko practices waterbending in prison
+2012-08-31 15:26:45,165 [14] INFO AirBender - 928 : Katara practices airbending on a fire nation airship
+2012-08-31 15:26:45,171 [15] WARN AirBender - 903 : Sokka is imprisoned in a swamp
+2012-08-31 15:26:45,168 [11] INFO AirBender - 866 : Jet is flying at Iroh's tea shop
+2012-08-31 15:26:45,184 [11] ERROR AirBender - 867 : Aang is flying at Iroh's tea shop
+2012-08-31 15:26:45,177 [10] FATAL AirBender - 835 : Katara is fighting in the southern air temple
+2012-08-31 15:26:45,173 [6] INFO AirBender - 986 : Katara is fighting in prison
+2012-08-31 15:26:45,175 [17] ERROR AirBender - 804 : Ozai practices earthbending in prison
+2012-08-31 15:26:45,191 [17] WARN AirBender - 805 : Zuko is dart-thwrowing at Iroh's tea shop
+2012-08-31 15:26:45,179 [12] INFO AirBender - 957 : Toph Beifong practices airbending in the southern air temple
+2012-08-31 15:26:45,181 [14] WARN AirBender - 929 : Jet practices waterbending at Iroh's tea shop
+2012-08-31 15:26:45,189 [6] FATAL AirBender - 987 : Zuko is dart-thwrowing at Iroh's tea shop
+2012-08-31 15:26:45,185 [11] ERROR AirBender - 868 : Ozai practices lightningbending in prison
+2012-08-31 15:26:45,187 [10] FATAL AirBender - 836 : Ozai is dart-thwrowing in an iceberg
+2012-08-31 15:26:45,203 [10] INFO AirBender - 837 : Aang practices airbending in the earth kingdom
+2012-08-31 15:26:45,193 [17] FATAL AirBender - 806 : Ozai practices earthbending in prison
+2012-08-31 15:26:45,195 [12] INFO AirBender - 958 : Azula is dart-thwrowing in Ba Sing Se
+2012-08-31 15:26:45,209 [12] INFO AirBender - 959 : Azula practices earthbending in the earth kingdom
+2012-08-31 15:26:45,197 [14] INFO AirBender - 930 : Mai practices lightningbending in Ba Sing Se
+2012-08-31 15:26:45,199 [6] INFO AirBender - 988 : Toph Beifong is dart-thwrowing in Ba Sing Se
+2012-08-31 15:26:45,201 [11] INFO AirBender - 869 : Katara practices earthbending in prison
+2012-08-31 15:26:45,217 [11] FATAL AirBender - 870 : Momo is fighting in a swamp
+2012-08-31 15:26:45,219 [11] WARN AirBender - 871 : Suki practices airbending in the earth kingdom
+2012-08-31 15:26:45,205 [10] ERROR AirBender - 838 : Aang practices firebending in Ba Sing Se
+2012-08-31 15:26:45,207 [17] WARN AirBender - 807 : Azula practices metalbending at Iroh's tea shop
+2012-08-31 15:26:45,211 [12] FATAL AirBender - 960 : Ozai practices waterbending on a fire nation airship
+2012-08-31 15:26:45,226 [12] INFO AirBender - 961 : Zuko practices lightningbending in prison
+2012-08-31 15:26:45,213 [14] INFO AirBender - 931 : Momo is fighting in the southern air temple
+2012-08-31 15:26:45,215 [6] WARN AirBender - 989 : Zuko practices waterbending on a fire nation airship
+2012-08-31 15:26:45,231 [6] ERROR AirBender - 990 : Ty Lee practices firebending in the southern air temple
+2012-08-31 15:26:45,233 [6] ERROR AirBender - 991 : Suki is fighting in the southern air temple
+2012-08-31 15:26:45,222 [10] FATAL AirBender - 839 : Ty Lee practices lightningbending on a fire nation airship
+2012-08-31 15:26:45,228 [12] INFO AirBender - 962 : Ozai is dart-thwrowing in an iceberg
+2012-08-31 15:26:45,238 [12] FATAL AirBender - 963 : Ozai is flying in the southern air temple
+2012-08-31 15:26:45,239 [12] ERROR AirBender - 964 : Ozai is knive-throwing in an iceberg
+2012-08-31 15:26:45,241 [12] INFO AirBender - 965 : Ozai practices metalbending in the southern air temple
+2012-08-31 15:26:45,229 [14] WARN AirBender - 932 : Ozai is dart-thwrowing in an iceberg
+2012-08-31 15:26:45,244 [14] WARN AirBender - 933 : Momo is imprisoned in the southern air temple
+2012-08-31 15:26:45,246 [14] FATAL AirBender - 934 : Ty Lee practices lightningbending on a fire nation airship
+2012-08-31 15:26:45,234 [6] FATAL AirBender - 992 : Mai practices waterbending on a fire nation airship
+2012-08-31 15:26:45,249 [6] WARN AirBender - 993 : Azula is fighting on a fire nation airship
+2012-08-31 15:26:45,251 [6] WARN AirBender - 994 : Katara practices earthbending in the earth kingdom
+2012-08-31 15:26:45,253 [6] ERROR AirBender - 995 : Zuko is flying in the southern air temple
+2012-08-31 15:26:45,242 [12] WARN AirBender - 966 : Azula is flying in an iceberg
+2012-08-31 15:26:45,256 [12] FATAL AirBender - 967 : Ozai is dart-thwrowing in the southern air temple
+2012-08-31 15:26:45,247 [14] WARN AirBender - 935 : Appa is fighting in Ba Sing Se
+2012-08-31 15:26:45,254 [6] FATAL AirBender - 996 : Ozai is knive-throwing in an iceberg
+2012-08-31 15:26:45,263 [6] ERROR AirBender - 997 : Toph Beifong practices firebending in an iceberg
+2012-08-31 15:26:45,265 [6] WARN AirBender - 998 : Appa is dart-thwrowing at Iroh's tea shop
+2012-08-31 15:26:45,267 [6] ERROR AirBender - 999 : Momo practices waterbending on a fire nation airship
