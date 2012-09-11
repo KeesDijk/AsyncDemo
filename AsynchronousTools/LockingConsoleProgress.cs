@@ -3,7 +3,7 @@
     using System;
     using AsynchronousInterfaces;
 
-    public class ConsoleProgress : IProgress
+    public class LockingConsoleProgress : IProgress
     {
         // other good progress bar characters \u2590 \u2592 
         private const char RenderChar = '\u2592';
@@ -12,25 +12,34 @@
 
         private readonly int startPosition;
 
-        public ConsoleProgress()
+        public LockingConsoleProgress()
         {
-            this.startPosition = Console.CursorTop;
+            lock (LockingClass.ConsoleLock)
+            {
+                this.startPosition = Console.CursorTop;
+            }
         }
 
         public void Progress(int percentage)
         {
-            RenderConsoleProgress(percentage);
+            lock (LockingClass.ConsoleLock)
+            {
+                RenderConsoleProgress(percentage);
+            }
         }
 
         public void Progress(int percentage, string msg, params object[] args)
         {
-            Console.CursorTop = this.startPosition;
-            var formattedMessage = string.Format(msg, args);
-            RenderConsoleProgress(percentage, RenderChar, RenderColor, formattedMessage);
+            lock (LockingClass.ConsoleLock)
+            {
+                Console.CursorTop = this.startPosition;
+                var formattedMessage = string.Format(msg, args);
+                RenderConsoleProgress(percentage, RenderChar, RenderColor, formattedMessage);
 
-            // place the cursor below the message
-            Console.CursorTop += 2;
-            Console.CursorLeft = 0;
+                // place the cursor below the message
+                Console.CursorTop += 2;
+                Console.CursorLeft = 0;
+            }
         }
 
         /// <summary>
@@ -99,7 +108,7 @@
             var newWidth = (int)((width * percentage) / 100d);
 
             // Create the progress bar text to be displayed
-            string progBar = new string(progressBarCharacter, newWidth) + new string(' ', width - newWidth);
+            string progBar = new string(progressBarCharacter, newWidth) + new string('_', width - newWidth);
 
             Console.Write(progBar);
             if (string.IsNullOrEmpty(message))

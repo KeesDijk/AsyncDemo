@@ -85,6 +85,10 @@
       <Project>{ECBDDA5E-A29F-4C9A-86A6-374743577628}</Project>
       <Name>AsynchronousThreadAPM</Name>
     </ProjectReference>
+    <ProjectReference Include="..\AsynchronousThreadEAP\AsynchronousThreadEAP.csproj">
+      <Project>{9E05F4C7-9560-418F-ABFA-F9B409548CDE}</Project>
+      <Name>AsynchronousThreadEAP</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AsynchronousTools\AsynchronousTools.csproj">
       <Project>{18CB262D-051D-4E3C-AEB9-653853D04D6A}</Project>
       <Name>AsynchronousTools</Name>

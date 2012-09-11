@@ -7,10 +7,12 @@
     using AsynchronousReactiveExtensions;
     using AsynchronousSyncronousStart;
     using AsynchronousThreadAPM;
+    using AsynchronousThreadEAP;
     using AsynchronousTools;
     using AsynchronousTPLDataFlow;
     using Autofac;
 
+    // this isn't production code, this is used only to make demo-ing easier.
     public static class GlobalSetup
     {
         private static readonly Dictionary<DIConfigurationName, Action> Samples =
@@ -24,7 +26,7 @@
         static GlobalSetup()
         {
             CreateSampleList();
-            ConfigureThreads();
+            ConfigureThreadsAPM();
         }
 
         public static void OverRideDIConfiguration(DIConfigurationName configName)
@@ -39,37 +41,41 @@
 
         private static void ConfigurePlayground()
         {
-            var builder = new ContainerBuilder();
-            builder.RegisterType<LockingConsoleWriter>().As<IOutputWriter>();
+            var builder = BuildupConatinerWithBaseComponents();
             builder.RegisterType<PlaygroundRunner>().As<IRunner>();
 
             containerfield = builder.Build();
         }
 
-        private static void ConfigurePlinq()
+        private static ContainerBuilder BuildupConatinerWithBaseComponents()
         {
             var builder = new ContainerBuilder();
+            
             builder.RegisterType<LockingConsoleWriter>().As<IOutputWriter>();
-            builder.RegisterType<APMThreadRunner>().As<IRunner>();
+            builder.RegisterType<LockingConsoleProgress>().As<IProgress>();
+            builder.RegisterType<LockingCountingDictionary>().As<ICountingDictionary>();
+
+            return builder;
+        }
+
+        private static void ConfigurePlinq()
+        {
+            var builder = BuildupConatinerWithBaseComponents();
+            builder.RegisterType<APMThreadRunner>().As<IRunner>().WithParameter(new NamedParameter("sampleLogFileName", LogFileNameToUse));
 
             containerfield = builder.Build();
         }
 
         private static void ConfigureRx()
         {
-            var builder = new ContainerBuilder();
-            builder.RegisterType<LockingConsoleWriter>().As<IOutputWriter>();
-            builder.RegisterType<ReactiveExtensionsRunner>().As<IRunner>();
-
-
+            var builder = BuildupConatinerWithBaseComponents();
+            builder.RegisterType<ReactiveExtensionsRunner>().As<IRunner>().WithParameter(new NamedParameter("sampleLogFileName", LogFileNameToUse)); 
             containerfield = builder.Build();
         }
 
         private static void ConfigureSynchronous()
         {
-            var builder = new ContainerBuilder();
-            builder.RegisterType<LockingConsoleWriter>().As<IOutputWriter>();
-            builder.RegisterType<ConsoleProgress>().As<IProgress>();
+            var builder = BuildupConatinerWithBaseComponents();
             builder.RegisterType<SynchronousRunner>().As<IRunner>().WithParameter(new NamedParameter("sampleLogFileName", LogFileNameToUse));
 
             containerfield = builder.Build();
@@ -77,34 +83,40 @@
 
         private static void ConfigureTPLDataflow()
         {
-            var builder = new ContainerBuilder();
-            builder.RegisterType<LockingConsoleWriter>().As<IOutputWriter>();
-            builder.RegisterType<TPLDataFlowRunner>().As<IRunner>();
+            var builder = BuildupConatinerWithBaseComponents();
+            builder.RegisterType<TPLDataFlowRunner>().As<IRunner>().WithParameter(new NamedParameter("sampleLogFileName", LogFileNameToUse)); 
 
             containerfield = builder.Build();
         }
 
         private static void ConfigureTasks()
         {
-            var builder = new ContainerBuilder();
-            builder.RegisterType<LockingConsoleWriter>().As<IOutputWriter>();
-            builder.RegisterType<APMThreadRunner>().As<IRunner>();
+            var builder = BuildupConatinerWithBaseComponents();
+            builder.RegisterType<APMThreadRunner>().As<IRunner>().WithParameter(new NamedParameter("sampleLogFileName", LogFileNameToUse));
 
             containerfield = builder.Build();
         }
 
-        private static void ConfigureThreads()
+        private static void ConfigureThreadsAPM()
         {
-            var builder = new ContainerBuilder();
-            builder.RegisterType<LockingConsoleWriter>().As<IOutputWriter>();
-            builder.RegisterType<APMThreadRunner>().As<IRunner>();
+            var builder = BuildupConatinerWithBaseComponents();
+            builder.RegisterType<APMThreadRunner>().As<IRunner>().WithParameter(new NamedParameter("sampleLogFileName", LogFileNameToUse));
+
+            containerfield = builder.Build();
+        }
+
+        private static void ConfigureThreadsEAP()
+        {
+            var builder = BuildupConatinerWithBaseComponents();
+            builder.RegisterType<EAPThreadRunner>().As<IRunner>().WithParameter(new NamedParameter("sampleLogFileName", LogFileNameToUse));
 
             containerfield = builder.Build();
         }
 
         private static void CreateSampleList()
         {
-            Samples.Add(DIConfigurationName.Threads, ConfigureThreads);
+            Samples.Add(DIConfigurationName.ThreadsAPM, ConfigureThreadsAPM);
+            Samples.Add(DIConfigurationName.ThreadsEAP, ConfigureThreadsEAP);
             Samples.Add(DIConfigurationName.PLinq, ConfigurePlinq);
             Samples.Add(DIConfigurationName.Synchronous, ConfigureSynchronous);
             Samples.Add(DIConfigurationName.Playground, ConfigurePlayground);

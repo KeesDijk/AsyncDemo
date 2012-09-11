@@ -2,7 +2,8 @@
 {
     public enum DIConfigurationName
     {
-        Threads, 
+        ThreadsAPM,
+        ThreadsEAP, 
         Tasks, 
         PLinq, 
         None, 

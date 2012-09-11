@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{B7A4A654-7EDA-41DD-B6C3-818D4CF1026E}</ProjectGuid>
+    <ProjectGuid>{9E05F4C7-9560-418F-ABFA-F9B409548CDE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AsynchronousInterfaces</RootNamespace>
-    <AssemblyName>AsynchronousInterfaces</AssemblyName>
+    <RootNamespace>AsynchronousThreadEAP</RootNamespace>
+    <AssemblyName>AsynchronousThreadEAP</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,11 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ICountingDictionary.cs" />
-    <Compile Include="IOutputWriter.cs" />
-    <Compile Include="IProgress.cs" />
-    <Compile Include="IRunner.cs" />
+    <Compile Include="AsyncFileReadInfo.cs" />
+    <Compile Include="EAPThreadRunner.cs" />
+    <Compile Include="ProcessFileProgressChangedEventArgs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AsynchronousInterfaces\AsynchronousInterfaces.csproj">
+      <Project>{B7A4A654-7EDA-41DD-B6C3-818D4CF1026E}</Project>
+      <Name>AsynchronousInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AsynchronousTools\AsynchronousTools.csproj">
+      <Project>{18CB262D-051D-4E3C-AEB9-653853D04D6A}</Project>
+      <Name>AsynchronousTools</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -14,7 +14,8 @@
             var configChoice = DIConfigurationName.Illegal;
             menu.Add("Synchronous", () => configChoice = DIConfigurationName.Synchronous);
             menu.Add("Playground", () => configChoice = DIConfigurationName.Playground);
-            menu.Add("Threads", () => configChoice = DIConfigurationName.Threads);
+            menu.Add("ThreadsAPM", () => configChoice = DIConfigurationName.ThreadsAPM);
+            menu.Add("ThreadsEAP", () => configChoice = DIConfigurationName.ThreadsEAP);
             menu.Add("Tasks", () => configChoice = DIConfigurationName.Tasks);
             menu.Add("Plinq", () => configChoice = DIConfigurationName.PLinq);
             menu.Add("Tpl DataFlow", () => configChoice = DIConfigurationName.TPLDataflow);

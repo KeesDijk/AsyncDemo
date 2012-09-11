@@ -23,14 +23,10 @@
                 Console.WriteLine(" [{0}] {1}", i + 1, mi.Text);
             }
 
-            int choosen;
-            var succes = int.TryParse(Console.ReadKey().KeyChar.ToString(), out choosen);
+            bool validOption;
+            var choosen = this.GetChoice(out validOption);
 
-            if (!succes || choosen > this.menuItems.Count || choosen < 1)
-            {
-                Console.WriteLine("Invalid option.");
-            }
-            else
+            if (validOption)
             {
                 Console.WriteLine();
                 var mi = this.menuItems[choosen - 1] as ConsoleMenuItem;
@@ -40,6 +36,32 @@
                     mc();
                 }
             }
+        }
+
+        private int GetChoice(out bool validOption)
+        {
+            validOption = true;
+            int choosen;
+            var chosenCharacter = Console.ReadKey().KeyChar.ToString();
+            bool succes;
+
+            //hackery shortcut to use q for going to last item
+            if (chosenCharacter.Equals("q", StringComparison.CurrentCultureIgnoreCase))
+            {
+                succes = true;
+                choosen = this.menuItems.Count;
+            }
+            else
+            {
+                succes = int.TryParse(chosenCharacter, out choosen);
+            }
+
+            if (!succes || choosen > this.menuItems.Count || choosen < 1)
+            {
+                Console.WriteLine("Invalid option.");
+                validOption = false;
+            }
+            return choosen;
         }
     }
 }
