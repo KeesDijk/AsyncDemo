@@ -17,9 +17,11 @@
             menu.Add("ThreadsAPM", () => configChoice = DIConfigurationName.ThreadsAPM);
             menu.Add("ThreadsEAP", () => configChoice = DIConfigurationName.ThreadsEAP);
             menu.Add("Tasks", () => configChoice = DIConfigurationName.Tasks);
+            menu.Add("Async/Await", () => configChoice = DIConfigurationName.AsyncAwait);
             menu.Add("Plinq", () => configChoice = DIConfigurationName.PLinq);
             menu.Add("Tpl DataFlow", () => configChoice = DIConfigurationName.TPLDataflow);
             menu.Add("Reactive extensions", () => configChoice = DIConfigurationName.Rx);
+            menu.Add("SignalR (also start website)", () => configChoice = DIConfigurationName.SignalR);
             menu.Add("Quit", () => configChoice = DIConfigurationName.None);
             menu.Show();
             return configChoice;

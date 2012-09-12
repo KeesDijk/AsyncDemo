@@ -6,6 +6,7 @@
     using AsynchronousPlayground;
     using AsynchronousReactiveExtensions;
     using AsynchronousSyncronousStart;
+    using AsynchronousTasks;
     using AsynchronousThreadAPM;
     using AsynchronousThreadEAP;
     using AsynchronousTools;
@@ -92,7 +93,28 @@
         private static void ConfigureTasks()
         {
             var builder = BuildupConatinerWithBaseComponents();
-            builder.RegisterType<APMThreadRunner>().As<IRunner>().WithParameter(new NamedParameter("sampleLogFileName", LogFileNameToUse));
+            builder.RegisterType<TasksRunner>().As<IRunner>().WithParameter(new NamedParameter("sampleLogFileName", LogFileNameToUse));
+
+            containerfield = builder.Build();
+        }
+
+        private static void ConfigureAsyncAwait()
+        {
+            var builder = BuildupConatinerWithBaseComponents();
+            builder.RegisterType<TasksRunner>().As<IRunner>().WithParameter(new NamedParameter("sampleLogFileName", LogFileNameToUse));
+
+            containerfield = builder.Build();
+        }
+
+        private static void ConfigureSignalR()
+        {
+            var builder = new ContainerBuilder();
+
+            builder.RegisterType<SignalRWriter>().As<IOutputWriter>();
+            builder.RegisterType<SignalRProgress>().As<IProgress>();
+            builder.RegisterType<LockingCountingDictionary>().As<ICountingDictionary>();
+
+            builder.RegisterType<TasksRunner>().As<IRunner>().WithParameter(new NamedParameter("sampleLogFileName", LogFileNameToUse));
 
             containerfield = builder.Build();
         }
@@ -122,7 +144,9 @@
             Samples.Add(DIConfigurationName.Playground, ConfigurePlayground);
             Samples.Add(DIConfigurationName.TPLDataflow, ConfigureTPLDataflow);
             Samples.Add(DIConfigurationName.Tasks, ConfigureTasks);
+            Samples.Add(DIConfigurationName.AsyncAwait, ConfigureAsyncAwait);
             Samples.Add(DIConfigurationName.Rx, ConfigureRx);
+            Samples.Add(DIConfigurationName.SignalR, ConfigureSignalR);
         }
     }
 }

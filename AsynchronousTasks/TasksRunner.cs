@@ -1,13 +1,16 @@
-﻿namespace AsynchronousSyncronousStart
+﻿namespace AsynchronousTasks
 {
     using System;
+    using System.Collections.Generic;
     using System.Diagnostics;
     using System.IO;
     using System.Text;
     using System.Text.RegularExpressions;
+    using System.Threading;
+    using System.Threading.Tasks;
     using AsynchronousInterfaces;
 
-    public class SynchronousRunner : IRunner
+    public class TasksRunner : IRunner
     {
         private const string LogTypeGroupName = "LogType";
 
@@ -26,7 +29,13 @@
 
         private readonly string sampleLogFileName;
 
-        public SynchronousRunner(
+        private long fileSizeInBytes;
+
+        private long lineSizeInBytesSoFar;
+
+        private long lineCount;
+
+        public TasksRunner(
             IOutputWriter output, IProgress progress, string sampleLogFileName, ICountingDictionary countingDictionary)
         {
             this.output = output;
@@ -41,31 +50,24 @@
             this.CheckFileExists();
 
             var f = new FileInfo(this.sampleLogFileName);
-            var fileSizeInBytes = f.Length;
-            var lineSizeInBytesSoFar = 0;
-            var lineCount = 0;
+            this.fileSizeInBytes = f.Length;
+            this.lineSizeInBytesSoFar = 0;
+            this.lineCount = 0;
 
             var sw = new Stopwatch();
             sw.Start();
+            var runningTasksList = new List<Task>();
 
             using (TextReader reader = File.OpenText(this.sampleLogFileName))
             {
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    this.ProcessLine(line);
-                    lineSizeInBytesSoFar += Encoding.Default.GetByteCount(line + Environment.NewLine);
-                    lineCount++;
-                    var percentageDone = (int)(((double)lineSizeInBytesSoFar / fileSizeInBytes) * 100.0);
-                    this.progress.Progress(
-                        percentageDone, 
-                        "{0} line, {1} bytes from {2} bytes", 
-                        lineCount, 
-                        lineSizeInBytesSoFar, 
-                        fileSizeInBytes);
+                    var localLineCopy = line;
+                    runningTasksList.Add(Task.Factory.StartNew(() => this.ProcessLine(localLineCopy)));
                 }
             }
-
+            Task.WaitAll(runningTasksList.ToArray());
             sw.Stop();
             this.ShowResults();
 
@@ -87,6 +89,16 @@
                 var logTypeValue = match.Groups[LogTypeGroupName].Value;
                 this.countingDictionary.AddOrIncrement(logTypeValue);
             }
+
+            Interlocked.Add(ref this.lineSizeInBytesSoFar,Encoding.Default.GetByteCount(line + Environment.NewLine));
+            Interlocked.Increment(ref this.lineCount);
+            var percentageDone = (int)(((double)this.lineSizeInBytesSoFar / this.fileSizeInBytes) * 100.0);
+            this.progress.Progress(
+                percentageDone,
+                "{0} line, {1} bytes from {2} bytes",
+                this.lineCount,
+                this.lineSizeInBytesSoFar,
+                this.fileSizeInBytes);
         }
 
         private void ShowResults()

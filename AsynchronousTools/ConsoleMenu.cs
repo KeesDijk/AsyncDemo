@@ -1,26 +1,30 @@
 ﻿namespace AsynchronousTools
 {
     using System;
-    using System.Collections;
+    using System.Collections.Generic;
 
     public class ConsoleMenu
     {
-        private readonly ArrayList menuItems = new ArrayList();
+        private const string Menuchoices = "0123456789abcdefghijklmnoprstuvw";
+
+        private readonly Dictionary<char, ConsoleMenuItem> menuItems = new Dictionary<char, ConsoleMenuItem>();
 
         public delegate void MenuCallback();
 
         public void Add(string text, MenuCallback mc)
         {
-            this.menuItems.Add(new ConsoleMenuItem(text, mc));
+            var currentLength = this.menuItems.Count;
+            var key = Menuchoices[currentLength];
+            this.menuItems.Add(key, new ConsoleMenuItem(text, mc));
         }
 
         public void Show()
         {
             Console.WriteLine();
-            for (var i = 0; i < this.menuItems.Count; ++i)
+
+            foreach (KeyValuePair<char, ConsoleMenuItem> consoleMenuItem in this.menuItems)
             {
-                var mi = this.menuItems[i] as ConsoleMenuItem;
-                Console.WriteLine(" [{0}] {1}", i + 1, mi.Text);
+                Console.WriteLine(" [{0}] {1}", consoleMenuItem.Key, consoleMenuItem.Value.Text);
             }
 
             bool validOption;
@@ -29,7 +33,7 @@
             if (validOption)
             {
                 Console.WriteLine();
-                var mi = this.menuItems[choosen - 1] as ConsoleMenuItem;
+                var mi = this.menuItems[choosen];
                 if (mi != null)
                 {
                     var mc = mi.Mc;
@@ -38,30 +42,18 @@
             }
         }
 
-        private int GetChoice(out bool validOption)
+        private char GetChoice(out bool validOption)
         {
             validOption = true;
-            int choosen;
-            var chosenCharacter = Console.ReadKey().KeyChar.ToString();
-            bool succes;
+            var chosenCharacter = Console.ReadKey().KeyChar;
 
-            //hackery shortcut to use q for going to last item
-            if (chosenCharacter.Equals("q", StringComparison.CurrentCultureIgnoreCase))
-            {
-                succes = true;
-                choosen = this.menuItems.Count;
-            }
-            else
-            {
-                succes = int.TryParse(chosenCharacter, out choosen);
-            }
-
-            if (!succes || choosen > this.menuItems.Count || choosen < 1)
+            if (!this.menuItems.ContainsKey(chosenCharacter))
             {
                 Console.WriteLine("Invalid option.");
                 validOption = false;
             }
-            return choosen;
+
+            return chosenCharacter;
         }
     }
 }

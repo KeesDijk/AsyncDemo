@@ -2,15 +2,17 @@
 {
     public enum DIConfigurationName
     {
-        ThreadsAPM,
+        ThreadsAPM, 
         ThreadsEAP, 
         Tasks, 
         PLinq, 
         None, 
         Playground, 
         Illegal, 
-        TPLDataflow,
-        Rx,
-        Synchronous
+        TPLDataflow, 
+        Rx, 
+        Synchronous, 
+        SignalR, 
+        AsyncAwait
     }
 }
