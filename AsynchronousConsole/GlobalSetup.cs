@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using AsynchronousAsyncAwait;
     using AsynchronousInterfaces;
     using AsynchronousPlayground;
     using AsynchronousReactiveExtensions;
@@ -101,7 +102,7 @@
         private static void ConfigureAsyncAwait()
         {
             var builder = BuildupConatinerWithBaseComponents();
-            builder.RegisterType<TasksRunner>().As<IRunner>().WithParameter(new NamedParameter("sampleLogFileName", LogFileNameToUse));
+            builder.RegisterType<AsyncAwaitRunner>().As<IRunner>().WithParameter(new NamedParameter("sampleLogFileName", LogFileNameToUse));
 
             containerfield = builder.Build();
         }

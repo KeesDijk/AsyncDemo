@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousThreadEAP", "As
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousTasks", "AsynchronousTasks\AsynchronousTasks.csproj", "{6CB3131B-312A-44FA-8E2F-D3F8EB0A27FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousAsyncAwait", "AsynchronousAsyncAwait\AsynchronousAsyncAwait.csproj", "{DFAD611B-E54D-4D53-91F4-E2877025316D}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = AsynchronousDemo.vsmdi
@@ -204,6 +206,16 @@ Global
 		{6CB3131B-312A-44FA-8E2F-D3F8EB0A27FC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{6CB3131B-312A-44FA-8E2F-D3F8EB0A27FC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{6CB3131B-312A-44FA-8E2F-D3F8EB0A27FC}.Release|x86.ActiveCfg = Release|Any CPU
+		{DFAD611B-E54D-4D53-91F4-E2877025316D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAD611B-E54D-4D53-91F4-E2877025316D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAD611B-E54D-4D53-91F4-E2877025316D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DFAD611B-E54D-4D53-91F4-E2877025316D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DFAD611B-E54D-4D53-91F4-E2877025316D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DFAD611B-E54D-4D53-91F4-E2877025316D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAD611B-E54D-4D53-91F4-E2877025316D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFAD611B-E54D-4D53-91F4-E2877025316D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DFAD611B-E54D-4D53-91F4-E2877025316D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DFAD611B-E54D-4D53-91F4-E2877025316D}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -220,6 +232,7 @@ Global
 		{B7A4A654-7EDA-41DD-B6C3-818D4CF1026E} = {A3BBDDB2-43D8-479B-BC14-02C9A9F460AE}
 		{9E05F4C7-9560-418F-ABFA-F9B409548CDE} = {A3BBDDB2-43D8-479B-BC14-02C9A9F460AE}
 		{6CB3131B-312A-44FA-8E2F-D3F8EB0A27FC} = {A3BBDDB2-43D8-479B-BC14-02C9A9F460AE}
+		{DFAD611B-E54D-4D53-91F4-E2877025316D} = {A3BBDDB2-43D8-479B-BC14-02C9A9F460AE}
 		{0EB4F2ED-E589-4222-A45B-E77D00A6916C} = {90D53DE5-920B-4020-86BC-EE0271D5E9C0}
 		{4392C2C5-9C10-410D-A5D6-5530F9DD65F5} = {187CC3AB-38A7-4B92-8AF5-58A2E40F1241}
 	EndGlobalSection

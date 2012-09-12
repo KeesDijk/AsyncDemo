@@ -88,6 +88,8 @@
             this.output.WriteLine("All threads started, waiting to complete");
             WaitHandle.WaitOne();
             sw.Stop();
+            // some progress threads might still be waiting, give them time to finish
+            Thread.Sleep(500);
 
             this.ShowResults();
 
@@ -120,8 +122,8 @@
             Interlocked.Increment(ref this.lineNr);
 
             var percentageDone = (int)(((double)this.lineSizeInBytesSoFar / this.fileSizeInBytes) * 100.0);
-            ProgressChangedEventArgs progressChangedEventArgs = new ProcessFileProgressChangedEventArgs(
-                this.lineNr, percentageDone, asyncOperation.UserSuppliedState);
+            ProgressChangedEventArgs progressChangedEventArgs = new ProgressChangedEventArgs(
+                percentageDone, asyncOperation.UserSuppliedState);
 
             asyncOperation.Post(this.onProgressReportDelegate, progressChangedEventArgs);
         }
@@ -145,13 +147,12 @@
 
         private void ReportProgress(object state)
         {
-            var args = state as ProcessFileProgressChangedEventArgs;
+            var args = state as ProgressChangedEventArgs;
             if (args != null)
             {
                 this.progress.Progress(
                     args.ProgressPercentage, 
-                    "{0} Lines, {1} bytes from {2} bytes", 
-                    args.LastReadLineNr, 
+                    "{0} bytes from {1} bytes", 
                     this.lineSizeInBytesSoFar, 
                     this.fileSizeInBytes);
             }

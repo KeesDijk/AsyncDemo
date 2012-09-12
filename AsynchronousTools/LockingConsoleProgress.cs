@@ -8,6 +8,9 @@
         // other good progress bar characters \u2590 \u2592 
         private const char RenderChar = '\u2592';
 
+        // progress might be recieved out of order, ignoring lower percentages that come in late
+        private int highestPercentageSoFar = 0;
+
         private const ConsoleColor RenderColor = ConsoleColor.Green;
 
         private readonly int startPosition;
@@ -24,7 +27,11 @@
         {
             lock (LockingClass.ConsoleLock)
             {
-                RenderConsoleProgress(percentage);
+                if (percentage > this.highestPercentageSoFar)
+                {
+                    RenderConsoleProgress(percentage);
+                    this.highestPercentageSoFar = percentage;
+                }
             }
         }
 
@@ -32,13 +39,17 @@
         {
             lock (LockingClass.ConsoleLock)
             {
-                Console.CursorTop = this.startPosition;
-                var formattedMessage = string.Format(msg, args);
-                RenderConsoleProgress(percentage, RenderChar, RenderColor, formattedMessage);
+                if (percentage > this.highestPercentageSoFar)
+                {
+                    Console.CursorTop = this.startPosition;
+                    var formattedMessage = string.Format(msg, args);
+                    RenderConsoleProgress(percentage, RenderChar, RenderColor, formattedMessage);
 
-                // place the cursor below the message
-                Console.CursorTop += 2;
-                Console.CursorLeft = 0;
+                    // place the cursor below the message
+                    Console.CursorTop += 2;
+                    Console.CursorLeft = 0;
+                    this.highestPercentageSoFar = percentage;
+                }
             }
         }
 

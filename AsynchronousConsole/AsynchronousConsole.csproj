@@ -65,6 +65,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AsynchronousAsyncAwait\AsynchronousAsyncAwait.csproj">
+      <Project>{DFAD611B-E54D-4D53-91F4-E2877025316D}</Project>
+      <Name>AsynchronousAsyncAwait</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AsynchronousInterfaces\AsynchronousInterfaces.csproj">
       <Project>{B7A4A654-7EDA-41DD-B6C3-818D4CF1026E}</Project>
       <Name>AsynchronousInterfaces</Name>
