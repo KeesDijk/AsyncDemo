@@ -1,16 +1,16 @@
-﻿namespace AsynchronousAsyncAwait
+﻿namespace AsynchronousPLinq
 {
     using System;
+    using System.Collections.Generic;
     using System.Diagnostics;
     using System.IO;
+    using System.Linq;
     using System.Text;
     using System.Text.RegularExpressions;
     using System.Threading;
-    using System.Threading.Tasks;
     using AsynchronousInterfaces;
-    using AsynchronousTools;
 
-    public class AsyncAwaitRunner : IRunner
+    public class PLinqRunner : IRunner
     {
         private const string LogTypeGroupName = "LogType";
 
@@ -21,11 +21,7 @@
         private static readonly Regex LogTypeRegex = new Regex(
             "^.*]\\s*(?<" + LogTypeGroupName + ">.*)\\s*AirBender.*$", RegexOption);
 
-        private readonly ICommander commander;
-
         private readonly ICountingDictionary countingDictionary;
-
-        private readonly CancellationTokenSource cts = new CancellationTokenSource();
 
         private readonly IOutputWriter output;
 
@@ -39,18 +35,13 @@
 
         private long lineSizeInBytesSoFar;
 
-        public AsyncAwaitRunner(
-            IOutputWriter output, 
-            IProgress progress, 
-            string sampleLogFileName, 
-            ICountingDictionary countingDictionary, 
-            ICommander commander)
+        public PLinqRunner(
+            IOutputWriter output, IProgress progress, string sampleLogFileName, ICountingDictionary countingDictionary)
         {
             this.output = output;
             this.progress = progress;
             this.sampleLogFileName = sampleLogFileName;
             this.countingDictionary = countingDictionary;
-            this.commander = commander;
         }
 
         public void Run()
@@ -63,34 +54,31 @@
             this.lineSizeInBytesSoFar = 0;
             this.lineCount = 0;
 
-            Task.Factory.StartNew(this.WaitForCancellation);
-
             var sw = new Stopwatch();
             sw.Start();
 
-            var readAndProcessLines = this.ReadAndProcessLines(this.cts.Token);
-            bool result = false;
-            try
-            {
-                result = readAndProcessLines.Result;
-            }
-            catch (Exception e)
-            {
-                this.output.WriteLine(string.Format("Error : {0}", e));
-            }
+            var typedSequence = from line in ReadFrom(this.sampleLogFileName).AsParallel()  
+                                let result = this.ProcessLine(line)
+                                select result;
 
+            var resultcount = typedSequence.Count();
             sw.Stop();
-            if (!result)
-            {
-                this.output.WriteLine("Cancelled");
-            }
-            else
-            {
-                this.ShowResults();
-            }
+            this.ShowResults();
 
             this.output.WriteLine();
-            this.output.WriteLine("Async Await done in {0}", sw.Elapsed);
+            this.output.WriteLine("PLinq done in {0}", sw.Elapsed);
+        }
+
+        private static IEnumerable<string> ReadFrom(string file)
+        {
+            using (var reader = File.OpenText(file))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    yield return line;
+                }
+            }
         }
 
         private void CheckFileExists()
@@ -98,12 +86,9 @@
             this.output.WriteLine(File.Exists(this.sampleLogFileName) ? "File Exists" : "File Missing !");
         }
 
-        private void ProcessLine(string line)
+        private bool ProcessLine(string line)
         {
             var match = LogTypeRegex.Match(line);
-            
-            var delay = TaskEx.Delay(10);
-            var continueWith = delay.ContinueWith(x => { throw new Exception("Paniek"); });
 
             if (match.Success)
             {
@@ -120,41 +105,12 @@
                 this.lineCount, 
                 this.lineSizeInBytesSoFar, 
                 this.fileSizeInBytes);
-        }
-
-        private async Task<bool> ReadAndProcessLines(CancellationToken token)
-        {
-            bool cancelled = false;
-            using (TextReader reader = File.OpenText(this.sampleLogFileName))
-            {
-                string line;
-                while (!cancelled && (line = await reader.ReadLineAsync()) != null)
-                {
-                    if (token.IsCancellationRequested)
-                    {
-                        cancelled = true;
-                    }
-
-                    var localLineCopy = line;
-                    this.ProcessLine(localLineCopy);
-                }
-            }
-
-            return !cancelled;
+            return true;
         }
 
         private void ShowResults()
         {
             this.countingDictionary.ShowResults();
-        }
-
-        private void WaitForCancellation()
-        {
-            var inputChar = this.commander.WaitforSingleChar();
-            if (inputChar.Equals('q'))
-            {
-                this.cts.Cancel();
-            }
         }
     }
 }

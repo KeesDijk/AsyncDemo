@@ -3,7 +3,7 @@
     using System;
     using AsynchronousInterfaces;
 
-    public class ConsoleProgress : IProgress
+    public class SimpleConsoleProgress : IProgress
     {
         // other good progress bar characters \u2590 \u2592 
         private const char RenderChar = '\u2592';
@@ -12,7 +12,7 @@
 
         private readonly int startPosition;
 
-        public ConsoleProgress()
+        public SimpleConsoleProgress()
         {
             this.startPosition = Console.CursorTop;
         }

@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AsyncCtpLibrary">
+      <HintPath>..\AsynchronousConsole\bin\Debug\AsyncCtpLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,6 +50,10 @@
     <ProjectReference Include="..\AsynchronousInterfaces\AsynchronousInterfaces.csproj">
       <Project>{B7A4A654-7EDA-41DD-B6C3-818D4CF1026E}</Project>
       <Name>AsynchronousInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AsynchronousTools\AsynchronousTools.csproj">
+      <Project>{18CB262D-051D-4E3C-AEB9-653853D04D6A}</Project>
+      <Name>AsynchronousTools</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

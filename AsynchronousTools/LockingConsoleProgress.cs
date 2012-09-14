@@ -9,11 +9,11 @@
         private const char RenderChar = '\u2592';
 
         // progress might be recieved out of order, ignoring lower percentages that come in late
-        private int highestPercentageSoFar = 0;
-
         private const ConsoleColor RenderColor = ConsoleColor.Green;
 
         private readonly int startPosition;
+
+        private int highestPercentageSoFar;
 
         public LockingConsoleProgress()
         {

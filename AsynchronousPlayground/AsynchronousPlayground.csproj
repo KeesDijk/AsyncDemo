@@ -43,6 +43,7 @@
     <Compile Include="ClosuresInCreatingTasksInALoop.cs" />
     <Compile Include="PlaygroundRunner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleSolution.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AsynchronousInterfaces\AsynchronousInterfaces.csproj">

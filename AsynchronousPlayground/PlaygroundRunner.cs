@@ -8,9 +8,15 @@
     {
         private readonly IOutputWriter output;
 
-        public PlaygroundRunner(IOutputWriter output)
+        private readonly string sampleLogFileName;
+
+        private readonly ICountingDictionary countingDictionary;
+
+        public PlaygroundRunner(IOutputWriter output, string sampleLogFileName, ICountingDictionary countingDictionary)
         {
             this.output = output;
+            this.sampleLogFileName = sampleLogFileName;
+            this.countingDictionary = countingDictionary;
         }
 
         public void Run()
@@ -24,6 +30,13 @@
                         var sample = new ClosuresInCreatingTasksInALoop(this.output);
                         sample.Run();
                     });
+            menu.Add(
+                "Simple Memory consuming example",
+                () =>
+                {
+                    var sample = new SimpleSolution(this.output, this.sampleLogFileName, this.countingDictionary);
+                    sample.Run();
+                });
             menu.Add("Back", () => { });
             menu.Show();
         }

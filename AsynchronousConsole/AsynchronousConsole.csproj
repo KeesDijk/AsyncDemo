@@ -77,6 +77,10 @@
       <Project>{B9AEA137-D407-4043-91A1-51995008DCE7}</Project>
       <Name>AsynchronousPlayground</Name>
     </ProjectReference>
+    <ProjectReference Include="..\AsynchronousPLinq\AsynchronousPLinq.csproj">
+      <Project>{84905AA0-6A5F-4D65-951E-091B1AFA5D15}</Project>
+      <Name>AsynchronousPLinq</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AsynchronousReactiveExtensions\AsynchronousReactiveExtensions.csproj">
       <Project>{CCF93946-5495-45F6-B8EF-0065B4CDA980}</Project>
       <Name>AsynchronousReactiveExtensions</Name>
