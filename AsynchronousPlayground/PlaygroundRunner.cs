@@ -37,6 +37,29 @@
                     var sample = new SimpleSolution(this.output, this.sampleLogFileName, this.countingDictionary);
                     sample.Run();
                 });
+            menu.Add(
+               "Simple Reactive extensions example",
+               () =>
+               {
+                   var sample = new SimpleRx(this.output);
+                   sample.Run();
+               });
+            menu.Add(
+              "Simple Reactive extensions show methods with schedulers",
+              () =>
+              {
+                  var sample = new FindingMethodsThatSupportRxSchedulers(this.output);
+                  sample.Run();
+              });
+            menu.Add(
+              "Simple TPL",
+              () =>
+              {
+                  var sample = new SimpleTPL(this.output);
+                  sample.Run();
+              });
+
+
             menu.Add("Back", () => { });
             menu.Show();
         }

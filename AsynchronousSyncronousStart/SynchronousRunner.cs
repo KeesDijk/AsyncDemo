@@ -54,7 +54,8 @@
                 while ((line = reader.ReadLine()) != null)
                 {
                     this.ProcessLine(line);
-                    lineSizeInBytesSoFar += Encoding.Default.GetByteCount(line + Environment.NewLine);
+                    var byteCount = Encoding.Default.GetByteCount(line + Environment.NewLine);
+                    lineSizeInBytesSoFar += byteCount;
                     lineCount++;
                     var percentageDone = (int)(((double)lineSizeInBytesSoFar / fileSizeInBytes) * 100.0);
                     this.progress.Progress(

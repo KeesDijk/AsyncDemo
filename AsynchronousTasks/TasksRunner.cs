@@ -72,7 +72,7 @@
             this.ShowResults();
 
             this.output.WriteLine();
-            this.output.WriteLine("Synchronous done in {0}", sw.Elapsed);
+            this.output.WriteLine("Tasks done in {0}", sw.Elapsed);
         }
 
         private void CheckFileExists()

@@ -48,7 +48,7 @@
             this.ShowResults();
 
             this.output.WriteLine();
-            this.output.WriteLine("Synchronous done in {0}", sw.Elapsed);
+            this.output.WriteLine("Simple Solution done in {0}", sw.Elapsed);
         }
 
         private void CheckFileExists()

@@ -63,7 +63,7 @@
             this.lineSizeInBytesSoFar = 0;
             this.lineCount = 0;
 
-            Task.Factory.StartNew(this.WaitForCancellation);
+            //Task.Factory.StartNew(this.WaitForCancellation);
 
             var sw = new Stopwatch();
             sw.Start();
@@ -102,8 +102,8 @@
         {
             var match = LogTypeRegex.Match(line);
             
-            var delay = TaskEx.Delay(10);
-            var continueWith = delay.ContinueWith(x => { throw new Exception("Paniek"); });
+            //var delay = TaskEx.Delay(10);
+            //var continueWith = delay.ContinueWith(x => { throw new Exception("Paniek"); });
 
             if (match.Success)
             {
@@ -130,10 +130,10 @@
                 string line;
                 while (!cancelled && (line = await reader.ReadLineAsync()) != null)
                 {
-                    if (token.IsCancellationRequested)
-                    {
-                        cancelled = true;
-                    }
+                    //if (token.IsCancellationRequested)
+                    //{
+                    //    cancelled = true;
+                    //}
 
                     var localLineCopy = line;
                     this.ProcessLine(localLineCopy);

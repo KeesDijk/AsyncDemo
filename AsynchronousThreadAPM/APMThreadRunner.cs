@@ -17,7 +17,7 @@
             | RegexOptions.Compiled;
 
         private static readonly Regex LogTypeRegex = new Regex(
-            ".*]\\s*(?<" + LogTypeGroupName + ">.*)\\s*AirBender.*", RegexOption);
+            "]\\s*(?<" + LogTypeGroupName + ">.*)\\s*AirBender", RegexOption);
 
         private static readonly EventWaitHandle WaitHandle = new AutoResetEvent(false);
 
@@ -53,7 +53,7 @@
             this.lineSizeInBytesSoFar = 0;
             this.lineCount = 0;
 
-            const int Chunksize = 2048;
+            const int Chunksize = 4096;
             var buffer = new byte[Chunksize];
 
             var sw = new Stopwatch();
@@ -99,7 +99,7 @@
 
         private void ReadAsyncCallback(IAsyncResult ar)
         {
-            var info = ar.AsyncState as AsyncFileReadInfo;
+            var info = (AsyncFileReadInfo)ar.AsyncState;
 
             var amountRead = 0;
             try
@@ -117,7 +117,8 @@
 
             this.ProcessLine(line);
 
-            Interlocked.Add(ref this.lineSizeInBytesSoFar, Encoding.Default.GetByteCount(line));
+            var byteCount = Encoding.Default.GetByteCount(line);
+            Interlocked.Add(ref this.lineSizeInBytesSoFar, byteCount);
             Interlocked.Increment(ref this.lineCount);
             var percentageDone = (int)(((double)this.lineSizeInBytesSoFar / this.fileSizeInBytes) * 100.0);
             this.progress.Progress(

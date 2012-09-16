@@ -1,24 +1,125 @@
 ﻿namespace AsynchronousReactiveExtensions
 {
     using System;
+    using System.Collections.Generic;
+    using System.Diagnostics;
+    using System.IO;
+    using System.Reactive.Concurrency;
     using System.Reactive.Linq;
+    using System.Text;
+    using System.Text.RegularExpressions;
+    using System.Threading;
     using AsynchronousInterfaces;
 
     public class ReactiveExtensionsRunner : IRunner
     {
-        private readonly IOutputWriter ouput;
+        private const string LogTypeGroupName = "LogType";
 
-        public ReactiveExtensionsRunner(IOutputWriter ouput)
+        private const RegexOptions RegexOption =
+            RegexOptions.Multiline | RegexOptions.CultureInvariant | RegexOptions.IgnorePatternWhitespace
+            | RegexOptions.Compiled;
+
+        private static readonly Regex LogTypeRegex = new Regex(
+            "^.*]\\s*(?<" + LogTypeGroupName + ">.*)\\s*AirBender.*$", RegexOption);
+
+        private static readonly EventWaitHandle WaitHandle = new AutoResetEvent(false);
+
+        private readonly ICountingDictionary countingDictionary;
+
+        private readonly IOutputWriter output;
+
+        private readonly IProgress progress;
+
+        private readonly string sampleLogFileName;
+
+        private long fileSizeInBytes;
+
+        private long lineCount;
+
+        private long lineSizeInBytesSoFar;
+
+        public ReactiveExtensionsRunner(
+            IOutputWriter output, IProgress progress, string sampleLogFileName, ICountingDictionary countingDictionary)
         {
-            this.ouput = ouput;
+            this.output = output;
+            this.progress = progress;
+            this.sampleLogFileName = sampleLogFileName;
+            this.countingDictionary = countingDictionary;
         }
 
         public void Run()
         {
-            this.ouput.WriteLine("Rx runner");
+            this.output.WriteLine("Synchronous start");
+            this.CheckFileExists();
 
-            var observable = "Simple character test for Rx".ToObservable();
-            observable.Subscribe(x => this.ouput.WriteLine("rx character : {0}", x));
+            var f = new FileInfo(this.sampleLogFileName);
+            this.fileSizeInBytes = f.Length;
+            this.lineSizeInBytesSoFar = 0;
+            this.lineCount = 0;
+
+            var sw = new Stopwatch();
+            sw.Start();
+
+            var observable = ReadFrom(this.sampleLogFileName).ToObservable(TaskPoolScheduler.Default);
+            observable.Subscribe(
+                this.ProcessLine, 
+                () =>
+                    {
+                        sw.Stop();
+                        this.ShowResults();
+
+                        this.output.WriteLine();
+                        this.output.WriteLine("Rx done in {0}", sw.Elapsed);
+                        WaitHandle.Set();
+                    });
+
+            this.output.WriteLine();
+            this.output.WriteLine();
+            this.output.WriteLine("Waiting...");
+            WaitHandle.WaitOne();
+        }
+
+        private static IEnumerable<string> ReadFrom(string file)
+        {
+            using (var reader = File.OpenText(file))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    yield return line;
+                }
+            }
+        }
+
+        private void CheckFileExists()
+        {
+            this.output.WriteLine(File.Exists(this.sampleLogFileName) ? "File Exists" : "File Missing !");
+        }
+
+        private void ProcessLine(string line)
+        {
+            var match = LogTypeRegex.Match(line);
+
+            if (match.Success)
+            {
+                var logTypeValue = match.Groups[LogTypeGroupName].Value;
+                this.countingDictionary.AddOrIncrement(logTypeValue);
+            }
+
+            Interlocked.Add(ref this.lineSizeInBytesSoFar, Encoding.Default.GetByteCount(line + Environment.NewLine));
+            Interlocked.Increment(ref this.lineCount);
+            var percentageDone = (int)(((double)this.lineSizeInBytesSoFar / this.fileSizeInBytes) * 100.0);
+            this.progress.Progress(
+                percentageDone, 
+                "{0} line, {1} bytes from {2} bytes", 
+                this.lineCount, 
+                this.lineSizeInBytesSoFar, 
+                this.fileSizeInBytes);
+        }
+
+        private void ShowResults()
+        {
+            this.countingDictionary.ShowResults();
         }
     }
 }
