@@ -1,5 +1,6 @@
 ﻿namespace AsynchronousConsole
 {
+    using System;
     using System.Threading.Tasks;
     using AsynchronousInterfaces;
     using AsynchronousTools;
@@ -29,10 +30,17 @@
 
         private static void Main(string[] args)
         {
-            DIConfigurationName configChoice;
+            var configChoice = DIConfigurationName.Illegal;
             do
             {
-                configChoice = RunAsync().Result;
+                try
+                {
+                    configChoice = RunAsync().Result;
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
             }
             while (configChoice != DIConfigurationName.None);
         }

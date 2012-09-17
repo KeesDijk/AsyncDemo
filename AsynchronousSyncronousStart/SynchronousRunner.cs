@@ -26,6 +26,12 @@
 
         private readonly string sampleLogFileName;
 
+        private int lineCount;
+
+        private long fileSizeInBytes;
+
+        private int lineSizeInBytesSoFar;
+
         public SynchronousRunner(
             IOutputWriter output, IProgress progress, string sampleLogFileName, ICountingDictionary countingDictionary)
         {
@@ -41,9 +47,9 @@
             this.CheckFileExists();
 
             var f = new FileInfo(this.sampleLogFileName);
-            var fileSizeInBytes = f.Length;
-            var lineSizeInBytesSoFar = 0;
-            var lineCount = 0;
+            this.fileSizeInBytes = f.Length;
+            this.lineSizeInBytesSoFar = 0;
+            this.lineCount = 0;
 
             var sw = new Stopwatch();
             sw.Start();
@@ -54,16 +60,7 @@
                 while ((line = reader.ReadLine()) != null)
                 {
                     this.ProcessLine(line);
-                    var byteCount = Encoding.Default.GetByteCount(line + Environment.NewLine);
-                    lineSizeInBytesSoFar += byteCount;
-                    lineCount++;
-                    var percentageDone = (int)(((double)lineSizeInBytesSoFar / fileSizeInBytes) * 100.0);
-                    this.progress.Progress(
-                        percentageDone, 
-                        "{0} line, {1} bytes from {2} bytes", 
-                        lineCount, 
-                        lineSizeInBytesSoFar, 
-                        fileSizeInBytes);
+                    this.ReportProgress(line);
                 }
             }
 
@@ -72,6 +69,16 @@
 
             this.output.WriteLine();
             this.output.WriteLine("Synchronous done in {0}", sw.Elapsed);
+        }
+
+        private void ReportProgress(string line)
+        {
+            var byteCount = Encoding.Default.GetByteCount(line + Environment.NewLine);
+            this.lineSizeInBytesSoFar += byteCount;
+            this.lineCount++;
+            var percentageDone = (int)(((double)this.lineSizeInBytesSoFar / this.fileSizeInBytes) * 100.0);
+            this.progress.Progress(
+                percentageDone, "{0} line, {1} bytes from {2} bytes", this.lineCount, this.lineSizeInBytesSoFar, this.fileSizeInBytes);
         }
 
         private void CheckFileExists()
