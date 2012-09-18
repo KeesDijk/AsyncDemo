@@ -46,7 +46,7 @@
 
         public void Run()
         {
-            this.output.WriteLine("Synchronous start");
+            this.output.WriteLine("Task start");
             this.CheckFileExists();
 
             var f = new FileInfo(this.sampleLogFileName);

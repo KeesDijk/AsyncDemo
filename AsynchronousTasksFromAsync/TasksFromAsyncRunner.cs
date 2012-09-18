@@ -1,6 +1,7 @@
-﻿namespace AsynchronousAsyncAwait
+﻿namespace AsynchronousTasksFromAsync
 {
     using System;
+    using System.Collections.Generic;
     using System.Diagnostics;
     using System.IO;
     using System.Text;
@@ -8,9 +9,8 @@
     using System.Threading;
     using System.Threading.Tasks;
     using AsynchronousInterfaces;
-    using AsynchronousTools;
 
-    public class AsyncAwaitRunner : IRunner
+    public class TasksFromAsyncRunner : IRunner
     {
         private const string LogTypeGroupName = "LogType";
 
@@ -21,11 +21,7 @@
         private static readonly Regex LogTypeRegex = new Regex(
             "^.*]\\s*(?<" + LogTypeGroupName + ">.*)\\s*AirBender.*$", RegexOption);
 
-        private readonly ICommander commander;
-
         private readonly ICountingDictionary countingDictionary;
-
-        private readonly CancellationTokenSource cts = new CancellationTokenSource();
 
         private readonly IOutputWriter output;
 
@@ -35,27 +31,22 @@
 
         private long fileSizeInBytes;
 
-        private long lineCount;
-
         private long lineSizeInBytesSoFar;
 
-        public AsyncAwaitRunner(
-            IOutputWriter output, 
-            IProgress progress, 
-            string sampleLogFileName, 
-            ICountingDictionary countingDictionary, 
-            ICommander commander)
+        private long lineCount;
+
+        public TasksFromAsyncRunner(
+            IOutputWriter output, IProgress progress, string sampleLogFileName, ICountingDictionary countingDictionary)
         {
             this.output = output;
             this.progress = progress;
             this.sampleLogFileName = sampleLogFileName;
             this.countingDictionary = countingDictionary;
-            this.commander = commander;
         }
 
         public void Run()
         {
-            this.output.WriteLine("Async/Await start");
+            this.output.WriteLine("Synchronous start");
             this.CheckFileExists();
 
             var f = new FileInfo(this.sampleLogFileName);
@@ -63,34 +54,28 @@
             this.lineSizeInBytesSoFar = 0;
             this.lineCount = 0;
 
-            //Task.Factory.StartNew(this.WaitForCancellation);
+            const int Chunksize = 4096;
+            var buffer = new byte[Chunksize];
 
             var sw = new Stopwatch();
             sw.Start();
+            var runningTasksList = new List<Task>();
 
-            var readAndProcessLines = this.ReadAndProcessLines(this.cts.Token);
-            bool result = false;
-            try
-            {
-                result = readAndProcessLines.Result;
-            }
-            catch (Exception e)
-            {
-                this.output.WriteLine(string.Format("Error : {0}", e));
-            }
+            var fs = new FileStream(
+               this.sampleLogFileName,
+               FileMode.Open,
+               FileAccess.Read,
+               FileShare.Read,
+               Chunksize,
+               FileOptions.Asynchronous);
+
+            Task<int> task = Task<int>.Factory.FromAsync(fs.BeginRead, fs.EndRead, buffer, 0, buffer.Length, this.ReadAsyncCallback, new AsyncFileReadInfo(buffer, fs));
 
             sw.Stop();
-            if (!result)
-            {
-                this.output.WriteLine("Cancelled");
-            }
-            else
-            {
-                this.ShowResults();
-            }
+            this.ShowResults();
 
             this.output.WriteLine();
-            this.output.WriteLine("Async Await done in {0}", sw.Elapsed);
+            this.output.WriteLine("Tasks done in {0}", sw.Elapsed);
         }
 
         private void CheckFileExists()
@@ -101,9 +86,6 @@
         private void ProcessLine(string line)
         {
             var match = LogTypeRegex.Match(line);
-            
-            //var delay = TaskEx.Delay(10);
-            //var continueWith = delay.ContinueWith(x => { throw new Exception("Paniek"); });
 
             if (match.Success)
             {
@@ -115,46 +97,16 @@
             Interlocked.Increment(ref this.lineCount);
             var percentageDone = (int)(((double)this.lineSizeInBytesSoFar / this.fileSizeInBytes) * 100.0);
             this.progress.Progress(
-                percentageDone, 
-                "{0} line, {1} bytes from {2} bytes", 
-                this.lineCount, 
-                this.lineSizeInBytesSoFar, 
+                percentageDone,
+                "{0} line, {1} bytes from {2} bytes",
+                this.lineCount,
+                this.lineSizeInBytesSoFar,
                 this.fileSizeInBytes);
-        }
-
-        private async Task<bool> ReadAndProcessLines(CancellationToken token)
-        {
-            bool cancelled = false;
-            using (TextReader reader = File.OpenText(this.sampleLogFileName))
-            {
-                string line;
-                while (!cancelled && (line = await reader.ReadLineAsync()) != null)
-                {
-                    //if (token.IsCancellationRequested)
-                    //{
-                    //    cancelled = true;
-                    //}
-
-                    var localLineCopy = line;
-                    this.ProcessLine(localLineCopy);
-                }
-            }
-
-            return !cancelled;
         }
 
         private void ShowResults()
         {
             this.countingDictionary.ShowResults();
-        }
-
-        private void WaitForCancellation()
-        {
-            var inputChar = this.commander.WaitforSingleChar();
-            if (inputChar.Equals('q'))
-            {
-                this.cts.Cancel();
-            }
         }
     }
 }

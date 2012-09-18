@@ -18,18 +18,36 @@
     // this isn't production code, this is used only to make demo-ing easier.
     public static class GlobalSetup
     {
-        //private const string LogFileNameToUse = @"..\..\..\samplefiles\smallAvatarlogfile.txt";
-        private const string LogFileNameToUse = @"..\..\..\samplefiles\largeAvatarlogfile.txt";
+        private const string LargeFileNameToUse = @"..\..\..\samplefiles\largeAvatarlogfile.txt";
+
+        private const string SmallLogFileName = @"..\..\..\samplefiles\smallAvatarlogfile.txt";
 
         private static readonly Dictionary<DIConfigurationName, Action> Samples =
             new Dictionary<DIConfigurationName, Action>();
 
         private static IContainer containerfield;
 
+        private static string logFileNameToUse = LargeFileNameToUse;
+
+        private static string selectedLogFile = "Large";
+
         static GlobalSetup()
         {
             CreateSampleList();
             ConfigureThreadsAPM();
+        }
+
+        public static string SelectedLogFile
+        {
+            get
+            {
+                return selectedLogFile;
+            }
+
+            set
+            {
+                selectedLogFile = value;
+            }
         }
 
         public static void OverRideDIConfiguration(DIConfigurationName configName)
@@ -40,6 +58,20 @@
         public static TService Resolve<TService>()
         {
             return containerfield.Resolve<TService>();
+        }
+
+        public static void ToggleLogFileToUse()
+        {
+            if (logFileNameToUse.Equals(SmallLogFileName))
+            {
+                logFileNameToUse = LargeFileNameToUse;
+                SelectedLogFile = "Large";
+            }
+            else
+            {
+                logFileNameToUse = SmallLogFileName;
+                SelectedLogFile = "Small";
+            }
         }
 
         private static ContainerBuilder BuildupConatinerWithBaseComponents()
@@ -58,7 +90,7 @@
         {
             var builder = BuildupConatinerWithBaseComponents();
             builder.RegisterType<AsyncAwaitRunner>().As<IRunner>().WithParameter(
-                new NamedParameter("sampleLogFileName", LogFileNameToUse));
+                new NamedParameter("sampleLogFileName", logFileNameToUse));
 
             containerfield = builder.Build();
         }
@@ -67,7 +99,7 @@
         {
             var builder = BuildupConatinerWithBaseComponents();
             builder.RegisterType<PlaygroundRunner>().As<IRunner>().WithParameter(
-                new NamedParameter("sampleLogFileName", LogFileNameToUse));
+                new NamedParameter("sampleLogFileName", logFileNameToUse));
 
             containerfield = builder.Build();
         }
@@ -76,7 +108,7 @@
         {
             var builder = BuildupConatinerWithBaseComponents();
             builder.RegisterType<PLinqRunner>().As<IRunner>().WithParameter(
-                new NamedParameter("sampleLogFileName", LogFileNameToUse));
+                new NamedParameter("sampleLogFileName", logFileNameToUse));
 
             containerfield = builder.Build();
         }
@@ -85,7 +117,7 @@
         {
             var builder = BuildupConatinerWithBaseComponents();
             builder.RegisterType<ReactiveExtensionsRunner>().As<IRunner>().WithParameter(
-                new NamedParameter("sampleLogFileName", LogFileNameToUse));
+                new NamedParameter("sampleLogFileName", logFileNameToUse));
             containerfield = builder.Build();
         }
 
@@ -98,7 +130,7 @@
             builder.RegisterType<LockingCountingDictionary>().As<ICountingDictionary>();
 
             builder.RegisterType<TasksRunner>().As<IRunner>().WithParameter(
-                new NamedParameter("sampleLogFileName", LogFileNameToUse));
+                new NamedParameter("sampleLogFileName", logFileNameToUse));
 
             containerfield = builder.Build();
         }
@@ -107,7 +139,7 @@
         {
             var builder = BuildupConatinerWithBaseComponents();
             builder.RegisterType<SynchronousRunner>().As<IRunner>().WithParameter(
-                new NamedParameter("sampleLogFileName", LogFileNameToUse));
+                new NamedParameter("sampleLogFileName", logFileNameToUse));
 
             containerfield = builder.Build();
         }
@@ -116,7 +148,7 @@
         {
             var builder = BuildupConatinerWithBaseComponents();
             builder.RegisterType<TPLDataFlowRunner>().As<IRunner>().WithParameter(
-                new NamedParameter("sampleLogFileName", LogFileNameToUse));
+                new NamedParameter("sampleLogFileName", logFileNameToUse));
 
             containerfield = builder.Build();
         }
@@ -125,7 +157,7 @@
         {
             var builder = BuildupConatinerWithBaseComponents();
             builder.RegisterType<TasksRunner>().As<IRunner>().WithParameter(
-                new NamedParameter("sampleLogFileName", LogFileNameToUse));
+                new NamedParameter("sampleLogFileName", logFileNameToUse));
 
             containerfield = builder.Build();
         }
@@ -134,7 +166,7 @@
         {
             var builder = BuildupConatinerWithBaseComponents();
             builder.RegisterType<APMThreadRunner>().As<IRunner>().WithParameter(
-                new NamedParameter("sampleLogFileName", LogFileNameToUse));
+                new NamedParameter("sampleLogFileName", logFileNameToUse));
 
             containerfield = builder.Build();
         }
@@ -143,7 +175,7 @@
         {
             var builder = BuildupConatinerWithBaseComponents();
             builder.RegisterType<EAPThreadRunner>().As<IRunner>().WithParameter(
-                new NamedParameter("sampleLogFileName", LogFileNameToUse));
+                new NamedParameter("sampleLogFileName", logFileNameToUse));
 
             containerfield = builder.Build();
         }

@@ -117,16 +117,7 @@
 
             this.ProcessLine(line);
 
-            var byteCount = Encoding.Default.GetByteCount(line);
-            Interlocked.Add(ref this.lineSizeInBytesSoFar, byteCount);
-            Interlocked.Increment(ref this.lineCount);
-            var percentageDone = (int)(((double)this.lineSizeInBytesSoFar / this.fileSizeInBytes) * 100.0);
-            this.progress.Progress(
-                percentageDone,
-                "{0} chunks, {1} bytes from {2} bytes",
-                this.lineCount,
-                this.lineSizeInBytesSoFar,
-                this.fileSizeInBytes);
+            this.ReportProgress(line);
 
             if (info.MyStream.Position < info.MyStream.Length)
             {
@@ -147,6 +138,20 @@
                 this.output.WriteLine("Done reading!");
                 WaitHandle.Set();
             }
+        }
+
+        private void ReportProgress(string line)
+        {
+            var byteCount = Encoding.Default.GetByteCount(line);
+            Interlocked.Add(ref this.lineSizeInBytesSoFar, byteCount);
+            Interlocked.Increment(ref this.lineCount);
+            var percentageDone = (int)(((double)this.lineSizeInBytesSoFar / this.fileSizeInBytes) * 100.0);
+            this.progress.Progress(
+                percentageDone,
+                "{0} chunks, {1} bytes from {2} bytes",
+                this.lineCount,
+                this.lineSizeInBytesSoFar,
+                this.fileSizeInBytes);
         }
 
         private void ShowResults()

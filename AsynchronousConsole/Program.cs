@@ -23,6 +23,7 @@
             menu.Add("Tpl DataFlow", () => configChoice = DIConfigurationName.TPLDataflow);
             menu.Add("Reactive extensions", () => configChoice = DIConfigurationName.Rx);
             menu.Add("SignalR (also start website)", () => configChoice = DIConfigurationName.SignalR);
+            menu.Add("Toggle Input (current: " + GlobalSetup.SelectedLogFile + ")", GlobalSetup.ToggleLogFileToUse);
             menu.Add("Quit", () => configChoice = DIConfigurationName.None);
             menu.Show();
             return configChoice;

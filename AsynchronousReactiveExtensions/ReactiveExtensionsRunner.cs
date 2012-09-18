@@ -49,7 +49,7 @@
 
         public void Run()
         {
-            this.output.WriteLine("Synchronous start");
+            this.output.WriteLine("Rx start");
             this.CheckFileExists();
 
             var f = new FileInfo(this.sampleLogFileName);

@@ -18,9 +18,11 @@
 <h3>SignalR</h3>
 <p>
     <button id="startButton">start</button>
+    <button id="clearButton">Clear</button>
     <div class="demo">
         <div id="lineprocessingProgress"></div>
         <div id="lineprocssingProgressMessage"></div>
+        <div id="nrOfMessages"></div>
         <textarea id="messages" cols=40 rows=15></textarea>
     </div>
 </p>
@@ -35,13 +37,16 @@
   
     <script type="text/javascript">
         $("#demo").hide();
-
+        var currentPercentage = 0;
         var processingManager = $.connection.processingManager;
 
-        processingManager.UpdateProgress = function(percentage, message) {
-            $("#demo").show();
-            $("#lineprocessingProgress").progressbar({ value: percentage });
-            $("#lineprocssingProgressMessage").html(message);
+        processingManager.UpdateProgress = function ( percentage, message ) {
+            $( "#demo" ).show();
+            if ( percentage > currentPercentage ) {
+                $( "#lineprocessingProgress" ).progressbar( { value: percentage } );
+                $( "#lineprocssingProgressMessage" ).html( message );
+                currentPercentage = percentage;
+            }
         };
 
         processingManager.SendMessage = function ( message ) {
@@ -49,9 +54,17 @@
             $( '#messages' ).val( areaValue + "\n" + message );
         };
 
-        $("#startButton").button().click(function() {
+        $( "#startButton" ).button().click( function () {
             processingManager.testRun();
-        });
+        } );
+
+        $( "#clearButton" ).button().click( function () {
+            currentPercentage = 0;
+            $( "#lineprocessingProgress" ).progressbar( { value: 0 } );
+            $( "#lineprocssingProgressMessage" ).html( "" );
+            $('#messages').val("");
+
+        } );
 
         $.connection.hub.start();
     </script>

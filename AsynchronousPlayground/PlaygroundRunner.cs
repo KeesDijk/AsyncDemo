@@ -58,6 +58,13 @@
                   var sample = new SimpleTPL(this.output);
                   sample.Run();
               });
+            menu.Add(
+              "Calculate PI",
+              () =>
+              {
+                  var sample = new CalculatePi(this.output);
+                  sample.Run();
+              });
 
 
             menu.Add("Back", () => { });

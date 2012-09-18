@@ -5,7 +5,7 @@
 
     public class SignalRProxy : IProgress, IOutputWriter
     {
-        private const int IgnoreThreshold = 100;
+        private const int IgnoreThreshold = 10;
 
         private static readonly object SignalRLock = new object();
 
@@ -53,11 +53,7 @@
         {
             lock (SignalRLock)
             {
-                if (percentage > this.highestPercentageSoFar)
-                {
-                    this.Progress(percentage, string.Empty);
-                    this.highestPercentageSoFar = percentage;
-                }
+                this.UpdateProgress(percentage, string.Empty, null);
             }
         }
 
@@ -65,28 +61,33 @@
         {
             lock (SignalRLock)
             {
-                if (percentage > this.highestPercentageSoFar)
+                this.UpdateProgress(percentage, msg, args);
+            }
+        }
+
+        private void UpdateProgress(int percentage, string msg, object[] args)
+        {
+            if (percentage > this.highestPercentageSoFar)
+            {
+                this.highestPercentageSoFar = percentage;
+                this.ignoredCounter++;
+                if (this.ignoredCounter > IgnoreThreshold || percentage >= 100)
                 {
-                    this.highestPercentageSoFar = percentage;
-                    this.ignoredCounter++;
-                    if (this.ignoredCounter > IgnoreThreshold || percentage >= 100)
-                    {
-                        this.ignoredCounter = 0;
-                        var message = string.Format(msg, args);
-                        this.signalRProgressHub.Invoke<string>("UpdateProgress", percentage, message).ContinueWith(
-                            task =>
+                    this.ignoredCounter = 0;
+                    var message = string.Format(msg, args);
+                    this.signalRProgressHub.Invoke<string>("UpdateProgress", percentage, message).ContinueWith(
+                        task =>
+                            {
+                                if (task.IsFaulted)
                                 {
-                                    if (task.IsFaulted)
-                                    {
-                                        this.output.WriteLine(
-                                            "There was an error calling send: {0}", task.Exception.GetBaseException());
-                                    }
-                                    else
-                                    {
-                                        this.output.WriteLine(task.Result);
-                                    }
-                                });
-                    }
+                                    this.output.WriteLine(
+                                        "There was an error calling send: {0}", task.Exception.GetBaseException());
+                                }
+                                else
+                                {
+                                    this.output.WriteLine(task.Result);
+                                }
+                            });
                 }
             }
         }
