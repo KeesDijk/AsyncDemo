@@ -40,7 +40,8 @@
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e.Message);
+                    Console.WriteLine("Main Exception Handler");
+                    Console.WriteLine("Exception : \n {0}", e);
                 }
             }
             while (configChoice != DIConfigurationName.None);

@@ -63,31 +63,21 @@
             this.lineSizeInBytesSoFar = 0;
             this.lineCount = 0;
 
-            //Task.Factory.StartNew(this.WaitForCancellation);
-
             var sw = new Stopwatch();
             sw.Start();
 
-            var readAndProcessLines = this.ReadAndProcessLines(this.cts.Token);
-            bool result = false;
+            var readAndProcessLines = this.ReadAndProcessLines();
             try
             {
-                result = readAndProcessLines.Result;
+                readAndProcessLines.Wait();
             }
-            catch (Exception e)
+            catch (AggregateException e)
             {
-                this.output.WriteLine(string.Format("Error : {0}", e));
+                this.output.WriteLine(string.Format("Error : {0}", e.Message));
             }
 
             sw.Stop();
-            if (!result)
-            {
-                this.output.WriteLine("Cancelled");
-            }
-            else
-            {
-                this.ShowResults();
-            }
+            this.ShowResults();
 
             this.output.WriteLine();
             this.output.WriteLine("Async Await done in {0}", sw.Elapsed);
@@ -98,63 +88,52 @@
             this.output.WriteLine(File.Exists(this.sampleLogFileName) ? "File Exists" : "File Missing !");
         }
 
-        private void ProcessLine(string line)
+        private Task ProcessLine(string line)
         {
-            var match = LogTypeRegex.Match(line);
-            
-            //var delay = TaskEx.Delay(10);
-            //var continueWith = delay.ContinueWith(x => { throw new Exception("Paniek"); });
+            var runEx = TaskEx.Run(() =>
+                {
+                    var match = LogTypeRegex.Match(line);
 
-            if (match.Success)
-            {
-                var logTypeValue = match.Groups[LogTypeGroupName].Value;
-                this.countingDictionary.AddOrIncrement(logTypeValue);
-            }
+                    if (match.Success)
+                    {
+                        var logTypeValue = match.Groups[LogTypeGroupName].Value;
+                        this.countingDictionary.AddOrIncrement(logTypeValue);
+                    }
+                    this.output.WriteLine("huh");
+                    this.ReportPorgress(line);
+                });
+            return runEx;
+        }
 
+        private void ReportPorgress(string line)
+        {
             Interlocked.Add(ref this.lineSizeInBytesSoFar, Encoding.Default.GetByteCount(line + Environment.NewLine));
             Interlocked.Increment(ref this.lineCount);
             var percentageDone = (int)(((double)this.lineSizeInBytesSoFar / this.fileSizeInBytes) * 100.0);
             this.progress.Progress(
-                percentageDone, 
-                "{0} line, {1} bytes from {2} bytes", 
-                this.lineCount, 
-                this.lineSizeInBytesSoFar, 
+                percentageDone,
+                "{0} line, {1} bytes from {2} bytes",
+                this.lineCount,
+                this.lineSizeInBytesSoFar,
                 this.fileSizeInBytes);
         }
 
-        private async Task<bool> ReadAndProcessLines(CancellationToken token)
+        private async Task ReadAndProcessLines()
         {
-            bool cancelled = false;
             using (TextReader reader = File.OpenText(this.sampleLogFileName))
             {
                 string line;
-                while (!cancelled && (line = await reader.ReadLineAsync()) != null)
+                while ((line = reader.ReadLine()) != null)
                 {
-                    //if (token.IsCancellationRequested)
-                    //{
-                    //    cancelled = true;
-                    //}
-
                     var localLineCopy = line;
-                    this.ProcessLine(localLineCopy);
+                    await this.ProcessLine(localLineCopy);
                 }
             }
-
-            return !cancelled;
         }
 
         private void ShowResults()
         {
             this.countingDictionary.ShowResults();
-        }
-
-        private void WaitForCancellation()
-        {
-            var inputChar = this.commander.WaitforSingleChar();
-            if (inputChar.Equals('q'))
-            {
-                this.cts.Cancel();
-            }
         }
     }
 }

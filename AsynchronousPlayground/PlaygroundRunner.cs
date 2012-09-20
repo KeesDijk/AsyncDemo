@@ -23,20 +23,41 @@
         {
             var menu = new ConsoleMenu();
 
-            menu.Add(
-                "Creating Tasks in a loop", 
-                () =>
-                    {
-                        var sample = new ClosuresInCreatingTasksInALoop(this.output);
-                        sample.Run();
-                    });
-            menu.Add(
+           menu.Add(
                 "Simple Memory consuming example",
                 () =>
                 {
                     var sample = new SimpleSolution(this.output, this.sampleLogFileName, this.countingDictionary);
                     sample.Run();
                 });
+           menu.Add(
+              "Simple Tasks",
+              () =>
+              {
+                  var sample = new SimpleTasks(this.output);
+                  sample.Run();
+              });
+           menu.Add(
+                "Simple Async",
+                () =>
+                {
+                    var sample = new SimpleAsync(this.output);
+                    sample.Run();
+                });
+           menu.Add(
+                 "Simple TPL",
+                 () =>
+                 {
+                     var sample = new SimpleTPL(this.output);
+                     sample.Run();
+                 });
+           menu.Add(
+             "Simple Plinq",
+             () =>
+             {
+                 var sample = new SimplePlinq(this.output);
+                 sample.Run();
+             });
             menu.Add(
                "Simple Reactive extensions example",
                () =>
@@ -45,26 +66,19 @@
                    sample.Run();
                });
             menu.Add(
-              "Simple Reactive extensions show methods with schedulers",
-              () =>
-              {
-                  var sample = new FindingMethodsThatSupportRxSchedulers(this.output);
-                  sample.Run();
-              });
-            menu.Add(
-              "Simple TPL",
-              () =>
-              {
-                  var sample = new SimpleTPL(this.output);
-                  sample.Run();
-              });
-            menu.Add(
-              "Calculate PI",
-              () =>
-              {
-                  var sample = new CalculatePi(this.output);
-                  sample.Run();
-              });
+             "Reactive extensions events",
+             () =>
+             {
+                 var sample = new RxEvents(this.output);
+                 sample.Run();
+             });
+            //menu.Add(
+            //  "Calculate PI",
+            //  () =>
+            //  {
+            //      var sample = new CalculatePi(this.output);
+            //      sample.Run();
+            //  });
 
 
             menu.Add("Back", () => { });
