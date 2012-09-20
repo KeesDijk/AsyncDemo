@@ -40,12 +40,12 @@
         var currentPercentage = 0;
         var processingManager = $.connection.processingManager;
 
-        processingManager.UpdateProgress = function ( percentage, message ) {
+        processingManager.UpdateProgress = function ( dto ) {
             $( "#demo" ).show();
-            if ( percentage > currentPercentage ) {
-                $( "#lineprocessingProgress" ).progressbar( { value: percentage } );
-                $( "#lineprocssingProgressMessage" ).html( message );
-                currentPercentage = percentage;
+            if ( dto.percentage > currentPercentage ) {
+                $( "#lineprocessingProgress" ).progressbar( { value: dto.percentage } );
+                $( "#lineprocssingProgressMessage" ).html( dto.message );
+                currentPercentage = dto.percentage;
             }
         };
 

@@ -40,9 +40,8 @@
             var sw = new Stopwatch();
             sw.Start();
 
-            var allLines = File.ReadAllLines(this.sampleLogFileName);
-            var concatedString = string.Join(Environment.NewLine, allLines);
-            this.ProcessLine(concatedString);
+            var allLines = File.ReadAllText(this.sampleLogFileName);
+            this.ProcessLine(allLines);
             
             sw.Stop();
             this.ShowResults();

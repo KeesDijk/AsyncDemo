@@ -53,6 +53,7 @@
     <Compile Include="ConsoleCommander.cs" />
     <Compile Include="ConsoleMenu.cs" />
     <Compile Include="ConsoleMenuItem.cs" />
+    <Compile Include="LockFreeCountingDictionary.cs" />
     <Compile Include="ICommander.cs" />
     <Compile Include="SimpleConsoleProgress.cs" />
     <Compile Include="SimpleConsoleWriter.cs" />

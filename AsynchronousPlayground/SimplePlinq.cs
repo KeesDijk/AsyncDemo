@@ -19,7 +19,7 @@
         {
             this.output.WriteLine("Simple Plinq Sample");
 
-           var range = Enumerable.Range(0, 10).ToArray();
+            var range = Enumerable.Range(0, 10).ToArray();
 
             var cts = new CancellationTokenSource();
 

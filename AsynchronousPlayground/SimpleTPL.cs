@@ -1,5 +1,6 @@
 ﻿namespace AsynchronousPlayground
 {
+    using System.Threading;
     using System.Threading.Tasks.Dataflow;
     using AsynchronousInterfaces;
 
@@ -16,15 +17,19 @@
         {
             var options = new ExecutionDataflowBlockOptions { MaxDegreeOfParallelism = 8 };
 
+            var tb = new TransformBlock<int, int>(i => i * 2);
             var ab = new ActionBlock<int>(i => this.Compute(i), options);
+            tb.LinkTo(ab);
 
             for (var i = 0; i < 10; i++)
             {
-                ab.Post(i);
+                tb.Post(i);
             }
 
-            ab.Complete();
-            ab.Completion.Wait();
+            tb.Complete();
+            tb.Completion.Wait();
+
+            Thread.Sleep(500);
         }
 
         private void Compute(int i)

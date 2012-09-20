@@ -19,7 +19,6 @@
 
         private int ignoredCounter;
 
-        // needs to be injected later
         public SignalRProxy()
         {
             // Set connection
@@ -65,33 +64,6 @@
             }
         }
 
-        private void UpdateProgress(int percentage, string msg, object[] args)
-        {
-            if (percentage > this.highestPercentageSoFar)
-            {
-                this.highestPercentageSoFar = percentage;
-                this.ignoredCounter++;
-                if (this.ignoredCounter > IgnoreThreshold || percentage >= 100)
-                {
-                    this.ignoredCounter = 0;
-                    var message = string.Format(msg, args);
-                    this.signalRProgressHub.Invoke<string>("UpdateProgress", percentage, message).ContinueWith(
-                        task =>
-                            {
-                                if (task.IsFaulted)
-                                {
-                                    this.output.WriteLine(
-                                        "There was an error calling send: {0}", task.Exception.GetBaseException());
-                                }
-                                else
-                                {
-                                    this.output.WriteLine(task.Result);
-                                }
-                            });
-                }
-            }
-        }
-
         public void Write(string msg, params object[] args)
         {
             lock (SignalRLock)
@@ -121,6 +93,43 @@
         public void WriteLine()
         {
             this.Write(string.Empty);
+        }
+
+        private void UpdateProgress(int percentage, string msg, object[] args)
+        {
+            if (percentage > this.highestPercentageSoFar)
+            {
+                this.highestPercentageSoFar = percentage;
+                this.ignoredCounter++;
+                if (this.ignoredCounter > IgnoreThreshold || percentage >= 100)
+                {
+                    this.ignoredCounter = 0;
+                    var message = string.Format(msg, args);
+
+                    var signalRDto = new SignalRDto { message = message, percentage = percentage };
+
+                    this.signalRProgressHub.Invoke<string>("UpdateProgress", signalRDto).ContinueWith(
+                        task =>
+                            {
+                                if (task.IsFaulted)
+                                {
+                                    this.output.WriteLine(
+                                        "There was an error calling send: {0}", task.Exception.GetBaseException());
+                                }
+                                else
+                                {
+                                    this.output.WriteLine(task.Result);
+                                }
+                            });
+                }
+            }
+        }
+
+        public class SignalRDto
+        {
+            public string message;
+
+            public int percentage;
         }
     }
 }

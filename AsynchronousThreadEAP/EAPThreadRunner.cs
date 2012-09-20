@@ -130,7 +130,7 @@
 
         private void ProcessingCompleted(object state)
         {
-            var syncresult = state as IAsyncResult;
+            var syncresult = (IAsyncResult)state;
             var asyncOperationState = syncresult.AsyncState;
             bool allTasksDone;
             lock (this.runningTasksDictionary.SyncRoot)

@@ -22,9 +22,16 @@
             this.Clients.sendMessage(message);
         }
 
-        public void UpdateProgress(int percentage, string message)
+        public void UpdateProgress(WebSignalRDto dto)
         {
-            this.Clients.updateProgress(percentage, message);
+            this.Clients.updateProgress(dto);
         }
+    }
+
+    public class WebSignalRDto
+    {
+        public string message;
+
+        public int percentage;
     }
 }

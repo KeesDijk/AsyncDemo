@@ -60,7 +60,9 @@
             var sw = new Stopwatch();
             sw.Start();
 
-            var observable = ReadFrom(this.sampleLogFileName).ToObservable(TaskPoolScheduler.Default);
+            var observable = ReadFrom(this.sampleLogFileName)
+                .ToObservable()
+                .SubscribeOn(TaskPoolScheduler.Default);
             observable.Subscribe(
                 this.ProcessLine, 
                 () =>
@@ -106,14 +108,19 @@
                 this.countingDictionary.AddOrIncrement(logTypeValue);
             }
 
+            this.ReportProgress(line);
+        }
+
+        private void ReportProgress(string line)
+        {
             Interlocked.Add(ref this.lineSizeInBytesSoFar, Encoding.Default.GetByteCount(line + Environment.NewLine));
             Interlocked.Increment(ref this.lineCount);
             var percentageDone = (int)(((double)this.lineSizeInBytesSoFar / this.fileSizeInBytes) * 100.0);
             this.progress.Progress(
-                percentageDone, 
-                "{0} line, {1} bytes from {2} bytes", 
-                this.lineCount, 
-                this.lineSizeInBytesSoFar, 
+                percentageDone,
+                "{0} line, {1} bytes from {2} bytes",
+                this.lineCount,
+                this.lineSizeInBytesSoFar,
                 this.fileSizeInBytes);
         }
 

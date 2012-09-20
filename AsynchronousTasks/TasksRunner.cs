@@ -90,7 +90,12 @@
                 this.countingDictionary.AddOrIncrement(logTypeValue);
             }
 
-            Interlocked.Add(ref this.lineSizeInBytesSoFar,Encoding.Default.GetByteCount(line + Environment.NewLine));
+            this.ReportProgress(line);
+        }
+
+        private void ReportProgress(string line)
+        {
+            Interlocked.Add(ref this.lineSizeInBytesSoFar, Encoding.Default.GetByteCount(line + Environment.NewLine));
             Interlocked.Increment(ref this.lineCount);
             var percentageDone = (int)(((double)this.lineSizeInBytesSoFar / this.fileSizeInBytes) * 100.0);
             this.progress.Progress(

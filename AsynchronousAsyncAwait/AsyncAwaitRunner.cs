@@ -99,7 +99,6 @@
                         var logTypeValue = match.Groups[LogTypeGroupName].Value;
                         this.countingDictionary.AddOrIncrement(logTypeValue);
                     }
-                    this.output.WriteLine("huh");
                     this.ReportPorgress(line);
                 });
             return runEx;
